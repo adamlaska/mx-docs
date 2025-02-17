@@ -11,16 +11,28 @@ This page describes the structure of the `sc-results` index (Elasticsearch), and
 
 ## _id
 
-The `_id` field for this index is composed of hex encoded smart contract result hash.
+:::warning Important
+
+**The `scresults` index will be deprecated and removed in the near future.**
+We recommend using the [operations](/sdk-and-tools/indices/es-index-operations) index, which contains all the smart contract results data.
+The only change required in your queries is to include the `type` field with the value `normal` to fetch all smart contract results.
+
+Please make the necessary updates to ensure a smooth transition.
+If you need further assistance, feel free to reach out.
+:::
+
+The `_id` field for this index is composed of hex-encoded smart contract result hash.
 (example: `cbd4692a092226d68fde24840586bdf36b30e02dc4bf2a73516730867545d53c`)
 
 [comment]: # (mx-context-auto)
 
 ## Fields
 
+[comment]: # (table:scresults)
+
 | Field             | Description                                                                                                                                                                        |
 |-------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| miniBlockHash     | The miniBlockHash represents the hash of the miniblock in which the smart contract result was included.                                                                            |
+| miniBlockHash     | The miniBlockHash field represents the hash of the miniblock in which the smart contract result was included.                                                                      |
 | nonce             | The nonce field represents the transaction sequence number.                                                                                                                        |
 | gasLimit          | The gasLimit field represents the maximum gas units the sender is willing to pay for.                                                                                              |
 | gasPrice          | The gasPrice field represents the amount to be paid for each gas unit.                                                                                                             |
@@ -32,7 +44,7 @@ The `_id` field for this index is composed of hex encoded smart contract result 
 | relayerAddr       | The relayerAddr field represents the address of the relayer.                                                                                                                       |
 | relayedValue      | This relayedValue field represents the amount of EGLD to be transferred via the inner transaction's sender.                                                                        |
 | code              | The code holds the code of the smart contract result.                                                                                                                              |
-| data              | The data field holds additional information for a smart contract result. It can contain a simple message, a function call, an ESDT transfer payload, or so on.                     |
+| data              | The data field holds additional information for a smart contract result. It can contain a simple message, a function call, an ESDT transfer payload, and so on.                    |
 | prevTxHash        | The prevTxHash holds the hex encoded hash of the previous transaction.                                                                                                             |
 | originalTxHash    | The originalTxHash holds the hex encoded hash of the transaction that generated the smart contract result.                                                                         |
 | callType          | The callType field holds the type of smart contract call that is done through the smart contract result.                                                                           |

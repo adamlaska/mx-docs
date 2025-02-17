@@ -10,7 +10,7 @@ DOCS_URL_ROOT = "https://docs.multiversx.com"
 
 
 cookbooks: List[Path] = [
-    DOCS_ROOT / "sdk-and-tools/sdk-py/sdk-py-cookbook.md",
+    DOCS_ROOT / "sdk-and-tools/sdk-py/sdk-py-cookbook-v1.md",
 ]
 
 
@@ -78,7 +78,7 @@ def render_cell_markdown(source: List[str], output: List[str]):
 
 
 def render_cell_code(source: List[str], output: List[str]):
-    output.append("\n```\n")
+    output.append("\n```py\n")
 
     for item in source:
         output.append(item)

@@ -17,9 +17,11 @@ The `_id` field of this index is represented by epoch.
 
 ## Fields
 
+[comment]: # (table:epochinfo)
+
 | Field            | Description                                                                                |
 |------------------|--------------------------------------------------------------------------------------------|
-| accumulatedFees  | The accumulatedFees field represents the accumulated fees that were payed in the epoch.    |
+| accumulatedFees  | The accumulatedFees field represents the accumulated fees that were paid in the epoch.    |
 | developerFees    | The developerFees field represents the developer fees that were accumulated in the epoch.  |
 
 [comment]: # (mx-context-auto)

@@ -63,18 +63,18 @@ In order to register a guardian a user has to set a **guardian** address by send
 
 ### Guard account
 
-In order to activate guardian signing (co-signing) a ```GuardAccount``` builtin function transaction needs to be sent to MultiversX network. A guard account transaction can be issued by the account and processed by the protocol only if the account has an ```activeGuardian``` (see [guardian-data fields](/sdk-and-tools/rest-api/addresses#get-address-guardian-data)) already set (which implies that the **20 epochs** since sending the ```SetGuardian``` already passed). When the account is guarded, any transaction issued by the owner of the account would be ignored unless it also carries the signature of its set guardian. This transaction could be sent either directly from the user or also through a relayer, if the user does not have the egld required for the transaction fee. 
+In order to activate guardian signing (co-signing) a ```GuardAccount``` builtin function transaction needs to be sent to MultiversX network. A guard account transaction can be issued by the account and processed by the protocol only if the account has an ```activeGuardian``` (see [guardian-data fields](/sdk-and-tools/rest-api/addresses#get-address-guardian-data)) already set (which implies that the **20 epochs** since sending the ```SetGuardian``` already passed). When the account is guarded, any transaction issued by the owner of the account would be ignored unless it also carries the signature of its set guardian. This transaction could be sent either directly from the user or also through a relayer, if the user does not have the egld required for the transaction fee.
 
-The field ```"guarded":true``` in [guardian-data fields](/sdk-and-tools/rest-api/addresses#get-address-guardian-data) specifies that the ```GuardAccount``` transaction was executed and was successful for the account. In this case all transactions from the user account, to be executed by the protocol, will require to be guarded transactions, and the guardian to be the activeGuardian of the account. The only exception is the SetGuardian transaction which can as well be sent through a regular transaction, in which case, the new guardian will become pending for 20 epochs, and at the end of these 20 epochs replace the current active guardian. 
+The field ```"guarded":true``` in [guardian-data fields](/sdk-and-tools/rest-api/addresses#get-address-guardian-data) specifies that the ```GuardAccount``` transaction was executed and was successful for the account. In this case all transactions from the user account, to be executed by the protocol, will require to be guarded transactions, and the guardian to be the activeGuardian of the account. The only exception is the SetGuardian transaction which can as well be sent through a regular transaction, in which case, the new guardian will become pending for 20 epochs, and at the end of these 20 epochs replace the current active guardian.
 
-In case ```"guarded":false``` even if there is a non-empty ```activeGuardian```, the protocol will still only execute regular (non-guarded) transactions. 
+In case ```"guarded":false``` even if there is a non-empty ```activeGuardian```, the protocol will still only execute regular (non-guarded) transactions.
 
 :::note
 The exception is the ```setGuardian``` transaction which can either:
 
 - be executed immediately if it is co-signed by the active guardian and **cleans up any pending guardian activation**;
-
 - not be confirmed by the guardian but in this case the guardian can only be set with an activation time in future (e.g the same 20 epochs from the initial setting of a guardian).
+
 :::
 
 :::note
@@ -102,7 +102,7 @@ A guarded transaction would look like:
     "guardian": "erd1k2s324ww2g0yj38qn2ch2jwctdy8mnfxep94q9arncc6xecg3xaq6mjse8",
     "gasPrice": 1000000000,
     "gasLimit": 1177500,
-    "data": "U2V0R3VhcmRpYW5AYjEzYTAxNzQyM2MzNjZjYWZmOGNlY2ZiNzdhMTI2MTBhMTMwZjQ4ODgxMzQxMjJjNzkzN2ZlYWUwZDZkN2QxN0A3NTc1Njk2NA==", #base64 representation of Seting a Guardian
+    "data": "U2V0R3VhcmRpYW5AYjEzYTAxNzQyM2MzNjZjYWZmOGNlY2ZiNzdhMTI2MTBhMTMwZjQ4ODgxMzQxMjJjNzkzN2ZlYWUwZDZkN2QxN0A3NTc1Njk2NA==", #base64 representation of Setting a Guardian
     "signature": "08e324107be096fa887d3a7679c1a612f138a7fb99936c60f767ac2ff98bd9cb1d161f738971da3934aac639de83870e03fdf0753f40b59b250334ffc881af03",
     "guardianSignature": "595a2fe26259c68789450f479515d40455b54507caf3a2e9bf62aa5e67ba45d38ea15c9ed06abb43a9a3644315ea2e3efefb83ce4a0f08ab89a99ac878049f01",
     "chainId": "local-testnet",
@@ -122,7 +122,7 @@ Both sender and guardian must sign the following serialized transaction:
     "guardian": "erd1k2s324ww2g0yj38qn2ch2jwctdy8mnfxep94q9arncc6xecg3xaq6mjse8",
     "gasPrice": 1000000000,
     "gasLimit": 1177500,
-    "data": "U2V0R3VhcmRpYW5AYjEzYTAxNzQyM2MzNjZjYWZmOGNlY2ZiNzdhMTI2MTBhMTMwZjQ4ODgxMzQxMjJjNzkzN2ZlYWUwZDZkN2QxN0A3NTc1Njk2NA==", #base64 representation of Seting a Guardian
+    "data": "U2V0R3VhcmRpYW5AYjEzYTAxNzQyM2MzNjZjYWZmOGNlY2ZiNzdhMTI2MTBhMTMwZjQ4ODgxMzQxMjJjNzkzN2ZlYWUwZDZkN2QxN0A3NTc1Njk2NA==", #base64 representation of Setting a Guardian
     "signature": "",
     "guardianSignature": "",
     "chainId": "local-testnet",
@@ -168,31 +168,13 @@ Follow on details about web-wallet [here](/wallet/web-wallet.md#guardian).
 
 ### xPortal
 
-The development of the **xPortal Wallet** solution for Guardians is currently in progress. Once the development and testing phase is completed, documentation and references will be provided at this location.
+**xPortal** fully supports the guardians feature. For more details, see [**invisible guardians**](/wallet/xportal/#what-are-invisible-guardians).
 
 [comment]: # (mx-context-auto)
 
 ### Ledger
 
-There is no official solution released for the **Ledger**. As soon as there is one, it will be documented and referenced here.
-
-:::note
-In the meantime you can use the **MultiversX Guardians Test - BETA** version:
-
-**How to activate it?**
-1. In Ledger Live
-2. Go to My Ledger
-3. Go to Settings (⚙️)
-4. Go to Experimental features
-5. Enable Developer Mode - ✅
-6. Search and install MultiversX Guardians Test
-:::
-
-:::important
-This application is not yet approved and/or reviewed by Ledger and should only be used for testing, such as **The Great Heist** campaign. It is not recommended for production use.
-:::
-
-![img](/wallet/ledger/guardians_ledger.png)
+The **MultiversX App** for **Ledger** supports the guardians feature (since version **v2.2.2**, released in August 2023). To set up a guardian for a Ledger account, follow [these steps](/wallet/web-wallet.md#guardian).
 
 [comment]: # (mx-context-auto)
 
@@ -205,4 +187,3 @@ There should be no impact on integrators who utilize the [sdk-dapp](https://gith
 ### Trusted Co-Signer Service for Guardians
 
 In the future we want to publish the codebase to MultiversX TCS so that third party TCS service providers will be allowed to be listed in the MultiversX wallet, this process of launching a TCS guardian service needs to be defined.
-

@@ -47,7 +47,7 @@ In the "To" field, paste the address of the Staking SmartContract, which also ha
 
 For the "Amount" field, you first need to calculate the amount of EGLD required for unjailing. This is done by multiplying 2.5 EGLD by the _number of nodes_ you want to unjail. For example, if you want to unjail a single node, you need to enter `2.5`. For two nodes, it's `5` and for three nodes it is `7.5`.
 
-Next, expand the "Fee limit" section of the form. You'll see the "Gas limit" field appear. The value that needs to be entered here also depends on the _number of nodes_ you want to unjail. To calculate the "Gas limit" value, mulitply `6000000` (six million gas units) by the number of nodes. For example, if you want to unjail a single node, enter `6000000`. For two nodes, enter `12000000`, for three nodes enter `18000000` and so on. Observe how the "Fee limit" field automatically calculates the cost of this transaction.
+Next, expand the "Fee limit" section of the form. You'll see the "Gas limit" field appear. The value that needs to be entered here also depends on the _number of nodes_ you want to unjail. To calculate the "Gas limit" value, multiply `6000000` (six million gas units) by the number of nodes. For example, if you want to unjail a single node, enter `6000000`. For two nodes, enter `12000000`, for three nodes enter `18000000` and so on. Observe how the "Fee limit" field automatically calculates the cost of this transaction.
 
 [comment]: # (mx-context-auto)
 
@@ -133,7 +133,7 @@ Make sure `mxpy` is installed and has the latest version before continuing. If `
 
 To send transactions on your behalf _without_ using the online MultiversX Wallet, `mxpy` must be able to sign for you. For this reason, you have to generate a PEM file using your Wallet mnemonic.
 
-Please follow the guide [Deriving the Wallet PEM file](/sdk-and-tools/sdk-py/deriving-the-wallet-pem-file). Make sure you know exactly where the PEM file was generated, because you'll need to reference its path in the `mxpy` commands.
+Please follow the guide [Deriving the Wallet PEM file](/sdk-and-tools/sdk-py/mxpy-cli). Make sure you know exactly where the PEM file was generated, because you'll need to reference its path in the `mxpy` commands.
 
 After the PEM file was generated, you can issue transactions from `mxpy`directly.
 

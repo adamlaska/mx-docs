@@ -41,7 +41,7 @@ Also note that BigUint logic does not reside in the contract, but is built into 
 
 Let's test that initialization works.
 
-```json,file=crowdfunding-init.scen.json
+```json title=crowdfunding-init.scen.json
 {
     "name": "crowdfunding deployment test",
     "steps": [
@@ -106,19 +106,11 @@ Let's test that initialization works.
 
 Note the added `"arguments"` field in `scDeploy` and the added fields in storage.
 
-Run the following commands:
+Run the tests again:
 
-```python
-mxpy contract build
-mxpy contract test
-```
-
-You should once again see this:
-
-```python
-Scenario: crowdfunding-init.scen.json ...   ok
-Done. Passed: 1. Failed: 0. Skipped: 0.
-SUCCESS
+```bash
+sc-meta all build
+cargo test
 ```
 
 [comment]: # (mx-context-auto)
@@ -151,7 +143,7 @@ To test the function, we'll add a new test file, in the same `scenarios` folder.
 
 To avoid duplicating the deployment code, we import it from `crowdfunding-init.scen.json` .
 
-```json,file=crowdfunding-fund.scen.json
+```json title=crowdfunding-fund.scen.json
 {
     "name": "crowdfunding funding",
     "steps": [
@@ -227,8 +219,8 @@ Explanation:
 Test it by running the commands again:
 
 ```python
-mxpy contract build
-mxpy contract test
+sc-meta all build
+cargo test
 ```
 
 You should then see that both tests pass:
@@ -268,7 +260,7 @@ It doesn't make sense to fund after the deadline has passed, so fund transaction
 
 We'll create another test file to verify that the validation works: `test-fund-too-late.scen.json` .
 
-```json,file=crowdfunding-fund-too-late.scen.json
+```json title=crowdfunding-fund-too-late.scen.json
 {
     "name": "trying to fund one block too late",
     "steps": [
@@ -468,7 +460,7 @@ The only new function here is `self.send().direct_egld()`, which simply forwards
 
 If you followed all the steps presented until now, you should have ended up with a contract that looks something like:
 
-```rust,file=final.rs
+```rust title=final.rs
 #![no_std]
 
 multiversx_sc::imports!();
@@ -581,9 +573,9 @@ As an exercise, try to add some more tests, especially ones involving the claim 
 
 This concludes the first Rust multiversx-sc tutorial.
 
-For more detailed documentation, visit [https://docs.rs/multiversx-sc/0.39.0/multiversx_sc/](https://docs.rs/multiversx-sc/0.39.0/multiversx_sc/)
+For more detailed documentation, visit our Rust docs on [docs.rs](https://docs.rs/multiversx-sc/latest/multiversx_sc/).
 
-If you want to see some other smart contract examples, or even an extended version of the crowdfunding smart contract, you can check here: https://github.com/multiversx/mx-sdk-rs/tree/v0.39.0/contracts/examples
+If you want to see some other smart contract examples, or even an extended version of the crowdfunding smart contract, you can check here: https://github.com/multiversx/mx-sdk-rs/tree/master/contracts/examples
 
 :::tip
 When entering directly on the `multiversx-sc` repository on GitHub, you will first see the `master` branch. While this is at all times the latest version of the contracts, they might sometimes rely on unreleased features and therefore not compile outside of the repository. Getting the examples from the last released version is, however, always safe.

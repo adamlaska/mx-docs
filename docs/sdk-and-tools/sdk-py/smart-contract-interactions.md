@@ -22,9 +22,24 @@ Let's take the following example:
 
 [comment]: # (mx-context-auto)
 
+## Prerequisites
+
+[comment]: # (mx-context-auto)
+
+### mxpy
+
+We're going to use [**mxpy**](/sdk-and-tools/sdk-py/mxpy-cli) to deploy the contract. Follow the installation guide [here](/sdk-and-tools/sdk-py/installing-mxpy) - make sure to use the latest version available.
+
+[comment]: # (mx-context-auto)
+
+### Rust
+
+Install **Rust** and [**sc-meta**](/developers/meta/sc-meta) as depicted [here](/sdk-and-tools/troubleshooting/rust-setup). They are required to build smart contracts.
+
+
 ## Deploy & Upgrade
 
-First things first. In order to deploy a new contract, we need to use mxpy to build it by using the `mxpy contract build` command. This will create the output wasm file and inside the interactions file we can save it as a fixed parameter:
+First things first. In order to deploy a new contract, we need to use **sc-meta** to build it, by invoking `sc-meta all build`. This will output the WASM bytecode, to be used within the interactions file:
 
 ```
 WASM_PATH="~/my-contract/output/my-contract.wasm"
@@ -290,7 +305,7 @@ myMultiESDTNFTPayableEndpoint() {
 In this example, we call `myMultiESDTPayableEndpoint` endpoint, by transferring 3 different tokens (the first two are fungible tokens and the last one is an NFT). The endpoint takes 2 BigUInt arguments. The layout of the snippet is almost the same as with **ESDTNFTTransfer** (including the fact that the sender is the same as the receiver) but has different arguments. We now pass the destination address first and the number of ESDT/NFT tokens that we want to sent. Then, for each sent token, we specify the identifier, the nonce (in our example 0 for the fungible tokens and a specific value for the NFT) and the amount. In the end, like with the **ESDTTransfer**, we pass the name of the method we want to call and the rest of the parameters of that specific method.
 
 :::tip
-More information about ESDT Transfers [here](/developers/esdt-tokens/#transfers).
+More information about ESDT Transfers [here](/tokens/fungible-tokens/#transfers).
 :::
 
 [comment]: # (mx-context-auto)

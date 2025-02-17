@@ -7,17 +7,11 @@ title: Build Reference
 
 ## How to: Basic build
 
-To build a contract, it is enough to navigate in your contract crate and run
+To build a contract, navigate to the contract folder and run the following command:
 
 ```sh
 sc-meta all build
 ```
-
-:::info Note
-The traditional way to trigger a build in console is to call `mxpy contract build --path <project>`, which works as well. However, mxpy currently just forwards commands to the [MultiversX Metaprogramming standalone tool](/developers/meta/sc-meta#introduction), so you might as well call it directly.
-:::
-
----
 
 [comment]: # (mx-exclude-context)
 
@@ -26,8 +20,6 @@ The traditional way to trigger a build in console is to call `mxpy contract buil
 The build process is mostly configured using the [build configuration file](/developers/meta/sc-config), currently called `multicontract.toml`, and placed in the contract crate root.
 
 It is also possible for the build process to produce [more than one contract per project crate](/developers/meta/sc-config#multi-contract-configuration).
-
-
 
 ---
 
@@ -51,7 +43,7 @@ Not everything, though, can be performed here. Notably, macros cannot access dat
 
 ### b. The (generated) ABI generator
 
-ABIs are a collection of metatada about the contract. To build an ABI, we also need the data from the modules. The module macros cannot be called from the contract macros (macros are run at compilation, we are not even sure that modules will need to be recompiled!). Modules, however can be called. That is why we are actually generating _ABI generator functions_ for each module, which can call one another to retrieve the composite picture.
+ABIs are a collection of metadata about the contract. To build an ABI, we also need the data from the modules. The module macros cannot be called from the contract macros (macros are run at compilation, we are not even sure that modules will need to be recompiled!). Modules, however can be called. That is why we are actually generating _ABI generator functions_ for each module, which can call one another to retrieve the composite picture.
 
 Note: The ABI generator comes as an implementation of trait [ContractAbiProvider](https://docs.rs/multiversx-sc/0.39.0/multiversx_sc/contract_base/trait.ContractAbiProvider.html).
 
@@ -82,7 +74,7 @@ This is also the step where the meta crate parses and processes the `multicontra
 
 [comment]: # (mx-context-auto)
 
-### d. Meta crate: generating `wasm` crate code
+### d. Meta crate: generating wasm crate code
 
 Each contract must contain at least one `wasm` crate. This is separate from the contract crate because it has a different purpose: it only needs to be the basis for compiling wasm. Please take it as an intermediary step between the contract logic and the Rust to WASM compiler. This is also where the WASM compilation options are specified (e.g. the optimization level). These options can be seen in the `Cargo.toml` file of the `wasm` crate.
 
@@ -157,11 +149,11 @@ After building the contracts, there are three more operations left to perform, b
 
 ### g. Cleaning a project
 
-Calling `cargo run clean` in the meta crate will run `cargo clean` in all wasm crates and delete the `output` folder.
+In order to clean a project and remove all build artifacts, run the following command:
 
-`mxpy contract clean` also just forwards to this.
-
-Note that even the clean operation relies on the ABI, in order to reach all the wasm crates.
+```sh
+sc-meta all clean
+```
 
 [comment]: # (mx-context-auto)
 

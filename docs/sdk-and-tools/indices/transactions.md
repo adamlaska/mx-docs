@@ -11,16 +11,28 @@ This page describes the structure of the `transactions` index (Elasticsearch), a
 
 ## _id
 
-The `_id` field for this index is composed of hex encoded transaction hash.
+:::warning Important
+
+**The `transactions` index will be deprecated and removed in the near future.**
+We recommend using the [operations](/sdk-and-tools/indices/es-index-operations) index, which contains all the transaction data. 
+The only change required in your queries is to include the `type` field with the value `normal` to fetch all transactions.
+
+Please make the necessary updates to ensure a smooth transition. 
+If you need further assistance, feel free to reach out.
+:::
+
+The `_id` field for this index is composed of hex-encoded transaction hash.
 (example: `cad4692a092226d68fde24840586bdf36b30e02dc4bf2a73516730867545d53c`)
 
 [comment]: # (mx-context-auto)
 
 ## Fields
 
+[comment]: # (table:transactions)
+
 | Field             | Description                                                                                                                                                                          |
 |-------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| miniBlockHash     | The miniBlockHash represents the hash of the miniblock in which the transaction was included.                                                                                        |
+| miniBlockHash     | The miniBlockHash field represents the hash of the miniblock in which the transaction was included.                                                                                  |
 | nonce             | The nonce field represents the transaction sequence number of the sender address.                                                                                                    |
 | round             | The round field represents the round of the block when the transaction was executed.                                                                                                 |
 | value             | The value field represents the amount of EGLD to be sent from the sender to the receiver.                                                                                            |
@@ -29,12 +41,12 @@ The `_id` field for this index is composed of hex encoded transaction hash.
 | receiverShard     | The receiverShard field represents the shard ID of the receiver address.                                                                                                             |
 | senderShard       | The senderShard field represents the shard ID of the sender address.                                                                                                                 |
 | gasPrice          | The gasPrice field represents the amount to be paid for each gas unit.                                                                                                               |
-| gasLimit          | The gasLimit field represents the maximum gas units the sender is willing to pay for.                                                                                                |                                                                  |
+| gasLimit          | The gasLimit field represents the maximum gas units the sender is willing to pay for.                                                                                                |
 | gasUsed           | The gasUsed field represents the amount of gas used by the transaction.                                                                                                              |
 | fee               | The fee field represents the amount of EGLD the sender paid for the transaction.                                                                                                     |
 | initialPaidFee    | The initialPaidFee field represents the initial amount of EGLD the sender paid for the transaction, before the refund.                                                               |
-| data              | The data field holds additional information for a transaction. It can contain a simple message, a function call, an ESDT transfer payload, or so on.                                 |
-| signature         | The signature obtained by the sender after signing the transaction. It is hex-encoded.                                                                                               |
+| data              | The data field holds additional information for a transaction. It can contain a simple message, a function call, an ESDT transfer payload, and so on.                                |
+| signature         | The signature of the transaction, hex-encoded.                                                                                                                                       |
 | timestamp         | The timestamp field represents the timestamp of the block in which the transaction was executed.                                                                                     |
 | status            | The status field represents the status of the transaction.                                                                                                                           |
 | senderUserName    | The senderUserName field represents the username of the sender address.                                                                                                              |

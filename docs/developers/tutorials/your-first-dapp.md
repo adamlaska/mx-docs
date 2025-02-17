@@ -5,330 +5,359 @@ title: Build a dApp in 15 minutes
 
 [comment]: # (mx-abstract)
 
-Let's build your first decentralized App on the MultiversX Blockchain
+Let's build your first decentralized application(dApp) on the MultiversX Blockchain!
+
+## Prerequisites
 
 :::important
-Please [create a sample **owner wallet**](/wallet/web-wallet) and have your security phrase on hand (24 words).
-We'll work on the Devnet, you should manage your web wallet [here](https://devnet-wallet.multiversx.com).
+Before starting this tutorial, make sure you have the following:
+
+- `stable` Rust version `≥ 1.78.0` (install via [rustup](https://docs.multiversx.com/sdk-and-tools/troubleshooting/rust-setup/#without-mxpy))
+- `multiversx-sc-meta` (cargo install [multiversx-sc-meta](https://docs.multiversx.com/developers/meta/sc-meta-cli/#introduction))
+- `Node.js` with version `≥ 20`(guide [here](https://nodejs.org/en/download/package-manager))
+- `yarn` ([npm install --global yarn](https://classic.yarnpkg.com/lang/en/docs/install/#debian-stable) )
+
 :::
 
-This guide has been made available in video format as well:
+You are going to use `sc-meta` to:
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/IdkgvlK3rb8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+1. **Create a wallet** to handle your transactions.
+2. **Build** and **deploy** a contract.
 
 [comment]: # (mx-context-auto)
 
-### **dApp Description**
+## Description
 
 ![img](/developers/tutorial/dapp-problem.png)
 
-The **Ping-Pong app** is a very simple decentralized application that will allow the user to deposit a specific number of tokens (default is 1 xEGLD) to a smart contract address and to lock them for a specific amount of time (default is 10 minutes). After this time interval passes, the user can claim back the same amount of tokens.
-Sending funds to the contract is called `ping`.
-Claiming the same amount back is called `pong`.
+The **Ping-Pong app** is a very simple decentralized application that allows users to deposit a specific number of tokens to a smart contract address and to lock them for a specific amount of time. After this time interval passes, users can claim back the same amount of tokens.
 
-Other rules:
+Endpoints available:
 
-- the user can only `ping` **once** before `pong` (so no multiple pings).
-- only **the set amount** can be `ping`-ed, no more, no less.
+- `ping`: sending funds to the contract.
+- `pong`: claiming the same amount back.
 
-Maybe you noticed the default amount for a deposit is **1 xEGLD** and not 1 EGLD which is MultiversX official token, this is because, for testing purposes we use MultiversX Devnet, which is a testing environment identical to the Mainnet, the official MultiversX Blockchain. Here, the currency is **xEGLD**, it's just a test token, it's worth nothing.
+Rules:
+
+- Each user can only `ping` once before they `pong`.
+- The `ping` amount must be exactly the specified value—no more, no less.
+- `pong` becomes available only after a set waiting period following a `ping`.
 
 [comment]: # (mx-exclude-context)
 
-## **MultiversX dApp architecture**
+## Architecture
 
 ![img](/developers/tutorial/dapp-architecture.png)
 
 [comment]: # (mx-context-auto)
 
-### **Application Layer (The Frontend)**
+### Application Layer - Frontend
 
-For the web app we'll have two pages:
+For the web application, we will have two pages:
 
-- The _Sign in_ page - here we can authenticate with ledger, web wallet or with Maiar Wallet
-- The _Dashboard_ page - here we can either ping or pong, if we already deposited, then we will see a countdown timer until the time interval clears out.
-
-[comment]: # (mx-context-auto)
-
-### **Blockchain Layer (The Backend)**
-
-We will create a smart contract that can handle the deposit (`ping`), claim (`pong`) and status actions (`did_user_ping`, `get_time_to_pong`).
-Let's say that, for now, this smart contract plays the role of an API in a dApp. Also this is where our business logic resides.
-
-The MultiversX _devnet_ is a public test network maintained by our community where any developer can test their smart contracts and dApps in a real world environment.
+- **Sign in** - The page where you can authenticate using the **xPortal app**, **Ledger**, **DeFi Wallet**, **xAlias**, **Web Wallet**, **Passkey Proxy** or with **Metamask proxy**;
+- **Dashboard** - Here, you can either `ping` or `pong`. If you have already deposited, you will see a countdown timer until the time interval resets.
 
 [comment]: # (mx-context-auto)
 
-## **Set up the environment**
+### Blockchain Layer - Backend
 
-Let's set up the evironment for getting your first dapp up and running.
+You will interact with a smart contract that provides the following features:
+
+- `ping`: users send tokens to the contract, locking them for a specific period;
+- `pong`: users retrieve their funds, but only after the lock period expires.
+
+The contract also includes several views, storage mappers and one event:
+
+- `didUserPing`: **view** that tells if a specific user has already `ping`-ed (_true_) or not (_false_);
+- `getPongEnableTimestamp`: **view** that provides the timestamp when `pong` will be available for a given address;
+- `getTimeToPong`: **view** that shows the remaining time until `pong` is enabled for a specific address;
+- `getAcceptedPaymentToken`: **storage mapper** that saves the token type allowed for deposits;
+- `getPingAmount`: **storage mapper** that records recording the total amount of tokens deposited;
+- `getDurationTimestamp`: **storage mapper** that saves the lock duration (in seconds) before `pong` can be called after a `ping`;
+- `getUserPingTimestamp`: **storage mapper** that saves the timestamp of the block where the user `ping`-ed;
+- `pongEvent`: **event** that signals a successful `pong` by the user with amount.
+
+Think of this smart contract as the API for our dApp, handling all the core business logic.
+
+To test it out, we will use [MultiversX Blockchain Devnet Explorer](https://devnet-explorer.multiversx.com/)—a public test network maintained by our community.
 
 [comment]: # (mx-context-auto)
 
-### **Project Structure**
+## Set up the environment
 
-First let's create a new folder for our project, I'll name it `ping-pong`.
+Let's set up the environment for getting your first dApp up and running.
 
-```sh
-mkdir -p ping-pong/wallet
-cd ping-pong/wallet
+[comment]: # (mx-context-auto)
+
+### Project Structure
+
+Start by creating a new folder for your project. Let's call it `ping-pong`.
+
+```bash
+mkdir -p ping-pong
+cd ping-pong/
 ```
 
-In the end, we'll have three subfolders: wallet, contract and dapp. For convenience, we'll save our owner's wallet keystore in the wallet folder.
+By the time we are done, our project will have three subfolders: wallet, contract, and dapp.
 
 ![img](/developers/tutorial/folder-structure.png)
 
 [comment]: # (mx-context-auto)
 
-### **Software Prerequisites**
+### Create wallet
 
-Software prerequisites
+To deploy a smart contract to the blockchain, you will need a wallet-a PEM file is recommended for simplicity and ease of testing.
 
-In our example we'll use [Ubuntu 20.04](https://ubuntu.com/). MacOs works as well (skip to the last paragraph in this section). We'll need to install `python 3.8`, `python-pip` and `libncurses5`. For the frontend application, we'll use an app template based on [React JS](https://reactjs.org/), so we will need `nodejs` and `npm`.
-
-First we make sure the operating system prerequisites are installed:
-
-```sh
-sudo apt-get update
-sudo apt install libncurses5 build-essential python3-pip nodejs npm python3.8-venv
-```
-
-We'll also need `mxpy`, the MultiversX command line tool, which is helpful for signing transactions, deploying smart contracts, managing wallets, accounts and validators. We'll use it to deploy our smart contract.
-mxpy can be installed using the MultiversX [documentation page](/sdk-and-tools/sdk-py/installing-mxpy).
-
-We'll download the `mxpy` installer and we run it
-
-```sh
-wget -O mxpy-up.py https://raw.githubusercontent.com/multiversx/mx-sdk-py-cli/main/mxpy-up.py
-python3 mxpy-up.py
-```
-
-Restart the user session to activate `mxpy`
-
-```sh
-source ~/.profile
-```
-
-In order to install `mxpy` on **MacOs**, you need to make sure you have installed `python 3.8` and `pip` on your system.
-Then, install the latest `mxpy` version,using `pip`.
-
-```sh
-pip3 install --user --upgrade --no-cache-dir mxpy
-```
-
-If you encounter any error relating to `pynacl` package, make sure you have `libsodium` installed.
-
-```sh
-brew install libsodium
-```
-
-[comment]: # (mx-context-auto)
-
-### **Create an owner wallet**
-
-We now have all the prerequisites installed, let's create an owner's wallet **PEM file**.
-
-The smart contract can only be deployed on the blockchain by an owner, so we will create an owner wallet [here](https://devnet-wallet.multiversx.com). The owner can also update the contract, later on, if needed.
-
-Let's head over to the MultiversX wallet, click **"Create new wallet"**, write down the security phrase (24 words) that can help us retrieve the wallet, and the password for the JSON keystore (that we will save in the `~/ping-pong/wallet folder`). We should be able to see our new MultiversX wallet owner address which is, in this case, _erd1......._
-
-We can also generate a private key PEM file, like this we won't need to enter our wallet password each time we want to confirm a transaction.
-
-```sh
-cd ~/ping-pong/wallet
-mxpy wallet convert --in-format=raw-mnemonic --out-format=pem --outfile=./wallet-owner.pem
-```
-
-We will enter our **24 secret words** when prompted and a new PEM file will be created. This command requires that you enter all 24 words each separated by a space.
-
-In order to initiate transactions on the blockchain, we need some funds, every transaction costs a very small fee, on the blockchain this is called **gas**.
-On the devnet wallet we have a **faucet** that allows you to get free test funds for our applications. We can request 10 xEGLD every 24 hours, so let's request 10 xEGLD now.
-We now check if the transaction was successful, and yes, we see that we now have 10 xEGLD in our devnet wallet.
-
-[comment]: # (mx-exclude-context)
-
-## **The Blockchain Layer - The Smart Contract**
-
-Our owner wallet is completely set now, we can move on to our backend, the blockchain layer.
-
-[comment]: # (mx-context-auto)
-
-### **Clone the template**
-
-Clone the Ping-Pong Sample Smart Contract
-
-Let's start with our smart contract. We'll first clone the sample contract repository from here [https://github.com/multiversx/mx-ping-pong-sc](https://github.com/multiversx/mx-ping-pong-sc)
-
-```sh
-cd ~/ping-pong
-git clone https://github.com/multiversx/mx-ping-pong-sc contract
-cd contract/ping-pong
-```
-
-[comment]: # (mx-context-auto)
-
-### **Build the Smart Contract**
-
-We now have the source code for the smart contract, but we need to compile it into a _binary_ that the MultiversX Virtual Machine can run. The VM can run Web Assembly code, so we need to compile our Rust source code into Web Assembly (WASM).
-
-We now have the source code for the smart contract, but we need to compile it into a _binary_ that the MultiversX (previously Elrond) Virtual Machine can run. The VM can run Web Assembly code, so we need to compile our Rust source code into Web Assembly (WASM).
-
-Run the following command in order to build the rust smart contract into a _wasm file_.
-
-```sh
-mxpy contract build
-```
-
-On the last line of the output we'll have:
-
-```sh
-INFO:projects.core:WASM file generated: output/ping-pong.wasm
-```
-
-After running this command line, we see that a wasm file was generated. This file contains the runtime code for our smart contract.
-
-[comment]: # (mx-context-auto)
-
-### **Customize and Deploy**
-
-Deploy the smart contract on MultiversX Devnet
-Next step is to deploy the contract to the blockchain.
-
-Make sure your _owner wallet PEM file_ is in the right folder, the smart contract is built and let's get to the deployment.
-For now let's continue with the default values.
-We will run:
+:::important
+Make sure you are in the `ping-pong/` folder before continuing.
+:::
 
 ```bash
-mxpy --verbose contract deploy \
- --bytecode output/ping-pong.wasm \
- --pem ../../wallet/wallet-owner.pem \
- --recall-nonce \
- --gas-limit 60000000 \
- --arguments 1000000000000000000 600 \
- --chain D \
- --proxy https://devnet-api.multiversx.com \
- --outfile deploy-devnet.interaction.json \
- --send
+mkdir -p wallet
+sc-meta wallet new --format pem --outfile ./wallet/wallet-owner.pem
 ```
 
-We'll take a look at the log output. We have 2 elements that need our attention: the contract address and the transaction hash. Let's check them in the [Devnet Explorer](https://devnet-explorer.multiversx.com).
+:::tip
+PEM wallets are recommended only for testing and experimenting with non-production code. For real applications, always follow best practices and use secure wallets that can be generated [here](https://wallet.multiversx.com).
+:::
 
-Devnet Explorer will be your best friend in developing dApps on the MultiversX Blockchain, as you'll first deploy and test your dApps on Devnet.
+To initiate transactions on the blockchain, your wallet needs funds to cover transaction fees, commonly referred to as **gas**.
 
-INFO:accounts:Account.sync_nonce()
-INFO:accounts:Account.sync_nonce() done: 32
-INFO:cli.contracts:Contract address: erd1qqqqqqqqqqqqqpgq0hmfvuygs34cgqsvgg6fpq9c5mffh4y04cysagr6cn
-INFO:utils:View this contract address in the MultiversX Devnet Explorer: https://devnet-explorer.multiversx.com/accounts/erd1qqqqqqqqqqqqqpgq0hmfvuygs34cgqsvgg6fpq9c5mffh4y04cysagr6cn
-INFO:transactions:Transaction.send: nonce=32
-INFO:transactions:Hash: ee84f3e833d439e159c9619fd76e26d2afcdad62c197d87e4940072f18558153
-INFO:utils:View this transaction in the MultiversX Devnet Explorer: https://devnet-explorer.multiversx.com/transactions/ee84f3e833d439e159c9619fd76e26d2afcdad62c197d87e4940072f18558153
+The [MultiversX Devnet](https://devnet-wallet.multiversx.com/dashboard) offers a **faucet** where you can claim **5 EGLD every 24 hours**. Here’s how to fund your wallet:
 
-The smart contract is now deployed on the blockchain. We can interact with it using blockchain transactions in order to invoke smart contract functions `ping` or `pong`.
+1. Go to [Devnet Wallet MultiversX](https://devnet-wallet.multiversx.com/unlock/pem) and log in using your newly generated **PEM** file;
+2. Once logged in, open the **Faucet** from the **Tools**;
+3. Request **5 xEGLD** to top up your wallet with test EGLD.
 
-The smart contract source code resides in
-`ping-pong-smart-contract/ping-pong/src/ping_pong.rs`
-
-There are two main functions: `ping` and `pong`, these are invoked using blockchain transactions.
-
-We also have two other functions defined in the smart contract: `get_time_to_pong` and `did_user_ping`, these view functions are invoked using **MultiversX API** (*https://devnet-api.multiversx.com/vm-values/query*).
+![img](/developers/tutorial/faucet-screenshot.png)
 
 [comment]: # (mx-exclude-context)
 
-## **The Application Layer - The Web App**
+## The Blockchain Layer
 
-All right, let's move on to the application layer.
+With the wallet setup complete, let's move on to the backend—the blockchain layer.
+
+Let's start with the smart contract. You will first clone the Ping-Pong sample contract repository from [here](https://github.com/multiversx/mx-ping-pong-sc).
+
+:::important
+Make sure you are still in the `ping-pong/` folder.
+:::
+
+```bash
+git clone https://github.com/multiversx/mx-ping-pong-sc contract
+```
+
+This will create a **contract** folder within ping-pong, containing all the necessary files for the Ping-Pong smart contract.
 
 [comment]: # (mx-context-auto)
 
-### **Clone the Sample App**
+### Build the Smart Contract
 
-We will clone a very simple dApp template that implements the calls to our newly deployed smart contract.
+Now that you have the source code for the smart contract, you need to compile it into a **binary** that the **MultiversX Virtual Machine** can execute. Since the VM runs Web Assembly (WASM) code, you need to compile our Rust source code into a WASM file.
+
+At path `ping-pong/`, run the following command to build the smart contract into a WASM file.
+
+```sh
+cd contract/ping-pong
+sc-meta all build
+```
+
+After running the build command, a WASM file will be created at `output/ping-pong.wasm`.
+
+This file contains the bytecode for the smart contract, ready to be deployed on the blockchain.
+
+[comment]: # (mx-context-auto)
+
+### Deploy the Smart Contract
+
+Next, let's deploy the smart contract to the blockchain.
+
+:::tip
+Ensure that `wallet_owner.pem` is in the `wallet/` folder and that the smart contract is built.
+:::
+
+Before deploying, you will need to modify the wallet from which transactions are made. Currently, they are made from a test wallet. To use the wallet you created [earlier](./your-first-dapp.md#create-wallet), you will need to make the following changes:
+
+In the file `interact.rs` located at the path `ping-pong/contract/ping-pong/interactor/src`, the variable `alice_wallet_address` from  `new` function will be modified.
+
+```rust title="Before"
+let alice_wallet_address = interactor.register_wallet(test_wallets::alice()).await;
+```
+
+```rust title="After"
+let alice_wallet_address = interactor
+    .register_wallet(Wallet::from_pem_file("../../../wallet/wallet-owner.pem").unwrap())
+    .await;
+```
+
+:::note
+You need to replace with the relative path from the **interactor crate** to the **created wallet**.
+
+The interactor crate is located at `ping-pong/contract/ping-pong/interactor` and the wallet is in a higher-level directory: `ping-pong/wallet`.
+
+To access `wallet-owner.pem` you must navigate up three folders: `../../../`, then into the **wallet** directory.
+:::
+
+This next command deploys the Ping-Pong contract with the following settings:
+
+- Ping Amount: **1 EGLD**.
+- Lock Duration: **180 seconds** (3 minutes).
+
+:::important
+Ensure that you run the next command inside the **interactor** crate, located at:
+
+`ping-pong/contract/ping-pong/interactor`
+:::
+
+```bash
+cargo run deploy --ping-amount 1000000000000000000 --duration-in-seconds 180
+```
+  
+```sh title=output
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.48s
+     Running `/ping-pong/contract/target/debug/ping-pong-interact deploy --ping-amount 1000000000000000000 --duration-in-seconds 180`
+sender's recalled nonce: 12422
+-- tx nonce: 12422
+sc deploy tx hash: b6ca6c8e6ac54ed168bcd6929e762610e2360674f562115107cf3702b8a22467
+deploy address: erd1qqqqqqqqqqqqqpgqymj43x6anzr38jfz7kw3td2ew33v9jtrd8sse5zzk6
+new address: erd1qqqqqqqqqqqqqpgqymj43x6anzr38jfz7kw3td2ew33v9jtrd8sse5zzk6
+```
+
+Once the command runs, review the log output carefully. Two key details to note:
+
+- Contract Address: in the example presented below is erd1qqqqqqqqqqqqqpgqymj43x6anzr38jfz7kw3td2ew33v9jtrd8sse5zzk6
+- Transaction Hash: in the example presented below is b6ca6c8e6ac54ed168bcd6929e762610e2360674f562115107cf3702b8a22467
+
+We will take a look at the transaction details. Let's check them in the [Devnet Explorer](https://devnet-explorer.multiversx.com).
+
+![img](/developers/tutorial/transaction_details.png)
+
+The Devnet Explorer will be your go-to tool for developing dApps on the MultiversX Blockchain. It allows you to test and monitor your deployments on the Devnet, ensuring everything works as expected.
+
+With the smart contract successfully deployed, you can now interact with it using blockchain transactions to invoke its main functions: `ping` and `pong`.
+
+The smart contract source code resides in `ping-pong/contract/ping-pong/src/ping_pong.rs`.
+
+The contract includes several view functions for querying information. These are invoked using the [MultiversX API](https://devnet-gateway.multiversx.com/#/vm-values/post_vm_values_query):
+
+- `didUserPing`;
+- `getPongEnableTimestamp`;
+- `getTimeToPong`;
+- `getAcceptedPaymentToken`;
+- `getPingAmount`;
+- `getDurationTimestamp`;
+- `getUserPingTimestamp`.
+
+[comment]: # (mx-exclude-context)
+
+## The Application Layer
+
+Now that the backend is ready, let’s move on to the application layer!
+
+[comment]: # (mx-context-auto)
+
+### Set Up the dApp Template
+
+To get started, navigate back to the root `ping-pong` folder.
+
+Next, clone a simple dApp template that includes the necessary calls to interact with your newly deployed smart contract:
 
 ```sh
 git clone https://github.com/multiversx/mx-template-dapp dapp
 cd dapp
 ```
 
-[comment]: # (mx-context-auto)
+Use the preferred editor and customize the Smart Contract address located in `src/config/config.devnet.ts`
 
-### **Configure the app**
+Then edit this instruction and change it to the contract address that you created in the [deploy step](./your-first-dapp.md#deploy-the-smart-contract).
 
-Customize the Smart Contract Address
+![img](/developers/tutorial/config-screenshot.png)
 
-```sh
-nano src/config.tsx
-```
+:::important
+Make sure you have [**yarn installed**](https://classic.yarnpkg.com/lang/en/docs/install) on your machine.
+:::
 
-We'll take a look on the first instruction:
-
-```javascript
-export const contractAddress = "erd1qqqqqqqqqqqqq...";
-```
-
-and we'll change it to our contract address that was shown after mxpy contract deploy:
-
-```javascript
-export const contractAddress =
-  "erd1qqqqqqqqqqqqqpgq0hmfvuygs34cgqsvg...ffh4y04cysagr6cn";
-```
-
-Save and close `config.tsx` and we're ready for the first build.
-
-[comment]: # (mx-context-auto)
-
-### **Build the dApp**
-
-We'll first install the dependencies:
+Navigate to the `ping-pong/dapp` folder and install the required dependencies:
 
 ```sh
-npm install
+npm install --global yarn
+yarn add vite --dev
 ```
 
-and then we'll start a development server to test our new dApp
+### Start the Development Server
+
+To test your dApp locally, start a development server with the following command:
 
 ```sh
-npm run start
+yarn start:devnet
 ```
 
-**Run it on local machine (or host it on your server)**
-If you start the development server on the local machine, then open [http://localhost:3000](http://localhost:3000) in your browser.
-If you start it on your own server, then you can access [http://ip:3000](http://ip:3000). The built version only contains static files, so any hosting provider will do.
+### Running and Accessing the dApp
 
-After you start the development server, when you see the Sign in screen, this means the application is up and running.
+If you run the development server on your local machine, simply open [https://localhost:3000](https://localhost:3000) in your browser.
 
-[comment]: # (mx-context-auto)
+If the server is hosted on a remote machine, access it using the server's IP address, like [http://ip:3000](http://ip:3000).
 
-## **Test Your Application**
+The production build of the app consists only of static files, so you can deploy it on any hosting platform you prefer.
 
-We will sign in with a test wallet.
-You can reuse the same owner's wallet if you want to, or create a new one, following the same steps you followed when creating the owner's wallet.
+Once the development server is up and running, seeing the _Template dApp_ screen confirms that your application is live and ready!
 
-[comment]: # (mx-context-auto)
-
-### **Ping Feature**
-
-After signing in, we'll see the dashboard where we can see the **Ping** button.
-
-Click the Ping button and you'll be redirected to the authentication page on the web wallet, maiar wallet or your authentication device.
-A new transaction will be created and you'll be asked to confirm it. This transaction transfers balance from your wallet to the smart contract address. Those funds will be locked for the specified period of time. Pay attention to the data field, where we call the smart contract function `ping`.
-After you confirm the transaction, a success message will appear and the funds are locked.
-
-**Wait the time interval**
-You can see the amount of time you'll have to wait until you can pong.
+![img](/developers/tutorial/tutorial_dapp_page.png)
 
 [comment]: # (mx-context-auto)
 
-### **Pong Feature**
+## Try your Application
 
-After the time interval has passed, you can claim the funds by clicking the Pong button.
-Another blockchain transaction will wait to be processed, this time the amount will be zero, as we only have to invoke the `pong` function (specified in the _data_ field).
-The transaction will trigger a success message and the funds will be returned to the wallet.
+You will log in using the wallet created [previously](./your-first-dapp.md#create-wallet).
+
+To do this, you will press **Connect** button and then choose **Web Wallet** option.
+
+![img](/developers/tutorial/wallet_connect.png)
+
+After you access **Web Wallet** connection, you will be forwarded to login on [Multiversx Wallet](https://devnet-wallet.multiversx.com/unlock/pem).
+
+![img](/developers/tutorial/wallet_login.png)
+
+You will choose **PEM** option to login.
 
 [comment]: # (mx-context-auto)
 
-## **Where to go next?**
+### Ping Feature
+
+After signing in, you will be directed to the dashboard where the **Ping** button will be visible.
+
+![img](/developers/tutorial/dapp_dashboard.png)
+
+Click the **Ping** button and you will be redirected to the authentication page on the web wallet.
+
+A new transaction will be created, and you will be asked to confirm it. This transaction transfers the balance from your wallet to the smart contract address. Those funds will be locked for a specified period of time. Pay attention to the data field, where you call the smart contract function `ping`.
+
+After you confirm the transaction, a success message will appear and the funds are locked. You can view the transaction shown in the image [here](https://devnet-explorer.multiversx.com/transactions/af85e8a26f78f1a26d03377b85bd611b218d5e864d5c8788121beb74a9972aee).
+
+![img](/developers/tutorial/success_tx.png)
+You can see **the amount of time** you will have to wait until you can **Pong**.
+
+[comment]: # (mx-context-auto)
+
+### Pong Feature
+
+After the time interval has passed, you can claim the funds by clicking the **Pong** button.
+
+![img](/developers/tutorial/pong_button.png)
+
+Another blockchain transaction will wait to be processed and again you will be asked to confirm it. This time the amount will be zero, as you only have to invoke the `pong` function (specified in the _data_ field).
+
+Once the transaction is complete, a **success** message will appear, and your funds will be returned to your wallet. You can view the transaction shown in the image [here](https://devnet-explorer.multiversx.com/transactions/3959fb90f08265465cf7c87314ff595357e984d636b023fa530a93733d0c3d6e).
+
+![img](/developers/tutorial/pong_tx.png)
+
+[comment]: # (mx-context-auto)
+
+## Where to go next?
 
 The purpose of this guide is to provide a starting point for you to discover the MultiversX technology capabilities and devkit. Keep reading the next docs to dive in deeper.
-We welcome your questions and inquiries on Stack Overflow: [https://stackoverflow.com/questions/tagged/elrond](https://stackoverflow.com/questions/tagged/elrond).
 
-Break down this guide and learn more about how to extend the smart contract, the wallet and the MultiversX tools. [https://docs.multiversx.com](/)
+We welcome your questions and inquiries on Stack Overflow: [https://stackoverflow.com/questions/tagged/multiversx](https://stackoverflow.com/questions/tagged/multiversx).
+
+Dive into more advanced topics and discover how to extend the smart contract, customize the wallet, and leverage MultiversX tools here: [https://docs.multiversx.com](/).

@@ -98,7 +98,7 @@ SetUserNameTransaction {
     Receiver: <DNS address that corresponds to the sender>
     Value: 0
     GasLimit: 1_200_000
-    Data: "SetUserName@" +
+    Data: "SetUserName" +
           "@" + <username in hexadecimal encoding>
 }
 ```
@@ -116,8 +116,8 @@ already covered [here](/developers/account-storage).
 
 ## **ESDT and NFT built-in functions**
 
-Most of the ESDT and NFT related built-in function are already described in the [ESDT](/developers/esdt-tokens/) and
-[NFT](/developers/nft-tokens) sections.
+Most of the ESDT and NFT related built-in function are already described in the [ESDT](/tokens/fungible-tokens) and
+[NFT](/tokens/nft-tokens) sections.
 
 [comment]: # (mx-context-auto)
 
@@ -149,7 +149,7 @@ _For more details about how arguments have to be encoded, check [here](/develope
 
 ## **GuardAccount**
 
-`GuardAccount` is used to guard the account. In other words, after sending this transaction (and if it is successfull), all transactions that will be sent afterwards by this address must have `guardian` and `guardianSignature` filled in until a successfull `UnGuardAccount` transaction is being sent. 
+`GuardAccount` is used to guard the account. In other words, after sending this transaction (and if it is successful), all transactions that will be sent afterwards by this address must have `guardian` and `guardianSignature` filled in until a successful `UnGuardAccount` transaction is being sent. 
 
 ```rust
 GuardAccountTransaction {
@@ -164,14 +164,14 @@ GuardAccountTransaction {
 _For more details about how arguments have to be encoded, check [here](/developers/sc-calls-format)._
 
 :::note
-After sending a successfull `GuardAccount` transaction, only co-signed (guarded) transactions can be sent. Any other transaction will not be processed, except a new `SetGuardian` (for which **20 epochs** must pass until the changes will occur).
+After sending a successful `GuardAccount` transaction, only co-signed (guarded) transactions can be sent. Any other transaction will not be processed, except a new `SetGuardian` (for which **20 epochs** must pass until the changes will occur).
 :::
 
 [comment]: # (mx-context-auto)
 
 ## **UnGuardAccount**
 
-`UnGuardAccount` is used to unguard the account. After a successfull transaction, it is not mandatory anymore for the user to send co-signed (guarded) transactions.
+`UnGuardAccount` is used to unguard the account. After a successful transaction, it is not mandatory anymore for the user to send co-signed (guarded) transactions.
 
 ```rust
 UnGuardAccountTransaction {

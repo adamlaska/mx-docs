@@ -3,8 +3,10 @@ id: utils
 title: Markdown Examples
 ---
 
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+import useBaseUrl from "@docusaurus/useBaseUrl";
+import ThemedImage from "@theme/ThemedImage";
 
 ## Base Syntax
 
@@ -46,7 +48,7 @@ _italicized text_
 
 [absolute URL](https://www.multiversx.com)
 
-[relative URL](/developers/esdt-tokens#token-management)
+[relative URL](/tokens/fungible-tokens)
 
 ## Extended Syntax
 
@@ -95,7 +97,7 @@ term
 ### Tabs
 
 ```mdx-code-block
-<Tabs 
+<Tabs
 defaultValue="First"
 values={[
 {label: 'First', value: 'First'},
@@ -265,16 +267,47 @@ $$
 |x| = \begin{Bmatrix} x  & {if } x \geq 0 \\ -x & {if } x < 0 \end{Bmatrix}
 $$
 
-### YouTube Embed
+## Themed Images
 
-## First Version
+### First Version
 
-[![MultiversX IDE](https://img.youtube.com/vi/bXbBfJCRVqE/maxresdefault.jpg)](http://www.youtube.com/watch?v=bXbBfJCRVqE "MultiversX IDE")
+Image path should include `#gh-light-mode-only` for the Light Theme and `#gh-dark-mode-only` for the Dark Theme
 
-## Second version
+![Docusaurus themed image](/img/logo.svg#gh-light-mode-only)![Docusaurus themed image](/img/logo_dark.svg#gh-dark-mode-only)
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/bXbBfJCRVqE?playlist=bXbBfJCRVqE&loop=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-$$
+### Second Version
+
+Must Include
+
+```jsx
+import useBaseUrl from "@docusaurus/useBaseUrl";
+import ThemedImage from "@theme/ThemedImage";
+```
+
+<ThemedImage
+  alt="Docusaurus themed image"
+  sources={{
+    light: useBaseUrl("/img/logo.svg"),
+    dark: useBaseUrl("/img/logo_dark.svg"),
+  }}
+/>
+
+## YouTube Embed
+
+### First Version
+
+[![Blockchain basics](https://img.youtube.com/vi/tv6OBimIX98/maxresdefault.jpg)](https://www.youtube.com/watch?v=tv6OBimIX98 "Blockchain basics")
+
+### Second version
+
+<iframe
+  width="560"
+  height="315"
+  src="https://www.youtube-nocookie.com/embed/tv6OBimIX98?playlist=tv6OBimIX98"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen
+></iframe>
 
 ## Mermaid diagrams
 
@@ -285,4 +318,3 @@ graph TD;
     B-->D;
     C-->D;
 ```
-

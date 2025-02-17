@@ -277,7 +277,7 @@ The important parts that makes this component work are the flag **authenticatedR
 
 There are a couple of very handy React components that can be used to login the user and protect certain routes if the user is not logged in.
 
-Under the `DappUI` object mentioned above, you can find 4 buttons (one for each provider) which abstract away all the logic of loggin in the user and render the default UI. These buttons can be easily customized with a custom css class.
+Under the `DappUI` object mentioned above, you can find 4 buttons (one for each provider) which abstract away all the logic of logging in the user and render the default UI. These buttons can be easily customized with a custom css class.
 The exported buttons are:
 
 - ExtensionLoginButton
@@ -673,7 +673,7 @@ Use:
 
 - `useGetPendingTransactions` to get a list of all pending transactions.
 - `useGetSuccessfulTransactions` to get a list of all successful transactions.
-- `useGetFailedTransactions` to get a list of all pending transactions.
+- `useGetFailedTransactions` to get a list of all failed transactions.
 
 An especially useful hook called `useGetActiveTransactionsStatus` will keep you updated with the status
 of all transactions at a certain point in time.
@@ -759,7 +759,7 @@ removeAllSignedTransactions();
 
 ## Unit testing with Jest
 
-The sdk-dapp library exposes bundles for both CommonJS and ESModules, however, in some enviornments, Jest might require manual mapping of the CommonJS output. To implement it, add the following snippet inside your jest config file.
+The sdk-dapp library exposes bundles for both CommonJS and ESModules, however, in some environments, Jest might require manual mapping of the CommonJS output. To implement it, add the following snippet inside your jest config file.
 
 ```typescript
 moduleNameMapper: {
@@ -1042,7 +1042,7 @@ import { ExplorerLink } from "@multiversx/sdk-dapp/UI/ExplorerLink";
 
 Starting with the 2.0 version of the dApp SDK ( previously `@elrondnetwork/dapp-core@2.0.0` ) and `@multiversx/sdk-dapp@2.2.8` [WalletConnect 2.0](https://docs.walletconnect.com/2.0/) is available as a login and signing provider, allowing users to login by scanning a QR code with the Mobile App
 
-This is an implementation of the [sdk-wallet-connect-provider](https://github.com/multiversx/mx-sdk-js-wallet-connect-provider) ( [docs](https://docs.multiversx.com/sdk-and-tools/sdk-js/sdk-js-signing-providers/#the-wallet-connect-provider) ) signing provider
+This is an implementation of the [sdk-wallet-connect-provider](https://github.com/multiversx/mx-sdk-js-wallet-connect-provider) ( [docs](https://docs.multiversx.com/sdk-and-tools/sdk-js/sdk-js-signing-providers/#the-walletconnect-provider) ) signing provider
 
 A `Project ID` is required to enable the WalletConnect functionality.
 
@@ -1081,4 +1081,4 @@ Due to this, you cannot yet use the DappProvider wrapping logic in a React Nativ
 
 We have a couple of solutions in mind and are actively working on exploring ways to overcome these limitations.
 Until then, you can use `@multiversx/sdk-*` libraries and @walletconnect to connect to the xPortal App.
-There are also guide for doing this from the [community](https://github.com/S4F-IT/maiar-integration/blob/master/README.md)
+There are also guide for doing this from the [community](https://github.com/S4F-IT/maiar-integration/blob/master/README)

@@ -16,7 +16,7 @@ You can find it on [crates.io](https://crates.io/crates/multiversx-sc-meta) [![c
 To install it, simply call
 
 ```
-cargo install multiversx-sc-meta
+cargo install multiversx-sc-meta --locked
 ```
 
 After that, try calling `sc-meta help` or `sc-meta -h` to see the CLI docs.
@@ -62,20 +62,17 @@ Currently the contract functionality is:
 
 To learn more about the smart contract ABI and ABI-based individual contract tools, see [the CLI reference](/developers/meta/sc-meta-cli).
 
-
 [comment]: # (mx-context-auto)
 
 ## Standalone functionality
 
 The standalone functionality is:
-  - `info`        General info about the contract an libraries residing in the targetted directory.
+  - `info`        General info about the contract an libraries residing in the targeted directory.
   - `all`         Calls the meta crates for all contracts under given path with the given arguments.
   - `new`         Creates a new smart contract from a template.
   - `templates`   Lists the available templates.
   - `upgrade`     Upgrades a contract to the latest version. Multiple contract crates are allowed.
-  - `local-deps`  Generates a report on the local depedencies of contract crates. Will explore indirect depdencies too.
+  - `local-deps`  Generates a report on the local dependencies of contract crates. Will explore indirect dependencies too.
 
 All the standalone tools take an optional `--path` argument. if not provided, it will be the current directory.
-
-
 
