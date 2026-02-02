@@ -35,11 +35,8 @@ Even when simulating smart contract execution on 64-bit systems, they must still
 **Examples**
 
 | Type    | Number                | Top-level encoding   | Nested encoding      |
-| 
-
----
-
----- | --------------------- | -------------------- | -------------------- |
+|
+| ------- | --------------------- | -------------------- | -------------------- |
 | `u8`    | `0`                   | `0x`                 | `0x00`               |
 | `u8`    | `1`                   | `0x01`               | `0x01`               |
 | `u8`    | `0x11`                | `0x11`               | `0x11`               |
@@ -94,7 +91,9 @@ Even when simulating smart contract execution on 64-bit systems, they must still
 | `isize` | `-0x11`               | `0xEF`               | `0xFFFFFFEF`         |
 | `isize` | `-0x1122`             | `0xEEDE`             | `0xFFFFEEDE`         |
 | `isize` | `-0x112233`           | `0xEEDDCD`           | `0xFFEEDDCD`         |
-| `isize` | `-0x11223344`         | `0xEEDDCCBC`         | `0xEEDDCCBC`         |---
+| `isize` | `-0x11223344`         | `0xEEDDCCBC`         | `0xEEDDCCBC`         |
+
+---
 
 [comment]: # (mx-context-auto)
 

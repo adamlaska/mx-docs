@@ -26,18 +26,17 @@ Then, all nested encodings of the items, concatenated.
 **Examples**
 
 | Type             | Value                | Top-level encoding    | Nested encoding                | Explanation                                                                                                                               |
-| 
-
----
-
-------------- | -------------------- | --------------------- | ------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------- |
+|
+| ---------------- | -------------------- | --------------------- | ------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------- |
 | `Vec<u8>`        | `vec![1, 2]`         | `0x0102`              | `0x00000002 0102`              | Length = `2`                                                                                                                              |
 | `Vec<u16>`       | `vec![1, 2]`         | `0x00010002`          | `0x00000002 00010002`          | Length = `2`                                                                                                                              |
 | `Vec<u16>`       | `vec![]`             | `0x`                  | `0x00000000`                   | Length = `0`                                                                                                                              |
 | `Vec<u32>`       | `vec![7]`            | `0x00000007`          | `0x00000001 00000007`          | Length = `1`                                                                                                                              |
 | `Vec< Vec<u32>>` | `vec![ vec![7]]`     | `0x00000001 00000007` | `0x00000001 00000001 00000007` | There is 1 element, which is a vector. In both cases the inner Vec needs to be nested-encoded in the larger Vec.                          |
 | `Vec<&[u8]>`     | `vec![ &[7u8][..]]`  | `0x00000001 07`       | `0x00000001 00000001 07`       | Same as above, but the inner list is a simple list of bytes.                                                                              |
-| `Vec< BigUint>`  | `vec![ 7u32.into()]` | `0x00000001 07`       | `0x00000001 00000001 07`       | `BigUint`s need to encode their length when nested. The `7` is encoded the same way as a list of bytes of length 1, so the same as above. |---
+| `Vec< BigUint>`  | `vec![ 7u32.into()]` | `0x00000001 07`       | `0x00000001 00000001 07`       | `BigUint`s need to encode their length when nested. The `7` is encoded the same way as a list of bytes of length 1, so the same as above. |
+
+---
 
 [comment]: # (mx-context-auto)
 

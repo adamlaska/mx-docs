@@ -33,10 +33,7 @@ Body Parameters
 
 | Param            | Required                                  | Type     | Description                                                                      |
 | 
-
----
-
-------------- | ----------------------------------------- | -------- | -------------------------------------------------------------------------------- |
+| ---------------- | ----------------------------------------- | -------- | -------------------------------------------------------------------------------- |
 | nonce            | <span class="text-danger">REQUIRED</span> | `number` | The Nonce of the Sender.                                                         |
 | value            | <span class="text-danger">REQUIRED</span> | `string` | The Value to transfer, as a string representation of a Big Integer (can be "0"). |
 | receiver         | <span class="text-danger">REQUIRED</span> | `string` | The Address (bech32) of the Receiver.                                            |
@@ -269,7 +266,9 @@ _SimulationResults_
 | receipts | []ApiReceipt | an array of the receipts (if any) |
 | hash | string | the hash of the transaction |
 
-❕ Note that fields that are empty won't be included in the response. This can be seen in the examples below---
+❕ Note that fields that are empty won't be included in the response. This can be seen in the examples below
+
+---
 
 🟢 200: OK
 
