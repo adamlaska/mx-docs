@@ -1,6 +1,7 @@
 ---
 id: config-scripts
 title: Scripts & User config
+description: "Scripts and user configuration for installing and maintaining MultiversX nodes on mainnet, testnet and devnet."
 ---
 
 :::caution

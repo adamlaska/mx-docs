@@ -1,3 +1,7 @@
+---
+description: "Learn about MultiversX Sovereign system requirements."
+---
+
 # System Requirements
 
 :::note

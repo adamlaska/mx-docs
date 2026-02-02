@@ -1,3 +1,7 @@
+---
+description: "Learn about MultiversX Sovereign interoperability."
+---
+
 # Interoperability and Modular Design
 
 Sovereign Chains are designed to serve as an interoperability layer between different ecosystems. Ecosystem partners and builders have the opportunity to create a set of components that can be activated or deactivated based on the specific needs of a particular Sovereign Chain. But how will sovereign chains achieve that?

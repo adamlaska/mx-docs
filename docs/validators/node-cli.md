@@ -1,6 +1,7 @@
 ---
 id: node-cli
 title: Node CLI
+description: "Node command‑line flags and utilities from mx‑chain‑go: startup options, configuration, debugging and maintenance."
 ---
 
 [comment]: # (mx-abstract)

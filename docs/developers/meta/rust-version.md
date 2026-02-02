@@ -1,6 +1,7 @@
 ---
 id: rust-version
 title: Rust Version
+description: "Learn about rust version in MultiversX."
 ---
 
 [comment]: # (mx-abstract)

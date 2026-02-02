@@ -1,7 +1,9 @@
 ---
 id: serialization-overview
 title: The MultiversX Serialization Format
+description: "Learn about the multiversx serialization format in MultiversX."
 ---
+
 [comment]: # (mx-abstract)
 
 In MultiversX, there is a specific serialization format for all data that interacts with a smart contract. The serialization format is central to any project because all values entering and exiting a contract are represented as byte arrays that need to be interpreted according to a consistent specification.
@@ -48,4 +50,3 @@ This guide is split into several sections:
 - [The code metadata flag](/developers/data/code-metadata)
 
 There is a special section about [uninitialized data and how defaults relate to serialization](/developers/data/defaults).
-

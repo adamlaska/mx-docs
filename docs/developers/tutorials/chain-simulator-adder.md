@@ -1,6 +1,7 @@
 ---
 id: chain-simulator-adder
 title: Chain Simulator in Adder - SpaceCraft interactors
+description: "Tutorial: Chain Simulator in Adder - SpaceCraft interactors"
 ---
 
 [comment]: # (mx-abstract)

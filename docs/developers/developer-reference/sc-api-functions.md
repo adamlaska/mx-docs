@@ -1,6 +1,7 @@
 ---
 id: sc-api-functions
 title: Smart Contract API Functions
+description: "Learn about smart contract api functions in MultiversX."
 ---
 
 [comment]: # (mx-abstract)

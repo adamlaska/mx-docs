@@ -1,7 +1,9 @@
 ---
 id: running-scenarios
 title: Running scenarios
+description: "Learn about running scenarios in MultiversX."
 ---
+
 [comment]: # (mx-abstract)
 
 Most of the MultiversX smart contract testing infrastructure is built with scenarios in mind, so there are lots of ways to execute them.

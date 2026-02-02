@@ -1,6 +1,7 @@
 ---
 id: best-practices-basics
 title: Basics
+description: "Learn about basics in MultiversX."
 ---
 
 [comment]: # (mx-context-auto)

@@ -1,3 +1,9 @@
+---
+id: axelar
+title: Axelar Amplifier Setup
+description: "Set up an Axelar Amplifier verifier for MultiversX: prerequisites, tofnd and ampd services, configuration, and verification steps."
+---
+
 # Axelar Amplifier setup for MultiversX
 
 ## Prerequisites

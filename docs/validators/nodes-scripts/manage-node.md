@@ -1,6 +1,7 @@
 ---
 id: manage-node
 title: Manage a validator node
+description: "Manage validator nodes with scripts: start/stop, upgrades, database operations and routine maintenance."
 ---
 
 Your node will start as an observer. In order to make it into a validator, you will need to have 2500 xEGLD tokens. You can reach out to an admin in our [Telegram community](https://t.me/MultiversXValidators) who will gladly help.

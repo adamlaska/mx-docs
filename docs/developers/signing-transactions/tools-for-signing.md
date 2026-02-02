@@ -1,7 +1,9 @@
 ---
 id: tools-for-signing
 title: Tools for signing
+description: "Learn about tools for signing in MultiversX."
 ---
+
 [comment]: # (mx-abstract)
 
 In order to sign a transaction without actually dispatching it, several tools can be used. One of the most popular ones is [mxpy](/sdk-and-tools/sdk-py).

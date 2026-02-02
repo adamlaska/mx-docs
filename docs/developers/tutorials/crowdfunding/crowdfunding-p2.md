@@ -1,7 +1,9 @@
 ---
 id: crowdfunding-p2
 title: Core Logic
+description: "Tutorial: Core Logic"
 ---
+
 [comment]: # (mx-abstract)
 Define contract arguments, handle storage, process payments, define new types, write better tests
 

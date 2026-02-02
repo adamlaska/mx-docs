@@ -1,6 +1,7 @@
 ---
 id: tx-env
 title: Environments
+description: "Learn about environments in MultiversX."
 ---
 
 [comment]: # (mx-abstract)

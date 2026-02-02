@@ -1,7 +1,9 @@
 ---
 id: creating-wallets
 title: Creating Wallets
+description: "Learn about creating wallets in MultiversX."
 ---
+
 [comment]: # (mx-abstract)
 
 How to create wallets using the CLI or programmatically

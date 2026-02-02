@@ -3,6 +3,7 @@ id: sdk-js-cookbook
 title: Cookbook (v15)
 pagination_prev: sdk-and-tools/sdk-js/sdk-js-cookbook-v14
 pagination_next: null
+description: "Overview of MultiversX SDK and Tools cookbook (v15)."
 ---
 
 [comment]: # (mx-abstract)

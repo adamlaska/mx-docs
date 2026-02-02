@@ -1,3 +1,7 @@
+---
+description: "Learn about MultiversX Sovereign sovereign api."
+---
+
 # API service
 
 ## Deploy Sovereign Proxy service

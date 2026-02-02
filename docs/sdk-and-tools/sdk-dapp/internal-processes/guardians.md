@@ -1,6 +1,7 @@
 ---
 id: guardians
 title: Guardians
+description: "Overview of MultiversX SDK and Tools guardians."
 ---
 
 [comment]: # (mx-abstract)

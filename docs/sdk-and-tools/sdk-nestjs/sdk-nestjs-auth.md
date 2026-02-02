@@ -1,6 +1,7 @@
 ---
 id: sdk-nestjs-auth
 title: NestJS SDK Auth utilities
+description: "Overview of MultiversX SDK and Tools nestjs sdk auth utilities."
 ---
 
 <a href="https://www.npmjs.com/package/@multiversx/sdk-nestjs-auth" target="_blank"><img src="https://img.shields.io/npm/v/@multiversx/sdk-nestjs-auth.svg" alt="NPM Version" /></a>

@@ -1,6 +1,7 @@
 ---
 id: es-index-wrong-mapping
 title: How to fix Elasticsearch mapping errors
+description: "Overview of MultiversX SDK and Tools how to fix elasticsearch mapping errors."
 ---
 
 Starting with the February 2023 mainnet upgrade new constrains for Elasticsearch indices were added. Therefore, one can notice 

@@ -1,6 +1,7 @@
 ---
 id: staking
 title: Staking & Unstaking
+description: "Stake and unstake validator nodes: prerequisites, transactions, reward addresses and operational workflow."
 ---
 
 [comment]: # (mx-abstract)

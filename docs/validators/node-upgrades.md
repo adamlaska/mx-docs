@@ -1,6 +1,7 @@
 ---
 id: node-upgrades
 title: MultiversX Node upgrades
+description: "Plan and execute MultiversX node upgrades safely: scheduling, compatibility considerations, and operational steps."
 ---
 
 [comment]: # (mx-abstract)

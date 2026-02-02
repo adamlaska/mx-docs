@@ -1,6 +1,7 @@
 ---
 id: whitebox-legacy
 title: Whitebox Framework
+description: "Learn about whitebox framework in MultiversX."
 ---
 
 [comment]: # (mx-abstract)

@@ -1,6 +1,7 @@
 ---
 id: rest-api
 title: REST API overview
+description: "Overview of MultiversX SDK and Tools rest api."
 ---
 
 [comment]: # (mx-abstract)

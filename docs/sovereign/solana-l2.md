@@ -1,3 +1,7 @@
+---
+description: "Learn about MultiversX Sovereign solana l2."
+---
+
 # Solana L2
 
 :::note

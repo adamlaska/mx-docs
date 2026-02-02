@@ -1,6 +1,7 @@
 ---
 id: walletconnect-json-rpc-methods
 title: WalletConnect JSON-RPC Methods
+description: "WalletConnect v2 JSON‑RPC methods for MultiversX: available calls, parameters and usage patterns."
 ---
 
 [comment]: # (mx-abstract)

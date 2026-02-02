@@ -1,6 +1,7 @@
 ---
 id: node-databases
 title: Node Databases
+description: "Overview of node databases: key‑value stores, what data they contain, and how they are used by the protocol."
 ---
 
 [comment]: # (mx-abstract)

@@ -1,3 +1,7 @@
+---
+description: "Learn about MultiversX Sovereign ethereum l2."
+---
+
 # Ethereum L2
 
 :::note

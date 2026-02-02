@@ -1,6 +1,7 @@
 ---
 id: wallet-extension
 title: MultiversX DeFi Wallet
+description: "Browser extension for MultiversX: install and set up the DeFi Wallet, manage multiple accounts, and interact with dApps."
 ---
 
 [comment]: # (mx-abstract)

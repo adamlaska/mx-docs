@@ -1,6 +1,7 @@
 ---
 id: delegation-dashboard
 title: Delegation Dashboard
+description: "Manage delegation smart contracts with a visual dashboard: staking, rewards, and provider operations."
 ---
 
 [comment]: # (mx-abstract)

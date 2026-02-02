@@ -1,6 +1,7 @@
 ---
 id: tx-to
 title: Receiver
+description: "Learn about receiver in MultiversX."
 ---
 
 [comment]: # "mx-abstract"

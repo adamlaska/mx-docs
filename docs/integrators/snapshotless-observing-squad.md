@@ -1,6 +1,7 @@
 ---
 id: snapshotless-observing-squad
 title: Snapshotless Observing Squad
+description: "Learn about MultiversX Integrators snapshotless observing squad."
 ---
 
 [comment]: # (mx-abstract)

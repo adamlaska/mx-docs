@@ -1,6 +1,7 @@
 ---
 id: staking-contract
 title: Staking smart contract
+description: "Tutorial: Staking smart contract"
 ---
 
 [comment]: # (mx-abstract)

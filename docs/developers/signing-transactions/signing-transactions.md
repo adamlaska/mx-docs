@@ -1,7 +1,9 @@
 ---
 id: signing-transactions
 title: Signing Transactions
+description: "Learn about signing transactions in MultiversX."
 ---
+
 [comment]: # (mx-abstract)
 
 By reading this page you will find out how to serialize and sign the Transaction payload.

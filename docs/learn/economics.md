@@ -1,6 +1,7 @@
 ---
 id: economics
 title: Economics
+description: "Economics of MultiversX: token supply, fees, rewards, inflation and distribution mechanics."
 ---
 
 [comment]: # (mx-abstract)

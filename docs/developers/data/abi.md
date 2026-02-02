@@ -1,6 +1,7 @@
 ---
 id: abi
 title: ABI
+description: "Learn about abi in MultiversX."
 ---
 
 [comment]: # (mx-abstract)

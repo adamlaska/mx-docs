@@ -1,6 +1,7 @@
 ---
 id: tx-impl-details
 title: Implementation details (TODO)
+description: "Learn about implementation details (todo) in MultiversX."
 ---
 
 [comment]: # (mx-abstract)

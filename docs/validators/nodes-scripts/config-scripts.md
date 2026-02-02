@@ -1,6 +1,7 @@
 ---
 id: config-scripts
 title: Scripts & User config
+description: "Install and configure MultiversX nodes using mx‑chain‑scripts: prerequisites, configuration and setup."
 ---
 
 [comment]: # (mx-abstract)

@@ -1,6 +1,7 @@
 ---
 id: staking-v4
 title: Staking v4
+description: "What’s new in Staking v4: protocol changes, validator impact, reward mechanics and migration notes."
 ---
 
 [comment]: # (mx-context-auto)
@@ -375,4 +376,3 @@ The specific parameters, including the initial limit and `NodeLimitPercentage`, 
 vote. This ensures community involvement in determining the rules governing node ownership.
 
 The actual limit is 50 nodes per provider with the calculation details from the 'systemSmartContractsConfig.toml' [here](https://github.com/multiversx/mx-chain-mainnet-config/blob/2ca2da07427c5a802202d1ed364a923f0e366f13/systemSmartContractsConfig.toml#L15)
-

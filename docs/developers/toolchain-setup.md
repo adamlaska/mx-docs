@@ -1,6 +1,7 @@
 ---
 id: toolchain-setup
 title: Toolchain Setup 
+description: "Learn about toolchain setup in MultiversX."
 ---
 
 [comment]: # (mx-context-auto)
@@ -86,12 +87,12 @@ Default host: x86_64-unknown-linux-gnu
 rustup home:  /home/ubuntu/.rustup
 
 installed toolchains
---------------------
+---
+-----------------
 stable-x86_64-unknown-linux-gnu (default)
 [...]
 
-active toolchain
-----------------
+active toolchain----------------
 name: stable-x86_64-unknown-linux-gnu
 installed targets:
   wasm32-unknown-unknown

@@ -1,6 +1,7 @@
 ---
 id: fix-rust-setup
 title: Fix Rust installation
+description: "Overview of MultiversX SDK and Tools fix rust installation."
 ---
 
 [comment]: # (mx-abstract)

@@ -1,6 +1,7 @@
 ---
 id: interactors-guide
 title: Deploy a SC in 5 minutes - SpaceCraft interactors
+description: "Tutorial: Deploy a SC in 5 minutes - SpaceCraft interactors"
 ---
 
 [comment]: # (mx-abstract)
@@ -270,7 +271,9 @@ test integration_test ... ok
 
 successes:
 
----- integration_test stdout ----
+---
+
+- integration_test stdout ----
 sender's recalled nonce: 1720
 -- tx nonce: 1720
 sc deploy tx hash: ca6e69c18acd73b20bfd21142b45be1b530ecbec89d1eb9c374b93f7681dbc38

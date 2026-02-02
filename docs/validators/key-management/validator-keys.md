@@ -1,6 +1,7 @@
 ---
 id: validator-keys
 title: Validator Keys
+description: "Validator keys: purpose, generation, secure handling and usage in consensus."
 ---
 
 [comment]: # (mx-abstract)
@@ -19,8 +20,8 @@ The **Validator Keys** are located in the `validatorKey.pem` file, which is gene
 Below you can find their anatomy and how to extract the information from them
 
 Example:
-
------BEGIN PRIVATE KEY for _45e7131ba37e05c5de3f8862b4d8294812f004a5b660abb793e89b65816dbff2b02f54c25f139359c9c98be0fa657d0bf1ae4115dcf6fdbf5f3a470f1d251f769610b48fe34eeab59e82ac1cc0336d1d9109a14b768b97ccb4db4c2431629688_-----
+---
+--BEGIN PRIVATE KEY for _45e7131ba37e05c5de3f8862b4d8294812f004a5b660abb793e89b65816dbff2b02f54c25f139359c9c98be0fa657d0bf1ae4115dcf6fdbf5f3a470f1d251f769610b48fe34eeab59e82ac1cc0336d1d9109a14b768b97ccb4db4c2431629688_-----
 
 **YmRiNmViOGYzMmQ3OWY0YjE4ODJjMzE1ODA4YjQyZmZjODhiZDQxNzMwNmE5MTRiZjQ4OTAyNjM0MTcyNjMzMw==**
 

@@ -1,6 +1,7 @@
 ---
 id: governance-interaction
 title: Governance interaction
+description: "Interact with the governance smart contract: submit proposals, vote and query status via VM endpoints and transactions."
 ---
 
 [comment]: # (mx-context-auto)

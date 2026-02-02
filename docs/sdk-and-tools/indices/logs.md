@@ -1,6 +1,7 @@
 ---
 id: es-index-logs
 title: logs
+description: "Overview of MultiversX SDK and Tools logs."
 ---
 
 [comment]: # (mx-abstract)

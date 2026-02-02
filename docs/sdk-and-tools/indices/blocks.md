@@ -1,6 +1,7 @@
 ---
 id: es-index-blocks
 title: blocks
+description: "Overview of MultiversX SDK and Tools blocks."
 ---
 
 [comment]: # (mx-abstract)

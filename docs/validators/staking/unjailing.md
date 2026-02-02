@@ -1,6 +1,7 @@
 ---
 id: unjailing
 title: Unjailing
+description: "Guidance for MultiversX validators: unjailing."
 ---
 
 [comment]: # (mx-abstract)

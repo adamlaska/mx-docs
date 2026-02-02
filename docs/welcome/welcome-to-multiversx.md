@@ -1,6 +1,7 @@
 ---
 id: welcome-to-multiversx
 title: Welcome to MultiversX
+description: "Learn about welcome to multiversx in MultiversX."
 ---
 
 [comment]: # (mx-abstract)

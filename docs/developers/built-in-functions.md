@@ -1,6 +1,7 @@
 ---
 id: built-in-functions
 title: Built-In Functions
+description: "Learn about built-in functions in MultiversX."
 ---
 
 [comment]: # (mx-abstract)

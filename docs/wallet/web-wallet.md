@@ -1,6 +1,7 @@
 ---
 id: web-wallet
 title: Web Wallet
+description: "Create or import accounts, send and receive EGLD and tokens, stake, and securely manage assets using the MultiversX Web Wallet."
 ---
 
 [comment]: # (mx-abstract)

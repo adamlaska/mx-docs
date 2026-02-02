@@ -1,6 +1,7 @@
 ---
 id: overview
 title: Governance - Overview
+description: "Overview of the on‑chain governance module: proposals, voting, execution and release context."
 ---
 
 [comment]: # (mx-abstract)

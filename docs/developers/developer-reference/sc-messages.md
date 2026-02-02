@@ -1,6 +1,7 @@
 ---
 id: sc-messages
 title: Messages
+description: "Learn about messages in MultiversX."
 ---
 
 [comment]: # (mx-abstract)

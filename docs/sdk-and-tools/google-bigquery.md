@@ -1,6 +1,7 @@
 ---
 id: google-bigquery
 title: Google BigQuery
+description: "Overview of MultiversX SDK and Tools google bigquery."
 ---
 
 [comment]: # "mx-abstract"

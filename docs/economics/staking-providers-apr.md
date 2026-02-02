@@ -1,6 +1,7 @@
 ---
 id: staking-providers-apr
 title: Staking Providers APR
+description: "Learn about staking providers apr in MultiversX."
 ---
 
 [comment]: # (mx-abstract)

@@ -1,6 +1,7 @@
 ---
 id: system-requirements
 title: System Requirements
+description: "Hardware, OS, storage and network requirements for running MultiversX validator nodes in production."
 ---
 
 [comment]: # (mx-abstract)

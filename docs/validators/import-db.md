@@ -1,6 +1,7 @@
 ---
 id: import-db
 title: Import DB
+description: "Run a node in import‑db mode to rebuild state and reprocess historical blocks and transactions."
 ---
 
 [comment]: # (mx-abstract)

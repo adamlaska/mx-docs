@@ -1,6 +1,7 @@
 ---
 id: devcontainers
 title: Devcontainers
+description: "Overview of MultiversX SDK and Tools devcontainers."
 ---
 
 [comment]: # (mx-abstract)

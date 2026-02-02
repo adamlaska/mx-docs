@@ -1,6 +1,7 @@
 ---
 id: managed-decimal
 title: Managed Decimal
+description: "Learn about managed decimal in MultiversX."
 ---
 
 [comment]: # (mx-context-auto)

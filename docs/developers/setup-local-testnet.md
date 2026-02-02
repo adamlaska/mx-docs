@@ -1,7 +1,9 @@
 ---
 id: setup-local-testnet
 title: Set up a Localnet (mxpy)
+description: "Learn about set up a localnet (mxpy) in MultiversX."
 ---
+
 [comment]: # (mx-abstract)
 
 This guide describes how to set up a local mini-testnet - also known as **localnet** - using **mxpy**. The purpose of a localnet is to allow developers experiment with and test their Smart Contracts, in addition to writing unit and integration tests.

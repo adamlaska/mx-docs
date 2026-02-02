@@ -1,6 +1,7 @@
 ---
 id: install-update
 title: Installing a Validator Node
+description: "Install and update a MultiversX validator node using the provided scripts (section deprecated in favor of unified scripts)."
 ---
 
 :::caution

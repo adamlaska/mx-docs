@@ -1,6 +1,7 @@
 ---
 id: account-storage
 title: Account storage
+description: "Learn about account storage in MultiversX."
 ---
 
 [comment]: # (mx-abstract)

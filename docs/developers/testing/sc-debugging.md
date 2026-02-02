@@ -1,6 +1,7 @@
 ---
 id: sc-debugging
 title: Smart Contract Debugging
+description: "Learn about smart contract debugging in MultiversX."
 ---
 
 [comment]: # (mx-abstract)
