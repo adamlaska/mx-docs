@@ -4,6 +4,10 @@
 - [ ] yes
 - [ ] no
 
+#### Did you regenerate static/llms.txt and static/llms-full.txt ? (happens at build time)
+- [ ] yes
+- [ ] no
+
 #### Which category (categories) does this pull request belong to?
 - [ ] document new feature
 - [ ] update documentation that is not relevant anymore
