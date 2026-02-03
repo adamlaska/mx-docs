@@ -1,6 +1,7 @@
 ---
 id: token-types
 title: Token Types
+description: "Bridge token configurations across MultiversX and EVM chains: mint/burn, lock/unlock, native vs non‑native, and their operational implications."
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';

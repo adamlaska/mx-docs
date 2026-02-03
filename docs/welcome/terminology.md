@@ -1,6 +1,7 @@
 ---
 id: terminology
 title: Terminology
+description: "Learn about terminology in MultiversX."
 ---
 
 **Metachain**: the blockchain that runs in a special shard, where the main responsibilities are not processing transactions,

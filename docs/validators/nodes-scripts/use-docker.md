@@ -1,6 +1,7 @@
 ---
 id: use-docker
 title: How to use the Docker Image
+description: "Deploy and manage MultiversX nodes with Docker using the provided scripts and images."
 ---
 
 [comment]: # (mx-abstract)

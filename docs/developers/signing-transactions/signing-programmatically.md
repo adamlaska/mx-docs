@@ -1,6 +1,7 @@
 ---
 id: signing-programmatically
 title: Signing programmatically
+description: "Learn about signing programmatically in MultiversX."
 ---
 
 In order to sign a transaction (or a message) using one of the SDKs, follow:

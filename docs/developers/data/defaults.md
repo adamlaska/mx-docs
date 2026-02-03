@@ -1,7 +1,9 @@
 ---
 id: defaults
 title: Defaults
+description: "Learn about defaults in MultiversX."
 ---
+
 [comment]: # (mx-abstract)
 
 Smart contracts occasionally need to interact with uninitialized data. Most notably, whenever a smart contract is deployed, its entire storage will be uninitialized.

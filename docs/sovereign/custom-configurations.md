@@ -1,3 +1,7 @@
+---
+description: "Learn about MultiversX Sovereign custom configurations."
+---
+
 # Custom Configurations
 
 ## Sovereign network customisations

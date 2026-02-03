@@ -1,3 +1,7 @@
+---
+description: "Learn about MultiversX Sovereign security."
+---
+
 # Security Considerations
 
 

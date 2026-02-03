@@ -1,6 +1,7 @@
 ---
 id: multiversx-ecosystem
 title: What is MultiversX?
+description: "What MultiversX is and how the ecosystem fits together: networks, apps, tooling and core concepts."
 ---
 
 [comment]: # (mx-abstract)

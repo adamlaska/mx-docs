@@ -1,6 +1,7 @@
 ---
 id: architecture
 title: Architecture
+description: "High-level architecture of the Ad‑Astra Bridge: core contracts on MultiversX and EVM chains, relayer quorum, and how cross‑chain transfers are coordinated."
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';

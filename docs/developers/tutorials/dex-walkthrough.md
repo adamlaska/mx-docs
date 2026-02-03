@@ -1,6 +1,7 @@
 ---
 id: dex-walkthrough
 title: DEX Walkthrough
+description: "Tutorial: DEX Walkthrough"
 ---
 
 [comment]: # (mx-abstract)

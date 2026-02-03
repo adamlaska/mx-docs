@@ -1,6 +1,7 @@
 ---
 id: es-index-operations
 title: operations
+description: "Overview of MultiversX SDK and Tools operations."
 ---
 
 [comment]: # (mx-abstract)

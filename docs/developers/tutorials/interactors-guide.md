@@ -1,6 +1,7 @@
 ---
 id: interactors-guide
 title: Deploy a SC in 5 minutes - SpaceCraft interactors
+description: "Tutorial: Deploy a SC in 5 minutes - SpaceCraft interactors"
 ---
 
 [comment]: # (mx-abstract)

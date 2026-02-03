@@ -1,6 +1,7 @@
 ---
 id: staking-smart-contract
 title: The Staking Smart Contract
+description: "Operations of the Staking system smart contract: staking, parameters, and example transactions for common tasks."
 ---
 
 [comment]: # (mx-abstract)

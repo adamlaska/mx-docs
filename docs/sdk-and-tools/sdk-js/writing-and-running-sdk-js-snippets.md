@@ -1,6 +1,7 @@
 ---
 id: writing-and-testing-sdk-js-interactions
 title: Writing and testing interactions
+description: "Overview of MultiversX SDK and Tools writing and testing interactions."
 ---
 
 [comment]: # (mx-exclude-file)

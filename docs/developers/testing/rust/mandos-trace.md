@@ -1,6 +1,7 @@
 ---
 id: mandos-trace
 title: Mandos traces
+description: "Learn about mandos traces in MultiversX."
 ---
 
 [comment]: # "mx-abstract"

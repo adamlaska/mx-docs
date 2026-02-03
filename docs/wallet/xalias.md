@@ -1,6 +1,7 @@
 ---
 id: xalias
 title: xAlias
+description: "xAlias single sign‑on for MultiversX: Google‑based onboarding, self‑custody with later conversion, and Web Wallet‑compatible integration hooks."
 ---
 
 [comment]: # (mx-abstract)

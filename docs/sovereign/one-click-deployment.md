@@ -1,3 +1,7 @@
+---
+description: "Learn about MultiversX Sovereign one click deployment."
+---
+
 # One-Click Deployment
 
 ## One-click local sovereign deployment in Digital Ocean

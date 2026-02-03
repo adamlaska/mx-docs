@@ -1,6 +1,7 @@
 ---
 id: wallet-keys
 title: Wallet Keys
+description: "Wallet keys used for staking and node management: types, usage and security considerations."
 ---
 
 [comment]: # (mx-abstract)

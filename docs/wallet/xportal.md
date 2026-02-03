@@ -1,6 +1,7 @@
 ---
 id: xportal
 title: xPortal
+description: "xPortal mobile app: secure wallet, token swaps, payments, missions, AI avatar creation and upcoming debit card features."
 ---
 
 [comment]: # (mx-abstract)

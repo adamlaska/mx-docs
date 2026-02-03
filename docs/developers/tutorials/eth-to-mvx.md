@@ -1,6 +1,7 @@
 ---
 id: eth-to-mvx
 title: Ethereum to MultiversX migration guide
+description: "Tutorial: Ethereum to MultiversX migration guide"
 ---
 
 [comment]: # (mx-abstract)

@@ -1,3 +1,7 @@
+---
+description: "Learn about MultiversX Sovereign cross chain execution."
+---
+
 # Introduction
 
 When we take a look at the blockchain industry, we observe a segregated ecosystem lacking cohesion, interoperability and teamwork. The vision lead to the Blockchain Revolution, knows as “Web3” — a new era of the internet that is user-centered, emphasizing data ownership and decentralized trust.
@@ -56,7 +60,7 @@ The source for the smart contracts can be found at the official [MultiversX Sove
 ## Sovereign Bridge Service
 This feature facilitates the execution of outgoing operations. This service is an application that receives Sovereign operations. After that, it will call the `execute_operation` endpoint from the `Mvx-ESDT-Safe` smart contract. The registration and execution of operations looks like this:
 
-- For N operations there is only one [register transaction](from-sovereign.md#registering-a-set-of-operations) inside the Header-Verifier smart contract.
-- N transactions for the [execution](from-sovereign.md#executing-an-operation) of N operations inside the ESDT-Safe smart contract, one execution transaction per operation.
+- For N operations there is only one [register transaction](mvx-esdt-safe.md#registering-a-set-of-operations) inside the Header-Verifier smart contract.
+- N transactions for the [execution](mvx-esdt-safe.md#executing-an-operation) of N operations inside the ESDT-Safe smart contract, one execution transaction per operation.
 
 > There can be one or more services deployed in the network at the same time.

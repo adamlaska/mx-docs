@@ -1,6 +1,7 @@
 ---
 id: overview
 title: Wallets - Overview
+description: "Overview of MultiversX wallets: Web Wallet, xPortal, Ledger and DeFi Wallet, with setup and usage guides."
 ---
 
 [comment]: # (mx-abstract)

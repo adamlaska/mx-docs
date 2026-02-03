@@ -1,6 +1,7 @@
 ---
 id: interactors-overview
 title: Interactors Overview
+description: "Learn about interactors in MultiversX."
 ---
 
 [comment]: # (mx-abstract)

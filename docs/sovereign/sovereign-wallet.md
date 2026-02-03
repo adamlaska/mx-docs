@@ -1,3 +1,7 @@
+---
+description: "Learn about MultiversX Sovereign sovereign wallet."
+---
+
 # Wallet service
 
 ## Deploy Lite Wallet

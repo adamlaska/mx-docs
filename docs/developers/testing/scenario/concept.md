@@ -1,6 +1,7 @@
 ---
 id: concept
 title: Concept
+description: "Learn about concept in MultiversX."
 ---
 
 [comment]: # (mx-context-auto)

@@ -1,8 +1,8 @@
 ---
 id: tx-legacy-calls
 title: Legacy SC calls
+description: "Learn about legacy sc calls in MultiversX."
 ---
-
 
 [comment]: # (mx-abstract)
 
@@ -817,4 +817,3 @@ Note the `.contract(...)` method call.
 Just like deploy, upgrade also comes in two flavors:
 - `.upgrade_contract(code, code_metadata)` - upgrades the target contract to the new code and sets the new code metadata.
 - `.upgrade_from_source(source_address, code_metadata)` - updates the target contract with the same code as the code of the contract at `source_address`.
-

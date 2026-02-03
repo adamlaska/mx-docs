@@ -1,6 +1,7 @@
 ---
 id: observing-squad
 title: Observing Squad
+description: "Observing Squad service: high‑availability access to network data for integrators and data providers."
 ---
 
 [comment]: # (mx-abstract)

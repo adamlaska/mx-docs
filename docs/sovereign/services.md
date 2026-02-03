@@ -1,3 +1,7 @@
+---
+description: "Learn about MultiversX Sovereign services."
+---
+
 # Introduction
 
 ## Sovereign services

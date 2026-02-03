@@ -1,6 +1,7 @@
 ---
 id: testing-in-go
 title: Testing in Go
+description: "Learn about testing in go in MultiversX."
 ---
 
 [comment]: # (mx-abstract)

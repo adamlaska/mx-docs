@@ -1,6 +1,7 @@
 ---
 id: tx-migration
 title: Migration
+description: "Learn about migration in MultiversX."
 ---
 
 [comment]: # (mx-abstract)

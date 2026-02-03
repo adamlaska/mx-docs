@@ -1,6 +1,7 @@
 ---
 id: tx-overview
 title: Transaction Overview
+description: "Learn about transaction in MultiversX."
 ---
 
 [comment]: # (mx-abstract)

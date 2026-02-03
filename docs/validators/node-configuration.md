@@ -1,6 +1,7 @@
 ---
 id: node-configuration
 title: Node Configuration
+description: "Configure MultiversX validator nodes: key configuration files, what they control, safe parameters to adjust, and constraints tied to network consensus."
 ---
 
 [comment]: # (mx-context-auto)

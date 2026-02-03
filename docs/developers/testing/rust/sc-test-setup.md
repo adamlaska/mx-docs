@@ -1,6 +1,7 @@
 ---
 id: sc-test setup
 title: Test setup
+description: "Learn about test setup in MultiversX."
 ---
 
 [comment]: # "mx-abstract"

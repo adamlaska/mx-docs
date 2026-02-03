@@ -1,3 +1,7 @@
+---
+description: "Learn about MultiversX Sovereign local setup."
+---
+
 # Full Local Setup
 
 ## Deploy local Sovereign Chain

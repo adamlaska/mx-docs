@@ -1,7 +1,9 @@
 ---
 id: generating-scenarios
 title: Generating scenarios
+description: "Learn about generating scenarios in MultiversX."
 ---
+
 [comment]: # (mx-abstract)
 
 There are currently several ways to generate scenarios.

@@ -1,3 +1,7 @@
+---
+description: "Learn about MultiversX Sovereign sov esdt safe."
+---
+
 # Sov-ESDT-Safe
 ![From Sovereign](../../static/sovereign/from-sovereign.png)
 

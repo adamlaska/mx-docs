@@ -1,0 +1,290 @@
+# MultiversX Docs
+
+> A highly scalable, fast and secure blockchain platform for distributed apps, enterprise use cases and the new internet economy.
+MultiversX is a highly scalable, fast and secure blockchain platform. This documentation covers architecture, smart contracts, SDKs, APIs, wallets, validators, and the broader ecosystem.
+This documentation is organized into major sections. Each section includes tutorials, examples, and detailed technical references.
+
+## Welcome to MultiversX
+- [Welcome to MultiversX](https://docs.multiversx.com/welcome/welcome-to-multiversx): Learn about welcome to multiversx in MultiversX.
+
+## Learn about MultiversX
+- [AI agents](https://docs.multiversx.com/learn/ai-agents): Learn how to use AI agents for your MultiversX projects
+- [Architecture Overview](https://docs.multiversx.com/learn/architecture-overview): Overview of architecture in MultiversX.
+- [Chronology](https://docs.multiversx.com/learn/chronology): Time structure in MultiversX: rounds, epochs and how they govern block production and finality.
+- [Consensus](https://docs.multiversx.com/learn/consensus): Secure Proof‑of‑Stake (SPoS) in MultiversX: validator selection, randomness, BLS aggregation and single‑block finality.
+- [Economics](https://docs.multiversx.com/learn/economics): Economics of MultiversX: token supply, fees, rewards, inflation and distribution mechanics.
+- [Entities](https://docs.multiversx.com/learn/entities): Core entities in MultiversX: users, accounts, nodes and how they interact on‑chain.
+- [Getting Started](https://docs.multiversx.com/learn/getting-started): Overview of getting started in MultiversX.
+- [MultiversX Virtual Machine (SpaceVM)](https://docs.multiversx.com/learn/space-vm): The MultiversX Virtual Machine (SpaceVM): WASM execution, Rust framework support and performance characteristics.
+- [Sharding](https://docs.multiversx.com/learn/sharding): Overview of sharding in MultiversX.
+- [Transactions](https://docs.multiversx.com/learn/transactions): Overview of transactions in MultiversX.
+- [What is EGLD?](https://docs.multiversx.com/learn/EGLD): Overview of egld in MultiversX.
+- [What is MultiversX?](https://docs.multiversx.com/learn/multiversx-ecosystem): What MultiversX is and how the ecosystem fits together: networks, apps, tooling and core concepts.
+
+## Developers
+- [ABI](https://docs.multiversx.com/developers/data/abi): Learn about abi in MultiversX.
+- [Account storage](https://docs.multiversx.com/developers/account-storage): Learn about account storage in MultiversX.
+- [accounts](https://docs.multiversx.com/sdk-and-tools/indices/accounts): Overview of MultiversX SDK and Tools accounts.
+- [accountsesdt](https://docs.multiversx.com/sdk-and-tools/indices/accountsesdt): Overview of MultiversX SDK and Tools accountsesdt.
+- [accountsesdthistory](https://docs.multiversx.com/sdk-and-tools/indices/accountsesdthistory): Overview of MultiversX SDK and Tools accountsesdthistory.
+- [accountshistory](https://docs.multiversx.com/sdk-and-tools/indices/accountshistory): Overview of MultiversX SDK and Tools accountshistory.
+- [Basics](https://docs.multiversx.com/developers/best-practices/best-practices-basics): Learn about basics in MultiversX.
+- [BigUint Operations](https://docs.multiversx.com/developers/best-practices/biguint-operations): Learn about biguint operations in MultiversX.
+- [Blackbox calls](https://docs.multiversx.com/developers/testing/rust/sc-blackbox-calls): Learn about blackbox calls in MultiversX.
+- [Blackbox example](https://docs.multiversx.com/developers/testing/rust/sc-blackbox-example): Learn about blackbox example in MultiversX.
+- [blocks](https://docs.multiversx.com/sdk-and-tools/indices/blocks): Overview of MultiversX SDK and Tools blocks.
+- [Build a dApp in 15 minutes](https://docs.multiversx.com/developers/tutorials/your-first-dapp): Tutorial: Build a dApp in 15 minutes
+- [Build a Microservice for your dApp](https://docs.multiversx.com/developers/tutorials/your-first-microservice): Tutorial: Build a Microservice for your dApp
+- [Build Reference](https://docs.multiversx.com/developers/meta/sc-build-reference): Learn about build reference in MultiversX.
+- [Built-In Functions](https://docs.multiversx.com/developers/built-in-functions): Learn about built-in functions in MultiversX.
+- [C++ SDK](https://docs.multiversx.com/sdk-and-tools/erdcpp): Overview of MultiversX SDK and Tools c++ sdk.
+- [Chain simulator](https://docs.multiversx.com/sdk-and-tools/chain-simulator): Overview of MultiversX SDK and Tools chain simulator.
+- [Chain Simulator in Adder - SpaceCraft interactors](https://docs.multiversx.com/developers/tutorials/chain-simulator-adder): Tutorial: Chain Simulator in Adder - SpaceCraft interactors
+- [CLI](https://docs.multiversx.com/developers/meta/sc-meta-cli): Learn about cli in MultiversX.
+- [Code Metadata](https://docs.multiversx.com/developers/data/code-metadata): Learn about code metadata in MultiversX.
+- [Composite Values](https://docs.multiversx.com/developers/data/composite-values): Learn about composite values in MultiversX.
+- [Concept](https://docs.multiversx.com/developers/testing/scenario/concept): Learn about concept in MultiversX.
+- [Configuration](https://docs.multiversx.com/developers/meta/sc-config): Learn about configuration in MultiversX.
+- [Constants](https://docs.multiversx.com/developers/constants): Learn about constants in MultiversX.
+- [Cookbook (v14)](https://docs.multiversx.com/sdk-and-tools/sdk-js/sdk-js-cookbook-v14): Overview of MultiversX SDK and Tools cookbook (v14).
+- [Cookbook (v15)](https://docs.multiversx.com/sdk-and-tools/sdk-js/sdk-js-cookbook-v15): Overview of MultiversX SDK and Tools cookbook (v15).
+- [Core Logic](https://docs.multiversx.com/developers/tutorials/crowdfunding/crowdfunding-p2): Tutorial: Core Logic
+- [Creating Wallets](https://docs.multiversx.com/developers/creating-wallets): Learn about creating wallets in MultiversX.
+- [Custom Types](https://docs.multiversx.com/developers/data/custom-types): Learn about custom types in MultiversX.
+- [Defaults](https://docs.multiversx.com/developers/data/defaults): Learn about defaults in MultiversX.
+- [delegators](https://docs.multiversx.com/sdk-and-tools/indices/delegators): Overview of MultiversX SDK and Tools delegators.
+- [Deploy a SC in 5 minutes - SpaceCraft interactors](https://docs.multiversx.com/developers/tutorials/interactors-guide): Tutorial: Deploy a SC in 5 minutes - SpaceCraft interactors
+- [Devcontainers](https://docs.multiversx.com/sdk-and-tools/devcontainers): Overview of MultiversX SDK and Tools devcontainers.
+- [Developers - Overview](https://docs.multiversx.com/developers/overview): Learn about developers - in MultiversX.
+- [DEX Walkthrough](https://docs.multiversx.com/developers/tutorials/dex-walkthrough): Tutorial: DEX Walkthrough
+- [EGLD transfers (move balance transactions)](https://docs.multiversx.com/developers/gas-and-fees/egld-transfers): Learn about egld transfers (move balance transactions) in MultiversX.
+- [Elasticindexer service](https://docs.multiversx.com/sdk-and-tools/elastic-indexer): Overview of MultiversX SDK and Tools elasticindexer service.
+- [Elasticsearch](https://docs.multiversx.com/sdk-and-tools/elastic-search): Overview of MultiversX SDK and Tools elasticsearch.
+- [Energy DAO SC tutorial](https://docs.multiversx.com/developers/tutorials/energy-dao): Tutorial: Energy DAO SC tutorial
+- [Environments](https://docs.multiversx.com/developers/transactions/tx-env): Learn about environments in MultiversX.
+- [epochinfo](https://docs.multiversx.com/sdk-and-tools/indices/epochinfo): Overview of MultiversX SDK and Tools epochinfo.
+- [ESDT Operations Events](https://docs.multiversx.com/developers/event-logs/esdt-events): Learn about esdt operations events in MultiversX.
+- [Ethereum to MultiversX migration guide](https://docs.multiversx.com/developers/tutorials/eth-to-mvx): Tutorial: Ethereum to MultiversX migration guide
+- [events](https://docs.multiversx.com/sdk-and-tools/indices/events): Overview of MultiversX SDK and Tools events.
+- [Events notifier](https://docs.multiversx.com/sdk-and-tools/notifier): Overview of MultiversX SDK and Tools events notifier.
+- [Execution Events](https://docs.multiversx.com/developers/event-logs/execution-events): Learn about execution events in MultiversX.
+- [Extend to Any Token](https://docs.multiversx.com/developers/tutorials/crowdfunding/crowdfunding-p3): Tutorial: Extend to Any Token
+- [Extending sdk-js](https://docs.multiversx.com/sdk-and-tools/sdk-js/extending-sdk-js): Overview of MultiversX SDK and Tools extending sdk-js.
+- [Final Code](https://docs.multiversx.com/developers/tutorials/crowdfunding/final-code): Tutorial: Final Code
+- [Fix IDEs configuration](https://docs.multiversx.com/sdk-and-tools/troubleshooting/ide-setup): Overview of MultiversX SDK and Tools fix ides configuration.
+- [Fix Rust installation](https://docs.multiversx.com/sdk-and-tools/troubleshooting/rust-setup): Overview of MultiversX SDK and Tools fix rust installation.
+- [Fungible tokens](https://docs.multiversx.com/tokens/fungible-tokens): ESDT fungible tokens: issuance, configuration properties, permissions, and on‑chain usage.
+- [Gas](https://docs.multiversx.com/developers/transactions/tx-gas): Learn about gas in MultiversX.
+- [Gateway overview](https://docs.multiversx.com/sdk-and-tools/rest-api/gateway-overview): Overview of MultiversX SDK and Tools gateway.
+- [Generating scenarios](https://docs.multiversx.com/developers/testing/scenario/generating-scenarios): Learn about generating scenarios in MultiversX.
+- [Go SDK](https://docs.multiversx.com/sdk-and-tools/sdk-go): Overview of MultiversX SDK and Tools go sdk.
+- [Google BigQuery](https://docs.multiversx.com/sdk-and-tools/google-bigquery): Overview of MultiversX SDK and Tools google bigquery.
+- [Guard accounts](https://docs.multiversx.com/developers/guard-accounts): Learn about guard accounts in MultiversX.
+- [Guardians](https://docs.multiversx.com/sdk-and-tools/sdk-dapp/internal-processes/guardians): Overview of MultiversX SDK and Tools guardians.
+- [How to fix Elasticsearch mapping errors](https://docs.multiversx.com/sdk-and-tools/elastic-search-wrong-mappings-fix): Overview of MultiversX SDK and Tools how to fix elasticsearch mapping errors.
+- [Installing mxpy](https://docs.multiversx.com/sdk-and-tools/mxpy/installing-mxpy): Overview of MultiversX SDK and Tools installing mxpy.
+- [Interactors Example](https://docs.multiversx.com/developers/meta/interactor/interactors-example): Learn about interactors example in MultiversX.
+- [Interactors Overview](https://docs.multiversx.com/developers/meta/interactor/interactors-overview): Learn about interactors in MultiversX.
+- [Intro to ESDT](https://docs.multiversx.com/tokens/intro): Introduction to ESDT token standards on MultiversX: fungible, non‑fungible and semi‑fungible basics.
+- [Iterate keys](https://docs.multiversx.com/sdk-and-tools/rest-api/iterate-keys): Overview of MultiversX SDK and Tools iterate keys.
+- [Java SDK](https://docs.multiversx.com/sdk-and-tools/mxjava): Overview of MultiversX SDK and Tools java sdk.
+- [JSON Structure](https://docs.multiversx.com/developers/testing/scenario/structure-json): Learn about json structure in MultiversX.
+- [Kotlin SDK](https://docs.multiversx.com/sdk-and-tools/erdkotlin): Overview of MultiversX SDK and Tools kotlin sdk.
+- [Legacy SC calls](https://docs.multiversx.com/developers/transactions/tx-legacy-calls): Learn about legacy sc calls in MultiversX.
+- [logs](https://docs.multiversx.com/sdk-and-tools/indices/logs): Overview of MultiversX SDK and Tools logs.
+- [Managed Decimal](https://docs.multiversx.com/developers/best-practices/managed-decimal): Learn about managed decimal in MultiversX.
+- [Memory allocation](https://docs.multiversx.com/developers/meta/sc-allocator): Learn about memory allocation in MultiversX.
+- [Messages](https://docs.multiversx.com/developers/developer-reference/sc-messages): Learn about messages in MultiversX.
+- [Migration](https://docs.multiversx.com/developers/transactions/tx-migration): Learn about migration in MultiversX.
+- [miniblocks](https://docs.multiversx.com/sdk-and-tools/indices/miniblocks): Overview of MultiversX SDK and Tools miniblocks.
+- [Multi-Values](https://docs.multiversx.com/developers/data/multi-values): Learn about multi-values in MultiversX.
+- [MultiversX API](https://docs.multiversx.com/sdk-and-tools/rest-api/multiversx-api): Overview of MultiversX SDK and Tools multiversx api.
+- [MultiversX API WebSocket](https://docs.multiversx.com/sdk-and-tools/rest-api/ws-subscriptions): Overview of MultiversX SDK and Tools multiversx api websocket.
+- [MultiversX Smart Contracts](https://docs.multiversx.com/developers/smart-contracts): Learn about multiversx smart contracts in MultiversX.
+- [MultiversX Smart Contracts API limits](https://docs.multiversx.com/developers/contract-api-limits): Learn about multiversx smart contracts api limits in MultiversX.
+- [MultiversX tools on multiple platforms](https://docs.multiversx.com/sdk-and-tools/troubleshooting/multiplatform): Overview of MultiversX SDK and Tools multiversx tools on multiple platforms.
+- [mxpy CLI cookbook](https://docs.multiversx.com/sdk-and-tools/mxpy/mxpy-cli): Overview of MultiversX SDK and Tools mxpy cli cookbook.
+- [NestJS SDK](https://docs.multiversx.com/sdk-and-tools/sdk-nestjs/sdk-nestjs): Overview of MultiversX SDK and Tools nestjs sdk.
+- [NestJS SDK Auth utilities](https://docs.multiversx.com/sdk-and-tools/sdk-nestjs/sdk-nestjs-auth): Overview of MultiversX SDK and Tools nestjs sdk auth utilities.
+- [NestJS SDK Cache utilities](https://docs.multiversx.com/sdk-and-tools/sdk-nestjs/sdk-nestjs-cache): Overview of MultiversX SDK and Tools nestjs sdk cache utilities.
+- [NestJS SDK Monitoring utilities](https://docs.multiversx.com/sdk-and-tools/sdk-nestjs/sdk-nestjs-monitoring): Overview of MultiversX SDK and Tools nestjs sdk monitoring utilities.
+- [NFT & SFT tokens](https://docs.multiversx.com/tokens/nft-tokens): NFTs and SFTs on MultiversX: issuance, roles, properties, transfer mechanics and branding best practices.
+- [operations](https://docs.multiversx.com/sdk-and-tools/indices/operations): Overview of MultiversX SDK and Tools operations.
+- [Overview](https://docs.multiversx.com/developers/testing/rust/sc-test-overview): Learn about sc test overview in MultiversX.
+- [Overview](https://docs.multiversx.com/sdk-and-tools/troubleshooting/troubleshooting): Overview of MultiversX SDK and Tools troubleshooting.
+- [Overview](https://docs.multiversx.com/developers/gas-and-fees/overview): Learn about overview in MultiversX.
+- [Payload (data)](https://docs.multiversx.com/developers/transactions/tx-data): Learn about payload (data) in MultiversX.
+- [Payments](https://docs.multiversx.com/developers/transactions/tx-payment): Learn about payments in MultiversX.
+- [Preparing SCs for Supernova](https://docs.multiversx.com/developers/best-practices/prepare-sc-supernova): Learn about preparing scs for supernova in MultiversX.
+- [Proxies](https://docs.multiversx.com/developers/transactions/tx-proxies): Learn about proxies in MultiversX.
+- [Proxy architecture](https://docs.multiversx.com/sdk-and-tools/proxy): Overview of MultiversX SDK and Tools proxy architecture.
+- [Python SDK](https://docs.multiversx.com/sdk-and-tools/sdk-py): Overview of MultiversX SDK and Tools python sdk.
+- [Random Numbers in Smart Contracts](https://docs.multiversx.com/developers/developer-reference/sc-random-numbers): Learn about random numbers in smart contracts in MultiversX.
+- [rating](https://docs.multiversx.com/sdk-and-tools/indices/rating): Overview of MultiversX SDK and Tools rating.
+- [React Development](https://docs.multiversx.com/developers/guidelines/react-development): Learn about react development in MultiversX.
+- [receipts](https://docs.multiversx.com/sdk-and-tools/indices/receipts): Overview of MultiversX SDK and Tools receipts.
+- [Receiver](https://docs.multiversx.com/developers/transactions/tx-to): Learn about receiver in MultiversX.
+- [Relayed Transactions](https://docs.multiversx.com/developers/relayed-transactions): Learn about relayed transactions in MultiversX.
+- [Reproducible Builds](https://docs.multiversx.com/developers/reproducible-contract-builds): Learn about reproducible builds in MultiversX.
+- [Rest API Addresses](https://docs.multiversx.com/sdk-and-tools/rest-api/addresses): Overview of MultiversX SDK and Tools addresses.
+- [Rest API Blocks](https://docs.multiversx.com/sdk-and-tools/rest-api/blocks): Overview of MultiversX SDK and Tools blocks.
+- [Rest API Network](https://docs.multiversx.com/sdk-and-tools/rest-api/network): Overview of MultiversX SDK and Tools network.
+- [Rest API Nodes](https://docs.multiversx.com/sdk-and-tools/rest-api/nodes): Overview of MultiversX SDK and Tools nodes.
+- [REST API overview](https://docs.multiversx.com/sdk-and-tools/rest-api/rest-api): Overview of MultiversX SDK and Tools rest api.
+- [Rest API Transactions](https://docs.multiversx.com/sdk-and-tools/rest-api/transactions): Overview of MultiversX SDK and Tools transactions.
+- [Rest API Virtual Machine](https://docs.multiversx.com/sdk-and-tools/rest-api/virtual-machine): Overview of MultiversX SDK and Tools virtual machine.
+- [Result Handlers](https://docs.multiversx.com/developers/transactions/tx-result-handlers): Learn about result handlers in MultiversX.
+- [rounds](https://docs.multiversx.com/sdk-and-tools/indices/rounds): Overview of MultiversX SDK and Tools rounds.
+- [Run transactions](https://docs.multiversx.com/developers/transactions/tx-run): Learn about run transactions in MultiversX.
+- [Running scenarios](https://docs.multiversx.com/developers/testing/scenario/running-scenarios): Learn about running scenarios in MultiversX.
+- [Rust SDK](https://docs.multiversx.com/sdk-and-tools/sdk-rust): Overview of MultiversX SDK and Tools rust sdk.
+- [Rust Version](https://docs.multiversx.com/developers/meta/rust-version): Learn about rust version in MultiversX.
+- [SC to SC Calls](https://docs.multiversx.com/developers/developer-reference/sc-to-sc-calls): Learn about sc to sc calls in MultiversX.
+- [scdeploys](https://docs.multiversx.com/sdk-and-tools/indices/scdeploys): Overview of MultiversX SDK and Tools scdeploys.
+- [Scenario Complex Values](https://docs.multiversx.com/developers/testing/scenario/values-complex): Learn about scenario complex values in MultiversX.
+- [Scenario Simple Values](https://docs.multiversx.com/developers/testing/scenario/values-simple): Learn about scenario simple values in MultiversX.
+- [scresults](https://docs.multiversx.com/sdk-and-tools/indices/scresults): Overview of MultiversX SDK and Tools scresults.
+- [sdk-dapp](https://docs.multiversx.com/sdk-and-tools/sdk-dapp/sdk-dapp): Overview of MultiversX SDK and Tools sdk-dapp.
+- [sdk-js](https://docs.multiversx.com/sdk-and-tools/sdk-js/sdk-js): Overview of MultiversX SDK and Tools sdk-js.
+- [SDKs and Tools - Overview](https://docs.multiversx.com/sdk-and-tools/overview): Overview of MultiversX SDK and Tools sdks and tools -.
+- [Sender](https://docs.multiversx.com/developers/transactions/tx-from): Learn about sender in MultiversX.
+- [Set up a Localnet (mxpy)](https://docs.multiversx.com/developers/setup-local-testnet): Learn about set up a localnet (mxpy) in MultiversX.
+- [Set up a Localnet (raw)](https://docs.multiversx.com/developers/setup-local-testnet-advanced): Learn about set up a localnet (raw) in MultiversX.
+- [Setup & Basics](https://docs.multiversx.com/developers/tutorials/crowdfunding/crowdfunding-p1): Tutorial: Setup & Basics
+- [Signing programmatically](https://docs.multiversx.com/developers/signing-transactions/signing-programmatically): Learn about signing programmatically in MultiversX.
+- [Signing Providers for dApps](https://docs.multiversx.com/sdk-and-tools/sdk-js/sdk-js-signing-providers): Overview of MultiversX SDK and Tools signing providers for dapps.
+- [Signing Transactions](https://docs.multiversx.com/developers/signing-transactions/signing-transactions): Learn about signing transactions in MultiversX.
+- [Simple Values](https://docs.multiversx.com/developers/data/simple-values): Learn about simple values in MultiversX.
+- [Smart contract annotations](https://docs.multiversx.com/developers/developer-reference/sc-annotations): Learn about smart contract annotations in MultiversX.
+- [Smart Contract API Functions](https://docs.multiversx.com/developers/developer-reference/sc-api-functions): Learn about smart contract api functions in MultiversX.
+- [Smart Contract Call Events](https://docs.multiversx.com/developers/event-logs/contract-call-events): Learn about smart contract call events in MultiversX.
+- [Smart Contract Calls Data Format](https://docs.multiversx.com/developers/sc-calls-format): Learn about smart contract calls data format in MultiversX.
+- [Smart Contract Debugging](https://docs.multiversx.com/developers/testing/sc-debugging): Learn about smart contract debugging in MultiversX.
+- [Smart Contract Deploy Events](https://docs.multiversx.com/developers/event-logs/contract-deploy-events): Learn about smart contract deploy events in MultiversX.
+- [Smart contract interactions](https://docs.multiversx.com/sdk-and-tools/mxpy/smart-contract-interactions): Overview of MultiversX SDK and Tools smart contract interactions.
+- [Smart contract modules](https://docs.multiversx.com/developers/developer-reference/sc-modules): Learn about smart contract modules in MultiversX.
+- [Smart contract payments](https://docs.multiversx.com/developers/developer-reference/sc-payments): Learn about smart contract payments in MultiversX.
+- [Staking smart contract](https://docs.multiversx.com/developers/tutorials/staking-contract): Tutorial: Staking smart contract
+- [Storage Mappers](https://docs.multiversx.com/developers/developer-reference/storage-mappers): Learn about storage mappers in MultiversX.
+- [System Delegation Events](https://docs.multiversx.com/developers/event-logs/system-delegation-events): Learn about system delegation events in MultiversX.
+- [System Smart Contracts](https://docs.multiversx.com/developers/gas-and-fees/system-smart-contracts): Learn about system smart contracts in MultiversX.
+- [tags](https://docs.multiversx.com/sdk-and-tools/indices/tags): Overview of MultiversX SDK and Tools tags.
+- [Test setup](https://docs.multiversx.com/developers/testing/rust/sc-test-setup): Learn about test setup in MultiversX.
+- [Testing in Go](https://docs.multiversx.com/developers/testing/testing-in-go): Learn about testing in go in MultiversX.
+- [Testing Overview](https://docs.multiversx.com/developers/testing/testing-overview): Learn about testing in MultiversX.
+- [The dynamic allocation problem](https://docs.multiversx.com/developers/best-practices/the-dynamic-allocation-problem): Learn about the dynamic allocation problem in MultiversX.
+- [The MultiversX Serialization Format](https://docs.multiversx.com/developers/data/serialization-overview): Learn about the multiversx serialization format in MultiversX.
+- [Time-related Types](https://docs.multiversx.com/developers/best-practices/time-types): Learn about time-related types in MultiversX.
+- [tokens](https://docs.multiversx.com/sdk-and-tools/indices/tokens): Overview of MultiversX SDK and Tools tokens.
+- [Toolchain Setup](https://docs.multiversx.com/developers/toolchain-setup): Learn about toolchain setup in MultiversX.
+- [Tooling Overview](https://docs.multiversx.com/developers/meta/sc-meta): Learn about tooling in MultiversX.
+- [Tools for signing](https://docs.multiversx.com/developers/signing-transactions/tools-for-signing): Learn about tools for signing in MultiversX.
+- [Transaction Overview](https://docs.multiversx.com/developers/transactions/tx-overview): Learn about transaction in MultiversX.
+- [transactions](https://docs.multiversx.com/sdk-and-tools/indices/transactions): Overview of MultiversX SDK and Tools transactions.
+- [Upgrading smart contracts](https://docs.multiversx.com/developers/developer-reference/upgrading-smart-contracts): Learn about upgrading smart contracts in MultiversX.
+- [User-defined Smart Contracts](https://docs.multiversx.com/developers/gas-and-fees/user-defined-smart-contracts): Learn about user-defined smart contracts in MultiversX.
+- [validators](https://docs.multiversx.com/sdk-and-tools/indices/validators): Overview of MultiversX SDK and Tools validators.
+- [Versions and Changelog](https://docs.multiversx.com/sdk-and-tools/rest-api/versions-and-changelog): Overview of MultiversX SDK and Tools versions and changelog.
+- [WalletConnect 2.0 Migration](https://docs.multiversx.com/developers/tutorials/wallet-connect-v2-migration): Tutorial: WalletConnect 2.0 Migration
+- [Whitebox Framework](https://docs.multiversx.com/developers/testing/rust/whitebox-legacy): Learn about whitebox framework in MultiversX.
+- [Whitebox Functions Reference](https://docs.multiversx.com/developers/testing/rust/whitebox-legacy-functions-reference): Learn about whitebox functions reference in MultiversX.
+- [Writing and testing interactions](https://docs.multiversx.com/sdk-and-tools/sdk-js/writing-and-running-sdk-js-snippets): Overview of MultiversX SDK and Tools writing and testing interactions.
+
+## Validators
+- [Convert An Existing Validator Into A Staking Provider](https://docs.multiversx.com/validators/staking/convert-existing-validator-into-staking-provider): Convert a validator into a staking provider under Staking Phase 3.5: deploy a delegation contract and migrate without losing validator slots.
+- [FAQs](https://docs.multiversx.com/validators/faq): Frequently asked questions for validators and node operators: setup, operations, staking and troubleshooting.
+- [How to use the Docker Image](https://docs.multiversx.com/validators/nodes-scripts/use-docker): Deploy and manage MultiversX nodes with Docker using the provided scripts and images.
+- [Import DB](https://docs.multiversx.com/validators/import-db): Run a node in import‑db mode to rebuild state and reprocess historical blocks and transactions.
+- [Installing a Validator Node](https://docs.multiversx.com/validators/nodes-scripts/install-update): Install and update validator nodes via the script menu: installation, upgrades and maintenance actions.
+- [Manage a validator node](https://docs.multiversx.com/validators/nodes-scripts/manage-node): Manage validator nodes with scripts: start/stop, upgrades, database operations and routine maintenance.
+- [Merging A Validator Into An Existing Delegation Smart Contract](https://docs.multiversx.com/validators/staking/merge-validator-delegation-sc): Merge a standalone validator into an existing delegation smart contract: whitelist, merge transaction and operational notes.
+- [Multikey nodes management](https://docs.multiversx.com/validators/key-management/multikey-nodes): Manage multiple validator keys across node groups: architecture, setup and operational procedures.
+- [MultiversX Node upgrades](https://docs.multiversx.com/validators/node-upgrades): Plan and execute MultiversX node upgrades safely: scheduling, compatibility considerations, and operational steps.
+- [Node CLI](https://docs.multiversx.com/validators/node-cli): Node command‑line flags and utilities from mx‑chain‑go: startup options, configuration, debugging and maintenance.
+- [Node Configuration](https://docs.multiversx.com/validators/node-configuration): Configure MultiversX validator nodes: key configuration files, what they control, safe parameters to adjust, and constraints tied to network consensus.
+- [Node Databases](https://docs.multiversx.com/validators/node-databases): Overview of node databases: key‑value stores, what data they contain, and how they are used by the protocol.
+- [Node operation modes](https://docs.multiversx.com/validators/operation-modes): Supported node operation modes and configuration patterns for observers, validators, and specialized roles.
+- [Node redundancy](https://docs.multiversx.com/validators/redundancy): High‑availability setups for validator nodes: standby instances, failover strategies, and configuration guidance.
+- [Protecting your keys](https://docs.multiversx.com/validators/key-management/protect-keys): Best practices for securing validator and wallet keys: storage, access control, rotation and recovery.
+- [Rating](https://docs.multiversx.com/validators/rating): Validator rating system: how scores are computed, how they influence consensus selection, and how to recover from penalties.
+- [Scripts & User config](https://docs.multiversx.com/validators/nodes-scripts/config-scripts): Install and configure MultiversX nodes using mx‑chain‑scripts: prerequisites, configuration and setup.
+- [Staking & Unstaking](https://docs.multiversx.com/validators/staking/staking): Stake and unstake validator nodes: prerequisites, transactions, reward addresses and operational workflow.
+- [Staking Providers](https://docs.multiversx.com/validators/delegation-manager): Guidance for MultiversX validators: staking providers.
+- [Staking Providers APR](https://docs.multiversx.com/economics/staking-providers-apr): Learn about staking providers apr in MultiversX.
+- [Staking v4](https://docs.multiversx.com/validators/staking-v4): What’s new in Staking v4: protocol changes, validator impact, reward mechanics and migration notes.
+- [System Requirements](https://docs.multiversx.com/validators/system-requirements): Hardware, OS, storage and network requirements for running MultiversX validator nodes in production.
+- [The Staking Smart Contract](https://docs.multiversx.com/validators/staking/staking-smart-contract): Operations of the Staking system smart contract: staking, parameters, and example transactions for common tasks.
+- [Unjailing](https://docs.multiversx.com/validators/staking/unjailing): Guidance for MultiversX validators: unjailing.
+- [Useful Links & Tools](https://docs.multiversx.com/validators/useful-links-tools): Curated links, documentation and utilities helpful for MultiversX validators and node operators.
+- [Validator Keys](https://docs.multiversx.com/validators/key-management/validator-keys): Validator keys: purpose, generation, secure handling and usage in consensus.
+- [Validators - Overview](https://docs.multiversx.com/validators/overview): Overview of MultiversX validator nodes, responsibilities, lifecycle, tooling and operational workflows.
+- [Wallet Keys](https://docs.multiversx.com/validators/key-management/wallet-keys): Wallet keys used for staking and node management: types, usage and security considerations.
+
+## Integrators
+- [Accounts Management](https://docs.multiversx.com/integrators/accounts-management): Learn about MultiversX Integrators accounts management.
+- [Advanced Observer Settings](https://docs.multiversx.com/integrators/advanced-observer-settings): Learn about MultiversX Integrators advanced observer settings.
+- [Creating Transactions](https://docs.multiversx.com/integrators/creating-transactions): Learn about MultiversX Integrators creating transactions.
+- [Deep History Squad](https://docs.multiversx.com/integrators/deep-history-squad): Access deep historical blockchain data via the Deep History Squad: use cases, endpoints and integration guidance.
+- [EGLD integration guide](https://docs.multiversx.com/integrators/egld-integration-guide): Integrate EGLD into exchanges and wallets: addresses, transactions, fees, confirmations and best practices.
+- [ESDT tokens integration guide](https://docs.multiversx.com/integrators/esdt-tokens-integration-guide): Learn about MultiversX Integrators esdt tokens integration guide.
+- [Frequently Asked Questions](https://docs.multiversx.com/integrators/faq): Common integration questions: accounts, consensus, sharding, network parameters and API usage.
+- [Integrators - Overview](https://docs.multiversx.com/integrators/overview): Learn about MultiversX Integrators integrators -.
+- [Observing Squad](https://docs.multiversx.com/integrators/observing-squad): Observing Squad service: high‑availability access to network data for integrators and data providers.
+- [Querying the Blockchain](https://docs.multiversx.com/integrators/querying-the-blockchain): Learn about MultiversX Integrators querying the blockchain.
+- [Snapshotless Observing Squad](https://docs.multiversx.com/integrators/snapshotless-observing-squad): Learn about MultiversX Integrators snapshotless observing squad.
+- [WalletConnect JSON-RPC Methods](https://docs.multiversx.com/integrators/walletconnect-json-rpc-methods): WalletConnect v2 JSON‑RPC methods for MultiversX: available calls, parameters and usage patterns.
+
+## Advanced
+- [Architecture](https://docs.multiversx.com/bridge/architecture): High-level architecture of the Ad‑Astra Bridge: core contracts on MultiversX and EVM chains, relayer quorum, and how cross‑chain transfers are coordinated.
+- [Axelar Amplifier Setup](https://docs.multiversx.com/bridge/axelar): Set up an Axelar Amplifier verifier for MultiversX: prerequisites, tofnd and ampd services, configuration, and verification steps.
+- [Bitcoin L2](https://docs.multiversx.com/sovereign/bitcoin-l2): Learn about MultiversX Sovereign bitcoin l2.
+- [Concept](https://docs.multiversx.com/sovereign/concept): Learn about MultiversX Sovereign concept.
+- [Cross Chain Execution](https://docs.multiversx.com/sovereign/cross-chain-execution): Learn about MultiversX Sovereign cross chain execution.
+- [Custom Configurations](https://docs.multiversx.com/sovereign/custom-configurations): Learn about MultiversX Sovereign custom configurations.
+- [Disclaimer](https://docs.multiversx.com/sovereign/disclaimer): Learn about MultiversX Sovereign disclaimer.
+- [Distributed Setup](https://docs.multiversx.com/sovereign/distributed-setup): Learn about MultiversX Sovereign distributed setup.
+- [Dual Staking](https://docs.multiversx.com/sovereign/dual-staking): Learn about MultiversX Sovereign dual staking.
+- [Ethereum L2](https://docs.multiversx.com/sovereign/ethereum-l2): Learn about MultiversX Sovereign ethereum l2.
+- [Governance](https://docs.multiversx.com/sovereign/governance): Learn about MultiversX Sovereign governance.
+- [Governance - Overview](https://docs.multiversx.com/governance/overview): Overview of the on‑chain governance module: proposals, voting, execution and release context.
+- [Governance interaction](https://docs.multiversx.com/governance/governance-interaction): Interact with the governance smart contract: submit proposals, vote and query status via VM endpoints and transactions.
+- [Header Verifier](https://docs.multiversx.com/sovereign/header-verifier): Learn about MultiversX Sovereign header verifier.
+- [Interoperability](https://docs.multiversx.com/sovereign/interoperability): Learn about MultiversX Sovereign interoperability.
+- [Key Components](https://docs.multiversx.com/sovereign/key-components): Learn about MultiversX Sovereign key components.
+- [Keystore files](https://docs.multiversx.com/wallet/keystore): Create, import and use keystore files safely with the MultiversX Web Wallet and tooling.
+- [Ledger](https://docs.multiversx.com/wallet/ledger): Set up and use a Ledger device with MultiversX: install the app, connect securely, and sign transactions safely.
+- [Local Setup](https://docs.multiversx.com/sovereign/local-setup): Learn about MultiversX Sovereign local setup.
+- [Managing Sovereign](https://docs.multiversx.com/sovereign/managing-sovereign): Learn about MultiversX Sovereign managing sovereign.
+- [MultiversX DeFi Wallet](https://docs.multiversx.com/wallet/wallet-extension): Browser extension for MultiversX: install and set up the DeFi Wallet, manage multiple accounts, and interact with dApps.
+- [Mvx Esdt Safe](https://docs.multiversx.com/sovereign/mvx-esdt-safe): Learn about MultiversX Sovereign mvx esdt safe.
+- [One Click Deployment](https://docs.multiversx.com/sovereign/one-click-deployment): Learn about MultiversX Sovereign one click deployment.
+- [Other Vm](https://docs.multiversx.com/sovereign/other-vm): Learn about MultiversX Sovereign other vm.
+- [Restaking](https://docs.multiversx.com/sovereign/restaking): Learn about MultiversX Sovereign restaking.
+- [Security](https://docs.multiversx.com/sovereign/security): Learn about MultiversX Sovereign security.
+- [Services](https://docs.multiversx.com/sovereign/services): Learn about MultiversX Sovereign services.
+- [Software Dependencies](https://docs.multiversx.com/sovereign/software-dependencies): Learn about MultiversX Sovereign software dependencies.
+- [Solana L2](https://docs.multiversx.com/sovereign/solana-l2): Learn about MultiversX Sovereign solana l2.
+- [Sov Esdt Safe](https://docs.multiversx.com/sovereign/sov-esdt-safe): Learn about MultiversX Sovereign sov esdt safe.
+- [Sovereign - Overview](https://docs.multiversx.com/sovereign/overview): Learn about MultiversX Sovereign sovereign -.
+- [Sovereign Api](https://docs.multiversx.com/sovereign/sovereign-api): Learn about MultiversX Sovereign sovereign api.
+- [Sovereign Explorer](https://docs.multiversx.com/sovereign/sovereign-explorer): Learn about MultiversX Sovereign sovereign explorer.
+- [Sovereign Wallet](https://docs.multiversx.com/sovereign/sovereign-wallet): Learn about MultiversX Sovereign sovereign wallet.
+- [Standalone Evm](https://docs.multiversx.com/sovereign/standalone-evm): Learn about MultiversX Sovereign standalone evm.
+- [System Requirements](https://docs.multiversx.com/sovereign/system-requirements): Learn about MultiversX Sovereign system requirements.
+- [Testing](https://docs.multiversx.com/sovereign/testing): Learn about MultiversX Sovereign testing.
+- [Token Economics](https://docs.multiversx.com/sovereign/token-economics): Learn about MultiversX Sovereign token economics.
+- [Token Management](https://docs.multiversx.com/sovereign/token-management): Learn about MultiversX Sovereign token management.
+- [Token Types](https://docs.multiversx.com/bridge/token-types): Bridge token configurations across MultiversX and EVM chains: mint/burn, lock/unlock, native vs non‑native, and their operational implications.
+- [Transfer Flows](https://docs.multiversx.com/bridge/transfer-flows): Step‑by‑step token transfer flows for the MultiversX bridge: EVM↔MultiversX directions, smart‑contract call path, refund scenarios, and relayer processing.
+- [Validators](https://docs.multiversx.com/sovereign/validators): Validators in Sovereign Chains: roles, selection, staking and security considerations for independent networks.
+- [Vm Intro](https://docs.multiversx.com/sovereign/vm-intro): Learn about MultiversX Sovereign vm intro.
+- [Wallets - Overview](https://docs.multiversx.com/wallet/overview): Overview of MultiversX wallets: Web Wallet, xPortal, Ledger and DeFi Wallet, with setup and usage guides.
+- [Web Wallet](https://docs.multiversx.com/wallet/web-wallet): Create or import accounts, send and receive EGLD and tokens, stake, and securely manage assets using the MultiversX Web Wallet.
+- [Web Wallet Tokens](https://docs.multiversx.com/wallet/wallet-token): Issue and manage ESDT tokens in the MultiversX Web Wallet: prerequisites, creation steps, configuration properties, and transferring tokens.
+- [Webhooks](https://docs.multiversx.com/wallet/webhooks): Integrate with the Web Wallet via URL webhooks to request login and pre‑filled transactions, with callback redirects.
+- [Whitelist Requirements](https://docs.multiversx.com/bridge/whitelist-requirements): Whitelist requirements for the Ad‑Astra bridge: prerequisites, token branding, and assigning roles to wrapper or safe contracts.
+- [xAlias](https://docs.multiversx.com/wallet/xalias): xAlias single sign‑on for MultiversX: Google‑based onboarding, self‑custody with later conversion, and Web Wallet‑compatible integration hooks.
+- [xPortal](https://docs.multiversx.com/wallet/xportal): xPortal mobile app: secure wallet, token swaps, payments, missions, AI avatar creation and upcoming debit card features.
+
+## Terminology
+- [Terminology](https://docs.multiversx.com/welcome/terminology): Learn about terminology in MultiversX.

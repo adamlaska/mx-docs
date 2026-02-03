@@ -1,6 +1,7 @@
 ---
 id: upgrading-smart-contracts
 title: Upgrading smart contracts
+description: "Learn about upgrading smart contracts in MultiversX."
 ---
 
 [comment]: # (mx-abstract)

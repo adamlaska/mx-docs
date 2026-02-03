@@ -1,6 +1,7 @@
 ---
 id: es-index-validators
 title: validators
+description: "Overview of MultiversX SDK and Tools validators."
 ---
 
 [comment]: # (mx-abstract)

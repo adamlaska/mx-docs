@@ -1,6 +1,7 @@
 ---
 id: react-development
 title: React Development
+description: "Learn about react development in MultiversX."
 ---
 
 [comment]: # (mx-abstract)

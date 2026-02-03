@@ -1,3 +1,7 @@
+---
+description: "Learn about MultiversX Sovereign token management."
+---
+
 # Sovereign Deposit Tokens Guide
 
 ## Main Chain -> Sovereign Chain

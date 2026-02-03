@@ -3,6 +3,7 @@ id: sdk-py
 title: Python SDK
 pagination_prev: developers/testing/testing-in-go
 pagination_next: sdk-and-tools/mxpy/installing-mxpy
+description: "Overview of MultiversX SDK and Tools python sdk."
 ---
 
 [comment]: # (mx-abstract)

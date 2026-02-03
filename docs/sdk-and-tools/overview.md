@@ -1,6 +1,7 @@
 ---
 id: overview
 title: SDKs and Tools - Overview
+description: "Overview of MultiversX SDK and Tools sdks and tools -."
 ---
 
 [comment]: # (mx-abstract)

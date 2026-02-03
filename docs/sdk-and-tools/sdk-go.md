@@ -1,6 +1,7 @@
 ---
 id: sdk-go
 title: Go SDK
+description: "Overview of MultiversX SDK and Tools go sdk."
 ---
 
 [comment]: # (mx-abstract)

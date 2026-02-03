@@ -1,6 +1,7 @@
 ---
 id: sc-test-overview
 title: Overview
+description: "Learn about sc test overview in MultiversX."
 ---
 
 [comment]: # "mx-abstract"

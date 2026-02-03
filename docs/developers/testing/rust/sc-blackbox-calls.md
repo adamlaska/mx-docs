@@ -1,6 +1,7 @@
 ---
 id: sc-blackbox-calls
 title: Blackbox calls
+description: "Learn about blackbox calls in MultiversX."
 ---
 
 [comment]: # "mx-abstract"

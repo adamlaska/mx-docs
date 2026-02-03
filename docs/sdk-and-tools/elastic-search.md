@@ -1,6 +1,7 @@
 ---
 id: elastic-search
 title: Elasticsearch
+description: "Overview of MultiversX SDK and Tools elasticsearch."
 ---
 
 [comment]: # (mx-abstract)

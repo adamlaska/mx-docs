@@ -1,6 +1,7 @@
 ---
 id: notifier
 title: Events notifier
+description: "Overview of MultiversX SDK and Tools events notifier."
 ---
 
 [comment]: # (mx-abstract)

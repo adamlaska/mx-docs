@@ -1,6 +1,7 @@
 ---
 id: es-index-receipts
 title: receipts
+description: "Overview of MultiversX SDK and Tools receipts."
 ---
 
 [comment]: # (mx-abstract)

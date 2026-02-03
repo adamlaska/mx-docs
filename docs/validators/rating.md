@@ -1,6 +1,7 @@
 ---
 id: rating
 title: Rating
+description: "Validator rating system: how scores are computed, how they influence consensus selection, and how to recover from penalties."
 ---
 
 [comment]: # (mx-abstract)

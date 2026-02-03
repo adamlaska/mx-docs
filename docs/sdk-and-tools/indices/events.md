@@ -1,6 +1,7 @@
 ---
 id: es-index-events
 title: events
+description: "Overview of MultiversX SDK and Tools events."
 ---
 
 [comment]: # (mx-abstract)

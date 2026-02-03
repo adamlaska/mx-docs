@@ -1,6 +1,7 @@
 ---
 id: iterate-keys
 title: Iterate keys
+description: "Overview of MultiversX SDK and Tools iterate keys."
 ---
 
 [comment]: # (mx-abstract)

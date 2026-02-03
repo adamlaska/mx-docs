@@ -1,6 +1,7 @@
 ---
 id: space-vm
 title: MultiversX Virtual Machine (SpaceVM)
+description: "The MultiversX Virtual Machine (SpaceVM): WASM execution, Rust framework support and performance characteristics."
 ---
 
 The execution of SmartContracts plays a central role in modern blockchain networks. MultiversX built a fast and secure virtual machine for this purpose.

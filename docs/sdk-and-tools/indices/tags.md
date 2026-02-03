@@ -1,6 +1,7 @@
 ---
 id: es-index-tags
 title: tags
+description: "Overview of MultiversX SDK and Tools tags."
 ---
 
 [comment]: # (mx-abstract)

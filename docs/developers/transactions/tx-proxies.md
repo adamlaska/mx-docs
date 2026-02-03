@@ -1,6 +1,7 @@
 ---
 id: tx-proxies
 title: Proxies
+description: "Learn about proxies in MultiversX."
 ---
 
 [comment]: # (mx-abstract)

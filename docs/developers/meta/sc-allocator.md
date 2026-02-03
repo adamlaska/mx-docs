@@ -1,6 +1,7 @@
 ---
 id: sc-allocator
 title: Memory allocation
+description: "Learn about memory allocation in MultiversX."
 ---
 
 [comment]: # (mx-abstract)

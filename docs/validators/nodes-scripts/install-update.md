@@ -1,6 +1,7 @@
 ---
 id: install-update
 title: Installing a Validator Node
+description: "Install and update validator nodes via the script menu: installation, upgrades and maintenance actions."
 ---
 
 [comment]: # (mx-abstract)

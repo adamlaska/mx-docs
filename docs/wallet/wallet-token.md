@@ -1,6 +1,7 @@
 ---
 id: create-a-fungible-token
 title: Web Wallet Tokens
+description: "Issue and manage ESDT tokens in the MultiversX Web Wallet: prerequisites, creation steps, configuration properties, and transferring tokens."
 ---
 
 [comment]: # (mx-context-auto)

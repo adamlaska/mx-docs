@@ -1,6 +1,7 @@
 ---
 id: node-operation-modes
 title: Node operation modes
+description: "Supported node operation modes and configuration patterns for observers, validators, and specialized roles."
 ---
 
 [comment]: # (mx-abstract)

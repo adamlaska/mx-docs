@@ -1,6 +1,7 @@
 ---
 id: es-index-miniblocks
 title: miniblocks
+description: "Overview of MultiversX SDK and Tools miniblocks."
 ---
 
 [comment]: # (mx-abstract)

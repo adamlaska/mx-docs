@@ -1,6 +1,7 @@
 ---
 id: es-index-delegators
 title: delegators
+description: "Overview of MultiversX SDK and Tools delegators."
 ---
 
 [comment]: # (mx-abstract)

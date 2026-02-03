@@ -1,6 +1,7 @@
 ---
 id: egld-integration-guide
 title: EGLD integration guide
+description: "Integrate EGLD into exchanges and wallets: addresses, transactions, fees, confirmations and best practices."
 ---
 
 [comment]: # (mx-abstract)

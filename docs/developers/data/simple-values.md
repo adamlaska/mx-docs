@@ -1,7 +1,9 @@
 ---
 id: simple-values
 title: Simple Values
+description: "Learn about simple values in MultiversX."
 ---
+
 [comment]: # (mx-abstract)
 
 We will start by going through the basic types used in smart contracts:
@@ -33,6 +35,7 @@ Even when simulating smart contract execution on 64-bit systems, they must still
 **Examples**
 
 | Type    | Number                | Top-level encoding   | Nested encoding      |
+|
 | ------- | --------------------- | -------------------- | -------------------- |
 | `u8`    | `0`                   | `0x`                 | `0x00`               |
 | `u8`    | `1`                   | `0x01`               | `0x01`               |

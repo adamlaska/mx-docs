@@ -1,6 +1,7 @@
 ---
 id: smart-contracts
 title: MultiversX Smart Contracts
+description: "Learn about multiversx smart contracts in MultiversX."
 ---
 
 [comment]: # (mx-abstract)

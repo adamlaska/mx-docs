@@ -1,6 +1,7 @@
 ---
 id: faq
 title: Frequently Asked Questions
+description: "Common integration questions: accounts, consensus, sharding, network parameters and API usage."
 ---
 
 [comment]: # "mx-abstract"

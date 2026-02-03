@@ -1,6 +1,7 @@
 ---
 id: querying-the-blockchain
 title: Querying the Blockchain
+description: "Learn about MultiversX Integrators querying the blockchain."
 ---
 
 [comment]: # (mx-abstract)

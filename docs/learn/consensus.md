@@ -1,6 +1,7 @@
 ---
 id: consensus
 title: Consensus
+description: "Secure Proof‑of‑Stake (SPoS) in MultiversX: validator selection, randomness, BLS aggregation and single‑block finality."
 ---
 
 # Consensus (Secure Proof‑of‑Stake – SPoS)

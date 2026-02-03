@@ -1,3 +1,7 @@
+---
+description: "Learn about MultiversX Sovereign distributed setup."
+---
+
 # Distributed Setup
 
 ## Create distributed Sovereign Chain configuration

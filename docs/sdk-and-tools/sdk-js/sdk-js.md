@@ -1,6 +1,7 @@
 ---
 id: sdk-js
 title: sdk-js
+description: "Overview of MultiversX SDK and Tools sdk-js."
 ---
 
 [comment]: # (mx-abstract)

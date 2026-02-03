@@ -1,6 +1,7 @@
 ---
 id: es-index-rounds
 title: rounds
+description: "Overview of MultiversX SDK and Tools rounds."
 ---
 
 [comment]: # (mx-abstract)

@@ -1,6 +1,7 @@
 ---
 id: overview
 title: Developers - Overview
+description: "Learn about developers - in MultiversX."
 ---
 
 [comment]: # (mx-abstract)

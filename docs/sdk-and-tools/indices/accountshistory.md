@@ -1,6 +1,7 @@
 ---
 id: es-index-accountshistory
 title: accountshistory
+description: "Overview of MultiversX SDK and Tools accountshistory."
 ---
 
 [comment]: # (mx-abstract)

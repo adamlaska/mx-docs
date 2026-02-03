@@ -1,6 +1,7 @@
 ---
 id: ledger
 title: Ledger
+description: "Set up and use a Ledger device with MultiversX: install the app, connect securely, and sign transactions safely."
 ---
 
 [comment]: # (mx-abstract)

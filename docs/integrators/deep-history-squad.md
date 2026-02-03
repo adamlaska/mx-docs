@@ -1,6 +1,7 @@
 ---
 id: deep-history-squad
 title: Deep History Squad
+description: "Access deep historical blockchain data via the Deep History Squad: use cases, endpoints and integration guidance."
 ---
 
 [comment]: # (mx-abstract)
@@ -363,4 +364,3 @@ The squad and the proxy can be started using the command:
 Alternatively, you can set up a squad using any other known approach, **but make sure to apply the proper `operation-mode`** described in the section [**Observer installation and configuration**](#observer-installation-and-configuration).
 
 **Congratulations!** You've set up a deep-history observing squad; the gateway should be ready to resolve historical account (state) queries :rocket:
-

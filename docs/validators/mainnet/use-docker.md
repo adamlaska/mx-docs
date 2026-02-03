@@ -1,6 +1,7 @@
 ---
 id: use-docker
 title: How to use the Docker Image
+description: "Run validator nodes using the official Docker image and scripts (deprecated; see unified scripts)."
 ---
 
 :::caution

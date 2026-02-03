@@ -1,6 +1,7 @@
 ---
 id: getting-started
 title: Getting Started
+description: "Overview of getting started in MultiversX."
 ---
 
 MultiversX is a high-performance, sharded smart contract blockchain with Proof of Stake (SPoS) consensus, perfectly designed for the Web3 era with capacity to serve Web2 needs. At the moment of writing, it achieves over 30,000 TPS with adaptive scalability, offering fast and low-cost transactions. The xPortal money app, with embedded DeFi and cross-chain operations, empowers users to interact and own their digital assets. Developers benefit from integrated tools and 30% gas royalties, while validators earn ~8% APR. MultiversX offers sovereign chains for flexible, interoperable blockchain solutions, serving enterprise needs, driving the Web3 vision forward. It is a public blockchain similar to Ethereum, users own their accounts and tokens and they are free to move between [more than 500 different apps](https://multiversx.com/ecosystem).
