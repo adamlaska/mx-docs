@@ -1,7 +1,9 @@
 ---
 id: sc-calls-format
 title: Smart Contract Calls Data Format
+description: "Learn about smart contract calls data format in MultiversX."
 ---
+
 [comment]: # (mx-abstract)
 
 This page provides an in-depth examination of the Smart Contract Calls Data Format.

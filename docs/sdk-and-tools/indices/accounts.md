@@ -1,6 +1,7 @@
 ---
 id: es-index-accounts
 title: accounts
+description: "Overview of MultiversX SDK and Tools accounts."
 ---
 
 [comment]: # (mx-abstract)

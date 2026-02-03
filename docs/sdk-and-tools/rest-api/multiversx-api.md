@@ -1,6 +1,7 @@
 ---
 id: multiversx-api
 title: MultiversX API
+description: "Overview of MultiversX SDK and Tools multiversx api."
 ---
 
 [comment]: # (mx-abstract)

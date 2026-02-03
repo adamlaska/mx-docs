@@ -1,6 +1,7 @@
 ---
 id: useful-links
 title: Useful Links & Tools
+description: "Curated links, documentation and utilities helpful for MultiversX validators and node operators."
 ---
 
 [comment]: # (mx-abstract)

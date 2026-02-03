@@ -1,7 +1,9 @@
 ---
 id: multi-values
 title: Multi-Values
+description: "Learn about multi-values in MultiversX."
 ---
+
 [comment]: # (mx-abstract)
 
 ## Single values vs. multi-values
@@ -245,4 +247,3 @@ where
 ```
 
 To create a custom multi-value type, one needs to manually implement these two traits for the type. Unlike for single values, there is no [equivalent derive syntax](/developers/data/custom-types).
-

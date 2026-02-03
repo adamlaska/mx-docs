@@ -1,3 +1,7 @@
+---
+description: "Learn about MultiversX Sovereign managing sovereign."
+---
+
 # Managing Sovereign Chains
 
 :::note

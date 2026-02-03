@@ -1,6 +1,7 @@
 ---
 id: validator-keys
 title: Validator Keys
+description: "Validator keys: purpose, generation, secure handling and usage in consensus."
 ---
 
 [comment]: # (mx-abstract)

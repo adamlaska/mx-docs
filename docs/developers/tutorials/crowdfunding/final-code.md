@@ -1,6 +1,7 @@
 ---
 id: final-code
 title: Final Code
+description: "Tutorial: Final Code"
 ---
 
 [comment]: # (mx-abstract)

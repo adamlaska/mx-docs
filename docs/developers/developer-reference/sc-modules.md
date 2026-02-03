@@ -1,6 +1,7 @@
 ---
 id: sc-modules
 title: Smart contract modules
+description: "Learn about smart contract modules in MultiversX."
 ---
 
 [comment]: # (mx-abstract)

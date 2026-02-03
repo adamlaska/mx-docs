@@ -1,6 +1,7 @@
 ---
 id: es-index-scresults
 title: scresults
+description: "Overview of MultiversX SDK and Tools scresults."
 ---
 
 [comment]: # (mx-abstract)

@@ -1,3 +1,7 @@
+---
+description: "Learn about MultiversX Sovereign bitcoin l2."
+---
+
 # Bitcoin L2
 
 :::note

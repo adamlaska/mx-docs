@@ -1,6 +1,7 @@
 ---
 id: interactors-example
 title: Interactors Example
+description: "Learn about interactors example in MultiversX."
 ---
 
 [comment]: # (mx-abstract)

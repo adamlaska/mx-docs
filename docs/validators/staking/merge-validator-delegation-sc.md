@@ -1,6 +1,7 @@
 ---
 id: merge-validator-delegation-sc
 title: Merging A Validator Into An Existing Delegation Smart Contract
+description: "Merge a standalone validator into an existing delegation smart contract: whitelist, merge transaction and operational notes."
 ---
 
 Introduced in Staking Phase 3.5, the ability of merging one or more existing standalone validator node into a staking provider gives more flexibility for staking provider operators.

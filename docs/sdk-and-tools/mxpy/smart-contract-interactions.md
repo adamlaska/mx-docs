@@ -1,6 +1,7 @@
 ---
 id: smart-contract-interactions
 title: Smart contract interactions
+description: "Overview of MultiversX SDK and Tools smart contract interactions."
 ---
 
 [comment]: # (mx-abstract)

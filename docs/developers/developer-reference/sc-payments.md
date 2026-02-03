@@ -1,6 +1,7 @@
 ---
 id: sc-payments
 title: Smart contract payments
+description: "Learn about smart contract payments in MultiversX."
 ---
 
 [comment]: # (mx-abstract)

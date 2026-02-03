@@ -1,6 +1,7 @@
 ---
 id: whitelist-requirements
 title: Whitelist Requirements
+description: "Whitelist requirements for the Ad‑Astra bridge: prerequisites, token branding, and assigning roles to wrapper or safe contracts."
 ---
 
 [comment]: # (mx-abstract)

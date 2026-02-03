@@ -1,6 +1,7 @@
 ---
 id: chronology
 title: Chronology
+description: "Time structure in MultiversX: rounds, epochs and how they govern block production and finality."
 ---
 
 Following the common Proof-of-Stake principles, the MultiversX network organizes time into rounds and epochs, where a fixed number of consecutive rounds form an epoch. The first round of the first epoch ever is called the _genesis round_, which contains the bootstrapping phase of the network.

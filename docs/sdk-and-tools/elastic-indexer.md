@@ -1,6 +1,7 @@
 ---
 id: indexer
 title: Elasticindexer service
+description: "Overview of MultiversX SDK and Tools elasticindexer service."
 ---
 
 [comment]: # (mx-abstract)

@@ -1,6 +1,7 @@
 ---
 id: tx-run
 title: Run transactions
+description: "Learn about run transactions in MultiversX."
 ---
 
 [comment]: # (mx-abstract)

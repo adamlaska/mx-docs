@@ -1,6 +1,7 @@
 ---
 id: accounts-management
 title: Accounts Management
+description: "Learn about MultiversX Integrators accounts management."
 ---
 
 [comment]: # (mx-abstract)

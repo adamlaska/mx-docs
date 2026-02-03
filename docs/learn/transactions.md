@@ -1,6 +1,7 @@
 ---
 id: transactions
 title: Transactions
+description: "Overview of transactions in MultiversX."
 ---
 
 A blockchain transaction is a cryptographically signed instruction sent from one account to another, aiming to update the state of the blockchain network. Each transaction contains details such as the nonce, sender, receiver, amount of value transferred (if it is the case), data, signature (and others). Validators process and verify these transactions, ensuring they are legitimate and adhere to the network's protocol. Once verified, the transaction is recorded in a block and added to the blockchain, making it immutable and transparent.

@@ -1,6 +1,7 @@
 ---
 id: sc-build-reference
 title: Build Reference
+description: "Learn about build reference in MultiversX."
 ---
 
 [comment]: # (mx-abstract)

@@ -1,6 +1,7 @@
 ---
 id: sc-meta
 title: Tooling Overview
+description: "Learn about tooling in MultiversX."
 ---
 
 [comment]: # (mx-abstract)

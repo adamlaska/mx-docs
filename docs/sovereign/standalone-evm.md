@@ -1,3 +1,7 @@
+---
+description: "Learn about MultiversX Sovereign standalone evm."
+---
+
 # Standalone EVM
 
 ## EVM as example

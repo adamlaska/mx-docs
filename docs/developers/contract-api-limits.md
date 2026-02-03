@@ -1,6 +1,7 @@
 ---
 id: contract-api-limits
 title: MultiversX Smart Contracts API limits
+description: "Learn about multiversx smart contracts api limits in MultiversX."
 ---
 
 [comment]: # (mx-abstract)

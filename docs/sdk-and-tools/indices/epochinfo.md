@@ -1,6 +1,7 @@
 ---
 id: es-index-epochinfo
 title: epochinfo
+description: "Overview of MultiversX SDK and Tools epochinfo."
 ---
 
 [comment]: # (mx-abstract)

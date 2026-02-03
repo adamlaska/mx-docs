@@ -1,6 +1,7 @@
 ---
 id: gateway-overview
 title: Gateway overview
+description: "Overview of MultiversX SDK and Tools gateway."
 ---
 
 [comment]: # (mx-abstract)

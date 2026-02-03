@@ -1,6 +1,7 @@
 ---
 id: crowdfunding-p3
 title: Extend to Any Token
+description: "Tutorial: Extend to Any Token"
 ---
 
 [comment]: # (mx-abstract)

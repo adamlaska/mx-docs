@@ -1,6 +1,7 @@
 ---
 id: mxpy-cli
 title: mxpy CLI cookbook
+description: "Overview of MultiversX SDK and Tools mxpy cli cookbook."
 ---
 
 [comment]: # (mx-abstract)

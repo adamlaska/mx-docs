@@ -1,6 +1,7 @@
 ---
 id: versions-and-changelog
 title: Versions and Changelog
+description: "Overview of MultiversX SDK and Tools versions and changelog."
 ---
 
 [comment]: # (mx-abstract)

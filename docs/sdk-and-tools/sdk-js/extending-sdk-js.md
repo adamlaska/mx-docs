@@ -2,6 +2,7 @@
 id: extending-sdk-js
 title: Extending sdk-js
 pagination_prev: sdk-and-tools/sdk-js/sdk-js
+description: "Overview of MultiversX SDK and Tools extending sdk-js."
 ---
 
 [comment]: # (mx-abstract)

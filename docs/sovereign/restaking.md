@@ -1,3 +1,7 @@
+---
+description: "Learn about MultiversX Sovereign restaking."
+---
+
 # Restaking
 
 ## Introduction

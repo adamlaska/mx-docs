@@ -1,6 +1,7 @@
 ---
 id: multikey-nodes
 title: Multikey nodes management
+description: "Manage multiple validator keys across node groups: architecture, setup and operational procedures."
 ---
 
 [comment]: # (mx-abstract)

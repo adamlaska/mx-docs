@@ -1,7 +1,9 @@
 ---
 id: composite-values
 title: Composite Values
+description: "Learn about composite values in MultiversX."
 ---
+
 [comment]: # (mx-abstract)
 
 We often need to group simple values into more complex ones, without splitting them into [several arguments](/developers/data/multi-values).
@@ -24,6 +26,7 @@ Then, all nested encodings of the items, concatenated.
 **Examples**
 
 | Type             | Value                | Top-level encoding    | Nested encoding                | Explanation                                                                                                                               |
+|
 | ---------------- | -------------------- | --------------------- | ------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------- |
 | `Vec<u8>`        | `vec![1, 2]`         | `0x0102`              | `0x00000002 0102`              | Length = `2`                                                                                                                              |
 | `Vec<u16>`       | `vec![1, 2]`         | `0x00010002`          | `0x00000002 00010002`          | Length = `2`                                                                                                                              |

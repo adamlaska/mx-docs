@@ -1,6 +1,7 @@
 ---
 id: proxy
 title: Proxy architecture
+description: "Overview of MultiversX SDK and Tools proxy architecture."
 ---
 
 Overview of the MultiversX Proxy

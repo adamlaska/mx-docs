@@ -1,6 +1,7 @@
 ---
 id: sdk-nestjs-cache
 title: NestJS SDK Cache utilities
+description: "Overview of MultiversX SDK and Tools nestjs sdk cache utilities."
 ---
 
 <a href="https://www.npmjs.com/package/@multiversx/sdk-nestjs-monitoring" target="_blank"><img src="https://img.shields.io/npm/v/@multiversx/sdk-nestjs-cache.svg" alt="NPM Version" /></a>

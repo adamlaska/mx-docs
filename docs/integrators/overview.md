@@ -1,6 +1,7 @@
 ---
 id: overview
 title: Integrators - Overview
+description: "Learn about MultiversX Integrators integrators -."
 ---
 
 [comment]: # (mx-abstract)

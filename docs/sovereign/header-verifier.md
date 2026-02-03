@@ -1,3 +1,7 @@
+---
+description: "Learn about MultiversX Sovereign header verifier."
+---
+
 # Header-Verifier
 
 As mentioned in the [Introduction](cross-chain-execution.md) the `Header-Verifier` smart contract is responsible to verify signatures, store the *BLS Keys* of the validators and register incoming *Operations*.

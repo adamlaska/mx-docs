@@ -1,6 +1,7 @@
 ---
 id: es-index-scdeploys
 title: scdeploys
+description: "Overview of MultiversX SDK and Tools scdeploys."
 ---
 
 [comment]: # (mx-abstract)

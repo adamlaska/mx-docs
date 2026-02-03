@@ -1,6 +1,7 @@
 ---
 id: advanced-observer-settings
 title: Advanced Observer Settings
+description: "Learn about MultiversX Integrators advanced observer settings."
 ---
 
 [comment]: # (mx-abstract)

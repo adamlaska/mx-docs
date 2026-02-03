@@ -1,6 +1,7 @@
 ---
 id: energy-dao
 title: Energy DAO SC tutorial
+description: "Tutorial: Energy DAO SC tutorial"
 ---
 
 [comment]: # (mx-abstract)

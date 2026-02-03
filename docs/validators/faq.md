@@ -1,6 +1,7 @@
 ---
 id: faq
 title: FAQs
+description: "Frequently asked questions for validators and node operators: setup, operations, staking and troubleshooting."
 ---
 
 [comment]: # (mx-abstract)

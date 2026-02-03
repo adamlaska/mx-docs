@@ -1,6 +1,7 @@
 ---
 id: redundancy
 title: Node redundancy
+description: "High‑availability setups for validator nodes: standby instances, failover strategies, and configuration guidance."
 ---
 
 [comment]: # (mx-abstract)

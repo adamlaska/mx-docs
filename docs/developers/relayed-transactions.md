@@ -1,7 +1,9 @@
 ---
 id: relayed-transactions
 title: Relayed Transactions
+description: "Learn about relayed transactions in MultiversX."
 ---
+
 [comment]: # (mx-abstract)
 
 On this page, you will find comprehensive information on all aspects of relayed transactions.

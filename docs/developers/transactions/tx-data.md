@@ -1,6 +1,7 @@
 ---
 id: tx-data
 title: Payload (data)
+description: "Learn about payload (data) in MultiversX."
 ---
 
 [comment]: # (mx-abstract)

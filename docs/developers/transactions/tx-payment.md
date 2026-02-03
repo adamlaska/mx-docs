@@ -1,6 +1,7 @@
 ---
 id: tx-payment
 title: Payments
+description: "Learn about payments in MultiversX."
 ---
 
 [comment]: # (mx-abstract)

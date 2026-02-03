@@ -1,6 +1,7 @@
 ---
 id: sc-config
 title: Configuration
+description: "Learn about configuration in MultiversX."
 ---
 
 [comment]: # (mx-abstract)

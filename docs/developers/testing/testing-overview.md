@@ -1,6 +1,7 @@
 ---
 id: testing-overview
 title: Testing Overview
+description: "Learn about testing in MultiversX."
 ---
 
 [comment]: # (mx-abstract)

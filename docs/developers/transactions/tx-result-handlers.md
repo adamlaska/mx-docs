@@ -1,6 +1,7 @@
 ---
 id: tx-result-handlers
 title: Result Handlers
+description: "Learn about result handlers in MultiversX."
 ---
 
 [comment]: # (mx-abstract)

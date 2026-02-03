@@ -1,6 +1,7 @@
 ---
 id: erdkotlin
 title: Kotlin SDK
+description: "Overview of MultiversX SDK and Tools kotlin sdk."
 ---
 
 [comment]: # (mx-abstract)

@@ -1,6 +1,7 @@
 ---
 id: es-index-transactions
 title: transactions
+description: "Overview of MultiversX SDK and Tools transactions."
 ---
 
 [comment]: # (mx-abstract)

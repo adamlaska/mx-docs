@@ -43,6 +43,7 @@ const sidebars = {
       "learn/space-vm",
       "learn/transactions",
       "learn/economics",
+      "learn/ai-agents",
     ],
     Developers: [
       "developers/overview",

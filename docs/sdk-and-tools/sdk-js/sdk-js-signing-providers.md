@@ -1,6 +1,7 @@
 ---
 id: sdk-js-signing-providers
 title: Signing Providers for dApps
+description: "Overview of MultiversX SDK and Tools signing providers for dapps."
 ---
 
 [comment]: # (mx-abstract)

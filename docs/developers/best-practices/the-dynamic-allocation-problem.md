@@ -1,6 +1,7 @@
 ---
 id: the-dynamic-allocation-problem
 title: The dynamic allocation problem
+description: "Learn about the dynamic allocation problem in MultiversX."
 ---
 
 [comment]: # (mx-context-auto)

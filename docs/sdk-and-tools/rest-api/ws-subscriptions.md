@@ -1,6 +1,7 @@
 ---
 id: multiversx-api-ws
 title: MultiversX API WebSocket
+description: "Overview of MultiversX SDK and Tools multiversx api websocket."
 ---
 
 ## MultiversX WebSocket Subscription API

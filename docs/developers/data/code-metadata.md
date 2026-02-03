@@ -1,6 +1,7 @@
 ---
 id: code-metadata
 title: Code Metadata
+description: "Learn about code metadata in MultiversX."
 ---
 
 [comment]: # (mx-abstract)

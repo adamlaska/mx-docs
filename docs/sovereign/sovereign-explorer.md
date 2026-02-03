@@ -1,3 +1,7 @@
+---
+description: "Learn about MultiversX Sovereign sovereign explorer."
+---
+
 # Explorer service
 
 ## Deploy Explorer

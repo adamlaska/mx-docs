@@ -1,6 +1,7 @@
 ---
 id: optional-configs
 title: Optional Configurations
+description: "Optional validator node configuration tweaks and parameters (deprecated; see unified scripts)."
 ---
 
 :::caution

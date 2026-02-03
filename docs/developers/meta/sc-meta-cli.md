@@ -1,6 +1,7 @@
 ---
 id: sc-meta-cli
 title: CLI
+description: "Learn about cli in MultiversX."
 ---
 
 [comment]: # (mx-context-auto)

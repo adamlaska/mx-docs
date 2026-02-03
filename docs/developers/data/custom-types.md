@@ -1,7 +1,9 @@
 ---
 id: custom-types
 title: Custom Types
+description: "Learn about custom types in MultiversX."
 ---
+
 [comment]: # (mx-abstract)
 
 We sometimes create new types that we want to serialize and deserialize directly when interacting with contracts. For `struct`s and `enum`s it is very easy to set them up, with barely any code.

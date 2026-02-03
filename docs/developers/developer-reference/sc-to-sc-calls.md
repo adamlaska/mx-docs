@@ -1,7 +1,9 @@
 ---
 id: sc-to-sc-calls
 title: SC to SC Calls
+description: "Learn about sc to sc calls in MultiversX."
 ---
+
 [comment]: # (mx-abstract)
 
 This guide provides an overview of the different types of smart contract calls that originate from other smart contract calls.

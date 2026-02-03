@@ -1,6 +1,7 @@
 ---
 id: biguint-operations
 title: BigUint Operations
+description: "Learn about biguint operations in MultiversX."
 ---
 
 [comment]: # (mx-context-auto)

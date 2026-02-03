@@ -1,6 +1,7 @@
 ---
 id: toolchain-setup
 title: Toolchain Setup 
+description: "Learn about toolchain setup in MultiversX."
 ---
 
 [comment]: # (mx-context-auto)

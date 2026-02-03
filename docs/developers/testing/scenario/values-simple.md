@@ -1,7 +1,9 @@
 ---
 id: values-simple
 title: Scenario Simple Values
+description: "Learn about scenario simple values in MultiversX."
 ---
+
 [comment]: # (mx-abstract)
 
 We went through the structure of a scenario, and you might have noticed that in a lot of places values are expressed in diverse ways.

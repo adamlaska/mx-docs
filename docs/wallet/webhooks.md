@@ -1,6 +1,7 @@
 ---
 id: webhooks
 title: Webhooks
+description: "Integrate with the Web Wallet via URL webhooks to request login and pre‑filled transactions, with callback redirects."
 ---
 
 [comment]: # (mx-abstract)

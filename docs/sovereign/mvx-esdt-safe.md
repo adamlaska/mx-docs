@@ -1,3 +1,7 @@
+---
+description: "Learn about MultiversX Sovereign mvx esdt safe."
+---
+
 # Mvx-ESDT-Safe
 ![To Sovereign](../../static/sovereign/to-sovereign.png)
 

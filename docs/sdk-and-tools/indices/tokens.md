@@ -1,6 +1,7 @@
 ---
 id: es-index-tokens
 title: tokens
+description: "Overview of MultiversX SDK and Tools tokens."
 ---
 
 [comment]: # (mx-abstract)

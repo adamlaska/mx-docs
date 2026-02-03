@@ -1,6 +1,7 @@
 ---
 id: tx-from
 title: Sender
+description: "Learn about sender in MultiversX."
 ---
 
 [comment]: # (mx-abstract)

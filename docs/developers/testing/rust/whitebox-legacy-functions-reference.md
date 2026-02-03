@@ -1,6 +1,7 @@
 ---
 id: whitebox-legacy-functions-reference
 title: Whitebox Functions Reference
+description: "Learn about whitebox functions reference in MultiversX."
 ---
 
 [comment]: # (mx-abstract)

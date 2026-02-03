@@ -1,6 +1,7 @@
 ---
 id: sc-annotations
 title: Smart contract annotations
+description: "Learn about smart contract annotations in MultiversX."
 ---
 
 [comment]: # (mx-abstract)

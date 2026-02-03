@@ -1,6 +1,7 @@
 ---
 id: your-first-dapp
 title: Build a dApp in 15 minutes
+description: "Tutorial: Build a dApp in 15 minutes"
 ---
 
 [comment]: # (mx-abstract)

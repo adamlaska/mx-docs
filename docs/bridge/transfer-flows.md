@@ -1,6 +1,7 @@
 ---
 id: transfer-flows
 title: Transfer Flows
+description: "Step‑by‑step token transfer flows for the MultiversX bridge: EVM↔MultiversX directions, smart‑contract call path, refund scenarios, and relayer processing."
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';

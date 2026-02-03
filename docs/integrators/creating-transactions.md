@@ -1,6 +1,7 @@
 ---
 id: creating-transactions
 title: Creating Transactions
+description: "Learn about MultiversX Integrators creating transactions."
 ---
 
 [comment]: # (mx-abstract)

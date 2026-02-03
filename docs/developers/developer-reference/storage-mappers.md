@@ -1,7 +1,9 @@
 ---
 id: storage-mappers
 title: Storage Mappers
+description: "Learn about storage mappers in MultiversX."
 ---
+
 [comment]: # (mx-abstract)
 
 The Rust framework provides various storage mappers you can use. Deciding which one to use for every situation is critical for performance. There will be a comparison section after each mapper is described.

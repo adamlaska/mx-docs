@@ -1,6 +1,7 @@
 ---
 id: keystore
 title: Keystore files
+description: "Create, import and use keystore files safely with the MultiversX Web Wallet and tooling."
 ---
 
 [comment]: # (mx-abstract)

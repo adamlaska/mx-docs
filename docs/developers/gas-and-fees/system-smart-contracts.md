@@ -1,6 +1,7 @@
 ---
 id: system-smart-contracts
 title: System Smart Contracts
+description: "Learn about system smart contracts in MultiversX."
 ---
 
 For transactions which call System Smart Contracts, the **actual gas cost** of processing contains the two previously mentioned cost components - and they are easily computable.

@@ -1,6 +1,7 @@
 ---
 id: wallet-connect-v2-migration
 title: WalletConnect 2.0 Migration
+description: "Tutorial: WalletConnect 2.0 Migration"
 ---
 
 [comment]: # (mx-context-auto)
@@ -13,7 +14,9 @@ WalletConnect 2.0 is already integrated, only not enabled by default.
 
 Follow [these steps](/sdk-and-tools/sdk-dapp/#walletconnect-setup) to generate and add a `walletConnectV2ProjectId`
 
---------------
+---
+
+-----------
 
 [comment]: # (mx-context-auto)
 

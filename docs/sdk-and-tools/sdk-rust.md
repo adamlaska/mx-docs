@@ -1,6 +1,7 @@
 ---
 id: sdk-rust
 title: Rust SDK
+description: "Overview of MultiversX SDK and Tools rust sdk."
 ---
 
 [comment]: # (mx-abstract)

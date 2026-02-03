@@ -1,6 +1,7 @@
 ---
 id: guard-accounts
 title: Guard accounts
+description: "Learn about guard accounts in MultiversX."
 ---
 
 [comment]: # (mx-abstract)

@@ -1,8 +1,8 @@
 ---
 id: time-types
 title: Time-related Types
+description: "Learn about time-related types in MultiversX."
 ---
-
 
 The Supernova release introduces increased block frequency and encourages transitioning to millisecond timestamps, instead of seconds. To support this, the SpaceCraft SDK (starting with `v0.63.0`) provides strong type wrappers for time values to prevent common bugs.
 

@@ -1,6 +1,7 @@
 ---
 id: esdt-tokens-integration-guide
 title: ESDT tokens integration guide
+description: "Learn about MultiversX Integrators esdt tokens integration guide."
 ---
 
 [comment]: # (mx-abstract)

@@ -1,6 +1,7 @@
 ---
 id: overview
 title: Validators - Overview
+description: "Overview of MultiversX validator nodes, responsibilities, lifecycle, tooling and operational workflows."
 ---
 
 [comment]: # (mx-abstract)

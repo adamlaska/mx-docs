@@ -1,6 +1,7 @@
 ---
 id: protect-keys
 title: Protecting your keys
+description: "Best practices for securing validator and wallet keys: storage, access control, rotation and recovery."
 ---
 
 [comment]: # (mx-abstract)

@@ -1,6 +1,7 @@
 ---
 id: egld-transfers
 title: EGLD transfers (move balance transactions)
+description: "Learn about egld transfers (move balance transactions) in MultiversX."
 ---
 
 [comment]: # (mx-context-auto)

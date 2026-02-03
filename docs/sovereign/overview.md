@@ -1,6 +1,7 @@
 ---
 id: overview
 title: Sovereign - Overview
+description: "Learn about MultiversX Sovereign sovereign -."
 ---
 
 [comment]: # (mx-context-auto)

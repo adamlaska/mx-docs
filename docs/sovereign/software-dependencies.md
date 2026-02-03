@@ -1,3 +1,7 @@
+---
+description: "Learn about MultiversX Sovereign software dependencies."
+---
+
 # Software Dependencies
 
 Understanding and managing software dependencies is crucial for the successful deployment and maintenance of Sovereign Chains. Dependencies ensure that all components of your blockchain network work seamlessly together. This page outlines the key dependencies required for building and operating Sovereign Chains, including software libraries, frameworks, and tools.

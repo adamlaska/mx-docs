@@ -1,6 +1,7 @@
 ---
 id: tx-gas
 title: Gas
+description: "Learn about gas in MultiversX."
 ---
 
 [comment]: # (mx-abstract)
@@ -81,4 +82,3 @@ fn deploy_from_source(
         .sync_call()
 }
 ```
-

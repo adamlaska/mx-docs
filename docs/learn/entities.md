@@ -1,6 +1,7 @@
 ---
 id: entities
 title: Entities
+description: "Core entities in MultiversX: users, accounts, nodes and how they interact on‑chain."
 ---
 
 There are two primary entities in MultiversX: users and nodes.

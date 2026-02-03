@@ -1,7 +1,9 @@
 ---
 id: structure-json
 title: JSON Structure
+description: "Learn about json structure in MultiversX."
 ---
+
 [comment]: # (mx-abstract)
 
 Scenario JSON files are designed to be readable by humans too. This is why you will see 

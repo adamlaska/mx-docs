@@ -1,6 +1,7 @@
 ---
 id: troubleshooting
 title: Overview
+description: "Overview of MultiversX SDK and Tools troubleshooting."
 ---
 
 [comment]: # (mx-abstract)

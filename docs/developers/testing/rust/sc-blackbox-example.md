@@ -1,6 +1,7 @@
 ---
 id: sc-blackbox-example
 title: Blackbox example
+description: "Learn about blackbox example in MultiversX."
 ---
 
 [comment]: # (mx-context-auto)
