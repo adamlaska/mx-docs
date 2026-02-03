@@ -19,6 +19,7 @@ const ROOT = path.join(__dirname, '..');
 const DOCS_DIR = path.join(ROOT, 'docs');
 const STATIC_DIR = path.join(ROOT, 'static');
 const OUTPUT_FILE = path.join(STATIC_DIR, 'llms.txt');
+const OUTPUT_FULL_FILE = path.join(STATIC_DIR, 'llms-full.txt');
 
 function safeRequire(p) {
   try {
@@ -236,6 +237,43 @@ function extractFirstParagraph(mdContent) {
   return '';
 }
 
+function stripFrontmatter(mdContent) {
+  if (mdContent.startsWith('---')) {
+    const end = mdContent.indexOf('\n---', 3);
+    if (end !== -1) {
+      return mdContent.slice(end + 4);
+    }
+  }
+  return mdContent;
+}
+
+function trimLeadingTitle(mdContent, title) {
+  const lines = mdContent.split(/\r?\n/);
+  if (lines.length === 0) return mdContent;
+  const first = lines[0].trim();
+  const m = first.match(/^#+\s*(.+)$/);
+  if (m) {
+    const text = (m[1] || '').trim();
+    if (text.toLowerCase() === (title || '').trim().toLowerCase()) {
+      // remove heading and following optional blank line
+      let idx = 1;
+      if (lines[idx] !== undefined && lines[idx].trim() === '') idx++;
+      return lines.slice(idx).join('\n');
+    }
+  }
+  return mdContent;
+}
+
+function removeInternalComments(mdContent) {
+  // Remove single-line Docusaurus comment markers like:
+  // [comment]: # (mx-abstract)
+  // [comment]: # (mx-context-auto)
+  return mdContent
+    .split(/\r?\n/)
+    .filter((line) => !/^\s*\[comment\]:\s*#\s*\(/.test(line.trim()))
+    .join('\n');
+}
+
 async function getDocMeta(docId) {
   const filePath = await resolveDocPath(docId);
   let meta = {
@@ -319,6 +357,7 @@ async function main() {
   // In this repository, sidebars.docs is an object of top-level category labels -> items[]
   const categories = sidebars.docs;
   const outputLines = [];
+  const fullLines = [];
 
   // Header with site title and tagline
   const headerTitle = site.title || 'Documentation';
@@ -332,12 +371,21 @@ async function main() {
   );
   outputLines.push('');
 
+  // Header for full file
+  fullLines.push(`# ${headerTitle}`);
+  if (site.tagline) fullLines.push('', `> ${site.tagline}`);
+  fullLines.push(
+    'This file contains the full content of documentation pages, grouped by category, for AI consumption.'
+  );
+  fullLines.push('');
+
   for (const [categoryLabel, items] of Object.entries(categories)) {
     const ids = new Set();
     collectDocIdsFromItems(items, ids);
     if (ids.size === 0) continue;
 
     outputLines.push(`## ${categoryLabel}`);
+    fullLines.push(`## ${categoryLabel}`);
     // Build entries with title + description + url
     const all = [];
     for (const id of Array.from(ids)) {
@@ -355,6 +403,24 @@ async function main() {
       }
       const clipped = desc.length > 400 ? `${desc.slice(0, 397)}...` : desc;
       outputLines.push(`- [${e.title}](${e.url})${clipped ? `: ${clipped}` : ''}`);
+
+      // Build full content entry
+      if (e.filePath) {
+        try {
+          const raw = await fsp.readFile(e.filePath, 'utf8');
+          let body = stripFrontmatter(raw);
+          body = trimLeadingTitle(body, e.title);
+          body = removeInternalComments(body);
+          fullLines.push(`### ${e.title}`);
+          fullLines.push('');
+          const cleaned = body.trim();
+          if (cleaned) fullLines.push(cleaned);
+          // Add a consistent separator between pages
+          fullLines.push('');
+          fullLines.push('---');
+          fullLines.push('');
+        } catch {}
+      }
     }
     outputLines.push('');
   }
@@ -363,6 +429,9 @@ async function main() {
   await fsp.mkdir(STATIC_DIR, { recursive: true });
   await fsp.writeFile(OUTPUT_FILE, outputLines.join('\n'), 'utf8');
   console.log(`Wrote ${OUTPUT_FILE}`);
+
+  await fsp.writeFile(OUTPUT_FULL_FILE, fullLines.join('\n'), 'utf8');
+  console.log(`Wrote ${OUTPUT_FULL_FILE}`);
 }
 
 main().catch((err) => {

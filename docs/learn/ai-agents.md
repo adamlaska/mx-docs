@@ -7,7 +7,7 @@ description: "Learn how to use AI agents for your MultiversX projects"
 ## **llms.txt**
 
 MultiversX publishes an `llms.txt` file that supplies context enabling LLMs to effectively reference the full MultiversX documentation during inference.
-https://docs.multiversx.org/llms.txt
+https://docs.multiversx.com/llms.txt
 
 Read more about `llms.txt`: https://llmstxt.org
 
