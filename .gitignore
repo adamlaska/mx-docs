@@ -42,3 +42,6 @@ tags
 Cargo.lock
 
 .idea
+
+# Generated per-page Markdown files for LLM consumption (generate-md-urls.js)
+static/**/*.md

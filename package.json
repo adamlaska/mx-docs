@@ -12,7 +12,7 @@
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
-    "prebuild": "node scripts/generate-llms-txt.js",
+    "prebuild": "node scripts/generate-llms-txt.js && node scripts/generate-md-urls.js",
     "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
@@ -20,7 +20,8 @@
     "serve": "docusaurus serve",
     "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids",
-    "generate:llms": "node scripts/generate-llms-txt.js"
+    "generate:llms": "node scripts/generate-llms-txt.js",
+    "generate:md-urls": "node scripts/generate-md-urls.js"
   },
   "dependencies": {
     "@docusaurus/core": "3.8.1",
