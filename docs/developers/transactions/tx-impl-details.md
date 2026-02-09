@@ -1,7 +1,7 @@
 ---
 id: tx-impl-details
 title: Implementation details (TODO)
-description: "Stub for internal transaction implementation notes (annotations, outputs); not required for typical usage."
+description: "Transaction implementation (work in progress)."
 ---
 
 [comment]: # (mx-abstract)

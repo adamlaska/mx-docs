@@ -1,7 +1,7 @@
 ---
 id: tx-examples
 title: Examples (TODO - not currently in sidebar)
-description: "Placeholder for transaction examples; simple self.tx() usage and patterns (to be expanded)."
+description: "Transactions examples (work in progress)"
 ---
 
 [comment]: # (mx-abstract)

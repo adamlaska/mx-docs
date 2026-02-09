@@ -1,5 +1,5 @@
 ---
-description: "Concept and rationale for Sovereign Chains: performance, configurability, VM options and built‑in cross‑chain mechanism."
+description: "Learn about MultiversX Sovereign Chain architecture, cross-chain mechanisms, and smart contracts."
 ---
 
 # Concept
