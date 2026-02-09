@@ -1,7 +1,7 @@
 ---
 id: indexer
 title: Elasticindexer service
-description: "Overview of MultiversX SDK and Tools elasticindexer service."
+description: "Elastic Indexer service: indexing pipeline that ingests blockchain data into Elasticsearch indices."
 ---
 
 [comment]: # (mx-abstract)

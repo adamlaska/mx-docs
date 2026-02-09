@@ -1,7 +1,7 @@
 ---
 id: es-index-validators
 title: validators
-description: "Overview of MultiversX SDK and Tools validators."
+description: "Elasticsearch validators index: validator public keys grouped by shard and epoch for consensus."
 ---
 
 [comment]: # (mx-abstract)

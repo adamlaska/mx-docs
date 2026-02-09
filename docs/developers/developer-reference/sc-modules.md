@@ -1,7 +1,7 @@
 ---
 id: sc-modules
 title: Smart contract modules
-description: "Learn about smart contract modules in MultiversX."
+description: "Modularizing smart contracts: modules, composition patterns and code reuse in the Rust framework."
 ---
 
 [comment]: # (mx-abstract)

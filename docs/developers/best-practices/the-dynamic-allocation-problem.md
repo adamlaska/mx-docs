@@ -1,7 +1,7 @@
 ---
 id: the-dynamic-allocation-problem
 title: The dynamic allocation problem
-description: "Learn about the dynamic allocation problem in MultiversX."
+description: "Why to avoid dynamic memory allocation in contracts and use managed types to cut gas and respect VM limits."
 ---
 
 [comment]: # (mx-context-auto)

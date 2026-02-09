@@ -1,7 +1,7 @@
 ---
 id: es-index-accountshistory
 title: accountshistory
-description: "Overview of MultiversX SDK and Tools accountshistory."
+description: "Elasticsearch accountshistory index: historical snapshots of account state (balance, nonce, shard, timestamp)."
 ---
 
 [comment]: # (mx-abstract)

@@ -1,5 +1,5 @@
 ---
-description: "Learn about MultiversX Sovereign token economics."
+description: "Design principles for Sovereign token economies: issuance, utility, incentives and governance."
 ---
 
 # Token Economics

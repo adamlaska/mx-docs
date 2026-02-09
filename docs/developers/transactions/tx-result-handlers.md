@@ -1,7 +1,7 @@
 ---
 id: tx-result-handlers
 title: Result Handlers
-description: "Learn about result handlers in MultiversX."
+description: "Result handlers: processing outcomes of SC calls and transactions, error handling and log decoding."
 ---
 
 [comment]: # (mx-abstract)

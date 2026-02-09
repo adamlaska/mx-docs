@@ -1,5 +1,5 @@
 ---
-description: "Learn about MultiversX Sovereign restaking."
+description: "Restaking design for Sovereign Chains: economics, validator/user incentives, risks and mitigation strategies."
 ---
 
 # Restaking

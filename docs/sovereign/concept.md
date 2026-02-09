@@ -1,5 +1,5 @@
 ---
-description: "Learn about MultiversX Sovereign concept."
+description: "Concept and rationale for Sovereign Chains: performance, configurability, VM options and built‑in cross‑chain mechanism."
 ---
 
 # Concept

@@ -1,7 +1,7 @@
 ---
 id: es-index-rating
 title: rating
-description: "Overview of MultiversX SDK and Tools rating."
+description: "Elasticsearch rating index: validator rating snapshots and component scores per epoch/shard."
 ---
 
 [comment]: # (mx-abstract)

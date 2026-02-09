@@ -1,7 +1,7 @@
 ---
 id: advanced-observer-settings
 title: Advanced Observer Settings
-description: "Learn about MultiversX Integrators advanced observer settings."
+description: "Observer node tuning for integrators: antiflood settings, VM query concurrency and cache parameters."
 ---
 
 [comment]: # (mx-abstract)

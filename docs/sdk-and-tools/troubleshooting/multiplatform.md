@@ -1,7 +1,7 @@
 ---
 id: multiplatform
 title: MultiversX tools on multiple platforms
-description: "Overview of MultiversX SDK and Tools multiversx tools on multiple platforms."
+description: "Running MultiversX tools on multiple platforms: platform‑specific notes and fixes."
 ---
 
 Generally speaking, the MultiversX tools should work on all platforms. However, platform-specific issues can occur. This page aims to be an entry point for troubleshooting platform-specific issues, in regards to the MultiversX toolset.

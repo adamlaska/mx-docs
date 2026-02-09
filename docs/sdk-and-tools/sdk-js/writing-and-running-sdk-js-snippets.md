@@ -1,7 +1,7 @@
 ---
 id: writing-and-testing-sdk-js-interactions
 title: Writing and testing interactions
-description: "Overview of MultiversX SDK and Tools writing and testing interactions."
+description: "Write and run sdk‑js snippets to test blockchain interactions quickly in Node.js."
 ---
 
 [comment]: # (mx-exclude-file)

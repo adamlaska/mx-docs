@@ -1,5 +1,5 @@
 ---
-description: "Learn about MultiversX Sovereign disclaimer."
+description: "Disclaimer on scope: MultiversX provides core chain SDK and scripts; full production infrastructure and some components may require separate integration."
 ---
 
 # Disclaimer

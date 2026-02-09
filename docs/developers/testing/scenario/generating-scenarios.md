@@ -1,7 +1,7 @@
 ---
 id: generating-scenarios
 title: Generating scenarios
-description: "Learn about generating scenarios in MultiversX."
+description: "Ways to generate scenarios (blackbox/whitebox/interactors/manual) and reuse them across Go and Rust VMs."
 ---
 
 [comment]: # (mx-abstract)

@@ -1,7 +1,7 @@
 ---
 id: tx-gas
 title: Gas
-description: "Learn about gas in MultiversX."
+description: "Gas handling in transactions across environments: defaults, explicit gas and examples for interactor/tests."
 ---
 
 [comment]: # (mx-abstract)

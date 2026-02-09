@@ -1,7 +1,7 @@
 ---
 id: structure-json
 title: JSON Structure
-description: "Learn about json structure in MultiversX."
+description: "Structure of Mandos .scen.json files: top‑level fields, step types and validation semantics with examples."
 ---
 
 [comment]: # (mx-abstract)

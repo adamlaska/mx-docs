@@ -1,7 +1,7 @@
 ---
 id: sc-meta-cli
 title: CLI
-description: "Learn about cli in MultiversX."
+description: "CLI for sc‑meta (standalone and per‑contract): commands, the ‘all’ mode, upgrade flow and helper options."
 ---
 
 [comment]: # (mx-context-auto)

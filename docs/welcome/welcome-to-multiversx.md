@@ -1,7 +1,7 @@
 ---
 id: welcome-to-multiversx
 title: Welcome to MultiversX
-description: "Learn about welcome to multiversx in MultiversX."
+description: "Start here: beginner resources and a high‑level overview of MultiversX, its features and ecosystem."
 ---
 
 [comment]: # (mx-abstract)

@@ -1,7 +1,7 @@
 ---
 id: toolchain-setup
 title: Toolchain Setup 
-description: "Learn about toolchain setup in MultiversX."
+description: "Set up the contract toolchain: Rust toolchain, sc‑meta, wasm targets, wasm‑opt and CI/CD notes."
 ---
 
 [comment]: # (mx-context-auto)

@@ -1,5 +1,5 @@
 ---
-description: "Learn about MultiversX Sovereign local setup."
+description: "Deploy a full local Sovereign network connected to MultiversX, including services and contracts."
 ---
 
 # Full Local Setup

@@ -1,7 +1,7 @@
 ---
 id: querying-the-blockchain
 title: Querying the Blockchain
-description: "Learn about MultiversX Integrators querying the blockchain."
+description: "How to query the network: transactions and statuses, hyperblocks, and finality via the gateway API."
 ---
 
 [comment]: # (mx-abstract)

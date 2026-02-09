@@ -1,7 +1,7 @@
 ---
 id: devcontainers
 title: Devcontainers
-description: "Overview of MultiversX SDK and Tools devcontainers."
+description: "Devcontainers for MultiversX development in VS Code: prebuilt environments with Rust, mxpy and tools."
 ---
 
 [comment]: # (mx-abstract)

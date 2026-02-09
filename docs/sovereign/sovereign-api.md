@@ -1,5 +1,5 @@
 ---
-description: "Learn about MultiversX Sovereign sovereign api."
+description: "Deploying the Sovereign Proxy and API services: repositories, configuration and run commands."
 ---
 
 # API service

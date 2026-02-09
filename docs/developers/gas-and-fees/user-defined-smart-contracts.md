@@ -1,7 +1,7 @@
 ---
 id: user-defined-smart-contracts
 title: User-defined Smart Contracts
-description: "Learn about user-defined smart contracts in MultiversX."
+description: "Fees and gas for user‑defined smart‑contract calls: components, computation model and examples."
 ---
 
 [comment]: # (mx-abstract)

@@ -1,7 +1,7 @@
 ---
 id: multi-values
 title: Multi-Values
-description: "Learn about multi-values in MultiversX."
+description: "Multi‑value types and argument patterns: optional values, var‑args, tuples, counted lists and async call results."
 ---
 
 [comment]: # (mx-abstract)

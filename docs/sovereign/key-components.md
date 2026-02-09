@@ -1,5 +1,5 @@
 ---
-description: "Learn about MultiversX Sovereign key components."
+description: "Core building blocks of a Sovereign Chain: cross‑chain contracts, notifier, bridge service and nodes."
 ---
 
 # Key Components

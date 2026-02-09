@@ -1,7 +1,7 @@
 ---
 id: sdk-go
 title: Go SDK
-description: "Overview of MultiversX SDK and Tools go sdk."
+description: "Go SDK: libraries and utilities for interacting with MultiversX (transactions, accounts, network access)."
 ---
 
 [comment]: # (mx-abstract)

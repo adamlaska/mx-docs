@@ -1,7 +1,7 @@
 ---
 id: google-bigquery
 title: Google BigQuery
-description: "Overview of MultiversX SDK and Tools google bigquery."
+description: "Google BigQuery: access and analyze MultiversX blockchain datasets with SQL."
 ---
 
 [comment]: # "mx-abstract"

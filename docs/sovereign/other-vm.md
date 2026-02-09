@@ -1,5 +1,5 @@
 ---
-description: "Learn about MultiversX Sovereign other vm."
+description: "Guidance on adding new VMs to SpaceVM for Sovereign Chains."
 ---
 
 # Other-VM

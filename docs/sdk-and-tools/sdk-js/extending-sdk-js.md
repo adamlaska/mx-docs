@@ -2,7 +2,7 @@
 id: extending-sdk-js
 title: Extending sdk-js
 pagination_prev: sdk-and-tools/sdk-js/sdk-js
-description: "Overview of MultiversX SDK and Tools extending sdk-js."
+description: "Extend sdk‑js: customize network providers and modules to fit your dApp requirements."
 ---
 
 [comment]: # (mx-abstract)

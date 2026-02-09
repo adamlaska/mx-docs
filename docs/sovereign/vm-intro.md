@@ -1,5 +1,5 @@
 ---
-description: "Learn about MultiversX Sovereign vm intro."
+description: "How SpaceVM enables multi‑executor VMs and cross‑VM calls via VMExecutionHandler and BlockchainHook."
 ---
 
 # Introduction

@@ -1,7 +1,7 @@
 ---
 id: es-index-scdeploys
 title: scdeploys
-description: "Overview of MultiversX SDK and Tools scdeploys."
+description: "Elasticsearch scdeploys index: smart‑contract deploy/upgrade entries, code hashes and related metadata."
 ---
 
 [comment]: # (mx-abstract)

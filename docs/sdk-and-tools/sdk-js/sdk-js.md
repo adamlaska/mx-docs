@@ -1,7 +1,7 @@
 ---
 id: sdk-js
 title: sdk-js
-description: "Overview of MultiversX SDK and Tools sdk-js."
+description: "JavaScript/TypeScript SDK: accounts, transactions, signing, smart contracts and utilities."
 ---
 
 [comment]: # (mx-abstract)

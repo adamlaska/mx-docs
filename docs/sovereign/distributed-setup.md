@@ -1,5 +1,5 @@
 ---
-description: "Learn about MultiversX Sovereign distributed setup."
+description: "Create a decentralized Sovereign network with multiple validators: repositories, configuration and genesis setup."
 ---
 
 # Distributed Setup

@@ -1,7 +1,7 @@
 ---
 id: sc-random-numbers
 title: Random Numbers in Smart Contracts
-description: "Learn about random numbers in smart contracts in MultiversX."
+description: "Randomness in MultiversX smart contracts: sources, limitations, verifiability and recommended patterns."
 ---
 
 [comment]: # (mx-abstract)

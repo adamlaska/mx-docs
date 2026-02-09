@@ -1,7 +1,7 @@
 ---
 id: interactors-example
 title: Interactors Example
-description: "Learn about interactors example in MultiversX."
+description: "Interactor example: scaffold a project, configure endpoints, and run calls against a contract."
 ---
 
 [comment]: # (mx-abstract)

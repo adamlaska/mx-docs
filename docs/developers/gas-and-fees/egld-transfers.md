@@ -1,7 +1,7 @@
 ---
 id: egld-transfers
 title: EGLD transfers (move balance transactions)
-description: "Learn about egld transfers (move balance transactions) in MultiversX."
+description: "Compute gas limits and fees for plain EGLD transfers, with concrete examples."
 ---
 
 [comment]: # (mx-context-auto)

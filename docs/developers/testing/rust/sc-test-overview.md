@@ -1,7 +1,7 @@
 ---
 id: sc-test-overview
 title: Overview
-description: "Learn about sc test overview in MultiversX."
+description: "Overview of writing Rust tests: ScenarioWorld facade, registering contracts and common state helper functions."
 ---
 
 [comment]: # "mx-abstract"

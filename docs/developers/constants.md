@@ -1,7 +1,7 @@
 ---
 id: constants
 title: Constants
-description: "Learn about constants in MultiversX."
+description: "Protocol constants and defaults referenced throughout MultiversX docs: timings, sizes and network parameters."
 ---
 
 [comment]: # (mx-abstract)

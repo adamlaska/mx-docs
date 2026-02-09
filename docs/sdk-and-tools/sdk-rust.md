@@ -1,7 +1,7 @@
 ---
 id: sdk-rust
 title: Rust SDK
-description: "Overview of MultiversX SDK and Tools rust sdk."
+description: "Rust SDK (Interactors): write typed blockchain interactions mirroring contract/test syntax; tutorials and references."
 ---
 
 [comment]: # (mx-abstract)

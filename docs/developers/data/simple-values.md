@@ -1,7 +1,7 @@
 ---
 id: simple-values
 title: Simple Values
-description: "Learn about simple values in MultiversX."
+description: "Encoding of simple values: fixed‑width integers, big numbers and booleans (top‑level vs nested)."
 ---
 
 [comment]: # (mx-abstract)

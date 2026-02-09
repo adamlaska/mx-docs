@@ -1,7 +1,7 @@
 ---
 id: snapshotless-observing-squad
 title: Snapshotless Observing Squad
-description: "Learn about MultiversX Integrators snapshotless observing squad."
+description: "Snapshotless Observing Squad: observers optimized for real‑time account data and VM queries, with setup options."
 ---
 
 [comment]: # (mx-abstract)

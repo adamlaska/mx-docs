@@ -1,7 +1,7 @@
 ---
 id: es-index-logs
 title: logs
-description: "Overview of MultiversX SDK and Tools logs."
+description: "Elasticsearch logs index: transaction and SC result logs with topics and data payloads."
 ---
 
 [comment]: # (mx-abstract)

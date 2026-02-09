@@ -1,7 +1,7 @@
 ---
 id: interactors-overview
 title: Interactors Overview
-description: "Learn about interactors in MultiversX."
+description: "Interactors: structure, generation and usage for end‑to‑end smart contract execution and system testing."
 ---
 
 [comment]: # (mx-abstract)

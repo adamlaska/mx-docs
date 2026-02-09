@@ -1,7 +1,7 @@
 ---
 id: es-index-miniblocks
 title: miniblocks
-description: "Overview of MultiversX SDK and Tools miniblocks."
+description: "Elasticsearch miniblocks index: miniblock documents linking blocks and grouped transactions across shards."
 ---
 
 [comment]: # (mx-abstract)

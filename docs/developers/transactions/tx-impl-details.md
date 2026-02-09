@@ -1,7 +1,7 @@
 ---
 id: tx-impl-details
 title: Implementation details (TODO)
-description: "Learn about implementation details (todo) in MultiversX."
+description: "Stub for internal transaction implementation notes (annotations, outputs); not required for typical usage."
 ---
 
 [comment]: # (mx-abstract)

@@ -1,7 +1,7 @@
 ---
 id: tx-overview
 title: Transaction Overview
-description: "Learn about transaction in MultiversX."
+description: "Transaction structure and lifecycle: fields, validation, execution and result handling."
 ---
 
 [comment]: # (mx-abstract)
