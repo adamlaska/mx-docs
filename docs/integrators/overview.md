@@ -1,7 +1,7 @@
 ---
 id: overview
 title: Integrators - Overview
-description: "Learn about MultiversX Integrators integrators -."
+description: "Overview of integrator resources: EGLD/ESDT integration, observing squads, accounts, transactions, queries and WalletConnect methods."
 ---
 
 [comment]: # (mx-abstract)

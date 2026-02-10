@@ -1,7 +1,7 @@
 ---
 id: tx-run
 title: Run transactions
-description: "Learn about run transactions in MultiversX."
+description: "Execute transactions across environments: sync/async calls, upgrade flows and same‑context execution."
 ---
 
 [comment]: # (mx-abstract)

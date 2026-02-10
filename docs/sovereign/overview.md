@@ -1,7 +1,7 @@
 ---
 id: overview
 title: Sovereign - Overview
-description: "Learn about MultiversX Sovereign sovereign -."
+description: "Sovereign Chains overview and navigation: concept, requirements, setup, configurations, management, economics, governance, testing, security and interoperability."
 ---
 
 [comment]: # (mx-context-auto)

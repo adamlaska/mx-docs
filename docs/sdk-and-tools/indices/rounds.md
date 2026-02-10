@@ -1,7 +1,7 @@
 ---
 id: es-index-rounds
 title: rounds
-description: "Overview of MultiversX SDK and Tools rounds."
+description: "Elasticsearch rounds index: per‑round metadata (shard, leader, timestamp) and references to produced blocks."
 ---
 
 [comment]: # (mx-abstract)

@@ -1,7 +1,7 @@
 ---
 id: values-complex
 title: Scenario Complex Values
-description: "Learn about scenario complex values in MultiversX."
+description: "Complex scenario values: concatenation with pipes, JSON lists/maps, tuples and nested encoding notes."
 ---
 
 [comment]: # (mx-abstract)

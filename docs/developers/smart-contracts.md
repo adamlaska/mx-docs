@@ -1,7 +1,7 @@
 ---
 id: smart-contracts
 title: MultiversX Smart Contracts
-description: "Learn about multiversx smart contracts in MultiversX."
+description: "Smart contracts on MultiversX: Rust framework, testing, deployment and developer workflow."
 ---
 
 [comment]: # (mx-abstract)

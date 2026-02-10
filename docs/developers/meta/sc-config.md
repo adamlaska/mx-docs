@@ -1,7 +1,7 @@
 ---
 id: sc-config
 title: Configuration
-description: "Learn about configuration in MultiversX."
+description: "Configure MultiversX smart contract projects: build variants, features, and multi‑contract settings."
 ---
 
 [comment]: # (mx-abstract)

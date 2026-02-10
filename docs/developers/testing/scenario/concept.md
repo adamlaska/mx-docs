@@ -1,7 +1,7 @@
 ---
 id: concept
 title: Concept
-description: "Learn about concept in MultiversX."
+description: "Concept of scenario‑based testing: composing steps to simulate blockchain interactions for contracts."
 ---
 
 [comment]: # (mx-context-auto)

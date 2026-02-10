@@ -1,7 +1,7 @@
 ---
 id: sc-blackbox-example
 title: Blackbox example
-description: "Learn about blackbox example in MultiversX."
+description: "Step‑by‑step blackbox test for an adder contract: deploy, query, assertions and trace generation."
 ---
 
 [comment]: # (mx-context-auto)

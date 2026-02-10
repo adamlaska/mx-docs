@@ -1,7 +1,7 @@
 ---
 id: versions-and-changelog
 title: Versions and Changelog
-description: "Overview of MultiversX SDK and Tools versions and changelog."
+description: "Proxy API versions and changelog: notable changes, breaking notes and upgrade guidance."
 ---
 
 [comment]: # (mx-abstract)

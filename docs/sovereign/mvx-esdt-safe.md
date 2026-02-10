@@ -1,5 +1,5 @@
 ---
-description: "Learn about MultiversX Sovereign mvx esdt safe."
+description: "Mainchain bridge contract for deposits and cross‑chain execution to Sovereign Chains (tokens and optional SC calls)."
 ---
 
 # Mvx-ESDT-Safe

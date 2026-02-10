@@ -1,7 +1,7 @@
 ---
 id: setup-local-testnet
 title: Set up a Localnet (mxpy)
-description: "Learn about set up a localnet (mxpy) in MultiversX."
+description: "Set up a localnet with mxpy: prerequisites, setup/start commands, components and logs."
 ---
 
 [comment]: # (mx-abstract)

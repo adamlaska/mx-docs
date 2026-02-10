@@ -1,7 +1,7 @@
 ---
 id: sc-blackbox-calls
 title: Blackbox calls
-description: "Learn about blackbox calls in MultiversX."
+description: "Blackbox testing API: run transactions, queries, deploys and upgrades with ScenarioWorld and typed proxies."
 ---
 
 [comment]: # "mx-abstract"

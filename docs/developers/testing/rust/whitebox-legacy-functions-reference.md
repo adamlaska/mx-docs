@@ -1,7 +1,7 @@
 ---
 id: whitebox-legacy-functions-reference
 title: Whitebox Functions Reference
-description: "Learn about whitebox functions reference in MultiversX."
+description: "Reference for BlockchainStateWrapper: state‑checking/getter helpers, account and ESDT/NFT utilities for tests."
 ---
 
 [comment]: # (mx-abstract)

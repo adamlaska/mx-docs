@@ -1,5 +1,5 @@
 ---
-description: "Learn about MultiversX Sovereign concept."
+description: "Learn about MultiversX Sovereign Chain architecture, cross-chain mechanisms, and smart contracts."
 ---
 
 # Concept

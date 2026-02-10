@@ -1,7 +1,7 @@
 ---
 id: EGLD
 title: What is EGLD?
-description: "Overview of egld in MultiversX."
+description: "What is EGLD: roles in the network, supply, staking, fees and utility across the ecosystem."
 ---
 
 EGLD is the native cryptocurrency of MultiversX, functioning as digital, global money. It's the primary asset used within the MultiversX ecosystem.

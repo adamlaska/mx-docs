@@ -1,7 +1,7 @@
 ---
 id: best-practices-basics
 title: Basics
-description: "Learn about basics in MultiversX."
+description: "Core coding practices for safe, efficient MultiversX smart contracts: structure, readability and testing."
 ---
 
 [comment]: # (mx-context-auto)

@@ -1,7 +1,7 @@
 ---
 id: mxjava
 title: Java SDK
-description: "Overview of MultiversX SDK and Tools java sdk."
+description: "Java SDK: helpers and utilities for interacting with MultiversX; repository and getting started."
 ---
 
 [comment]: # (mx-abstract)

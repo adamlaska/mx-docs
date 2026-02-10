@@ -1,7 +1,7 @@
 ---
 id: sc-to-sc-calls
 title: SC to SC Calls
-description: "Learn about sc to sc calls in MultiversX."
+description: "Patterns for smart contract‑to‑smart contract calls: synchronous vs asynchronous flows and safety tips."
 ---
 
 [comment]: # (mx-abstract)

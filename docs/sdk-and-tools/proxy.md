@@ -1,7 +1,7 @@
 ---
 id: proxy
 title: Proxy architecture
-description: "Overview of MultiversX SDK and Tools proxy architecture."
+description: "Gateway (Proxy) architecture: responsibilities, endpoints, deployment and interaction with nodes and API."
 ---
 
 Overview of the MultiversX Proxy

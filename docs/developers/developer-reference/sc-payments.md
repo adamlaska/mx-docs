@@ -1,7 +1,7 @@
 ---
 id: sc-payments
 title: Smart contract payments
-description: "Learn about smart contract payments in MultiversX."
+description: "Receiving and sending payments in contracts: code metadata payable flag, #[payable] endpoints and call‑value helpers."
 ---
 
 [comment]: # (mx-abstract)

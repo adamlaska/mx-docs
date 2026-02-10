@@ -1,5 +1,5 @@
 ---
-description: "Learn about MultiversX Sovereign token management."
+description: "Issuing, registering and bridging tokens between the mainchain and a Sovereign Chain using provided scripts."
 ---
 
 # Sovereign Deposit Tokens Guide

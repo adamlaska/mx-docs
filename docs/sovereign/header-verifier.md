@@ -1,5 +1,5 @@
 ---
-description: "Learn about MultiversX Sovereign header verifier."
+description: "Smart contract that verifies validator signatures and manages operation hashes for cross‑chain transfers."
 ---
 
 # Header-Verifier

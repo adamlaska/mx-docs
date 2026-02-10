@@ -1,7 +1,7 @@
 ---
 id: ide-setup
 title: Fix IDEs configuration
-description: "Overview of MultiversX SDK and Tools fix ides configuration."
+description: "Troubleshooting IDE setup for MultiversX development (common configuration fixes)."
 ---
 
 [comment]: # (mx-abstract)

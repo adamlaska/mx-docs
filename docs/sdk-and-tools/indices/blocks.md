@@ -1,7 +1,7 @@
 ---
 id: es-index-blocks
 title: blocks
-description: "Overview of MultiversX SDK and Tools blocks."
+description: "Elasticsearch blocks index: block hash, header fields and example queries."
 ---
 
 [comment]: # (mx-abstract)

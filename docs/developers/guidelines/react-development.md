@@ -1,7 +1,7 @@
 ---
 id: react-development
 title: React Development
-description: "Learn about react development in MultiversX."
+description: "Team React code style and practices: branching, imports/exports, conditionals, function args and validation patterns."
 ---
 
 [comment]: # (mx-abstract)

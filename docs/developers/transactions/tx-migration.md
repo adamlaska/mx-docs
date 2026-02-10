@@ -1,7 +1,7 @@
 ---
 id: tx-migration
 title: Migration
-description: "Learn about migration in MultiversX."
+description: "Migrate to unified call syntax and new proxies: compatibility notes, caveats and recommended imports."
 ---
 
 [comment]: # (mx-abstract)

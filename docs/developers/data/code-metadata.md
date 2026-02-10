@@ -1,7 +1,7 @@
 ---
 id: code-metadata
 title: Code Metadata
-description: "Learn about code metadata in MultiversX."
+description: "Smart‑contract code metadata flags (upgradeable, readable, payable) — usage, CLI switches and bit‑flag layout."
 ---
 
 [comment]: # (mx-abstract)

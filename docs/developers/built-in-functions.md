@@ -1,7 +1,7 @@
 ---
 id: built-in-functions
 title: Built-In Functions
-description: "Learn about built-in functions in MultiversX."
+description: "Protocol built‑in functions called via transactions: developer rewards, ownership change, usernames, ESDT/NFT ops and guardian controls."
 ---
 
 [comment]: # (mx-abstract)

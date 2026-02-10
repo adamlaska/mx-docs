@@ -1,7 +1,7 @@
 ---
 id: defaults
 title: Defaults
-description: "Learn about defaults in MultiversX."
+description: "Defaults in serialization and storage: built‑in defaults, types without defaults and defining custom defaults."
 ---
 
 [comment]: # (mx-abstract)

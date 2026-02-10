@@ -1,7 +1,7 @@
 ---
 id: tx-from
 title: Sender
-description: "Learn about sender in MultiversX."
+description: "Transaction sender field: account requirements, nonce handling and permissions when originating calls."
 ---
 
 [comment]: # (mx-abstract)

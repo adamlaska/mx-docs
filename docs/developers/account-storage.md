@@ -1,7 +1,7 @@
 ---
 id: account-storage
 title: Account storage
-description: "Learn about account storage in MultiversX."
+description: "Account storage model: how key‑value data is organized under accounts and used by contracts."
 ---
 
 [comment]: # (mx-abstract)

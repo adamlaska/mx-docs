@@ -1,7 +1,7 @@
 ---
 id: guard-accounts
 title: Guard accounts
-description: "Learn about guard accounts in MultiversX."
+description: "Guarded (co‑signed) transactions: how guardians work, setup, and security considerations."
 ---
 
 [comment]: # (mx-abstract)

@@ -1,5 +1,5 @@
 ---
-description: "Learn about MultiversX Sovereign cross chain execution."
+description: "Concept and flow of cross‑chain execution between MultiversX and Sovereign Chains: contracts, bridge service and fees."
 ---
 
 # Introduction

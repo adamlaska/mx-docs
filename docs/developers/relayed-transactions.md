@@ -1,7 +1,7 @@
 ---
 id: relayed-transactions
 title: Relayed Transactions
-description: "Learn about relayed transactions in MultiversX."
+description: "Relayed transactions v1–v3: relayer address/signature fields, gas computation, examples and SDK support."
 ---
 
 [comment]: # (mx-abstract)

@@ -1,7 +1,7 @@
 ---
 id: tx-payment
 title: Payments
-description: "Learn about payments in MultiversX."
+description: "Token payments in transactions: EGLD and ESDT multi‑payments, rules and examples."
 ---
 
 [comment]: # (mx-abstract)

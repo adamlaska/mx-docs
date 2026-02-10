@@ -1,7 +1,7 @@
 ---
 id: tx-data
 title: Payload (data)
-description: "Learn about payload (data) in MultiversX."
+description: "Data payload format: function names, argument encoding and examples for SC calls and built‑ins."
 ---
 
 [comment]: # (mx-abstract)

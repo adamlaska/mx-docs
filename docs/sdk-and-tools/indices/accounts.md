@@ -1,7 +1,7 @@
 ---
 id: es-index-accounts
 title: accounts
-description: "Overview of MultiversX SDK and Tools accounts."
+description: "Elasticsearch accounts index: balances, nonce, shard, owner/username fields and query examples."
 ---
 
 [comment]: # (mx-abstract)

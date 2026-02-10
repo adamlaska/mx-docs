@@ -1,7 +1,7 @@
 ---
 id: multiversx-api
 title: MultiversX API
-description: "Overview of MultiversX SDK and Tools multiversx api."
+description: "Public MultiversX API: cached wrapper over Gateway with Elasticsearch support, staking/delegation data, media handling and rate limits."
 ---
 
 [comment]: # (mx-abstract)

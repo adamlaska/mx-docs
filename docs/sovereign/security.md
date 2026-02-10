@@ -1,5 +1,5 @@
 ---
-description: "Learn about MultiversX Sovereign security."
+description: "Key security considerations when deploying and operating a Sovereign Chain."
 ---
 
 # Security Considerations

@@ -1,7 +1,7 @@
 ---
 id: upgrading-smart-contracts
 title: Upgrading smart contracts
-description: "Learn about upgrading smart contracts in MultiversX."
+description: "How to upgrade contracts: new upgrade function (v1.6 Sirius), mxpy commands, storage handling and migration tips."
 ---
 
 [comment]: # (mx-abstract)

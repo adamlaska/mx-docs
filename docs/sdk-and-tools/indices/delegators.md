@@ -1,7 +1,7 @@
 ---
 id: es-index-delegators
 title: delegators
-description: "Overview of MultiversX SDK and Tools delegators."
+description: "Elasticsearch delegators index: delegation records per provider and delegator, staked amounts and timestamps."
 ---
 
 [comment]: # (mx-abstract)

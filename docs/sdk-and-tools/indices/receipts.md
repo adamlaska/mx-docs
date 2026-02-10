@@ -1,7 +1,7 @@
 ---
 id: es-index-receipts
 title: receipts
-description: "Overview of MultiversX SDK and Tools receipts."
+description: "Elasticsearch receipts index: execution receipts for transactions/SC results, fees, gas usage and outcomes."
 ---
 
 [comment]: # (mx-abstract)

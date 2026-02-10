@@ -1,5 +1,5 @@
 ---
-description: "Learn about MultiversX Sovereign dual staking."
+description: "Concepts and options for dual staking within Sovereign Chains."
 ---
 
 # Dual Staking

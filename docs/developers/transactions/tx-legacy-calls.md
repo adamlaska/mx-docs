@@ -1,7 +1,7 @@
 ---
 id: tx-legacy-calls
 title: Legacy SC calls
-description: "Learn about legacy sc calls in MultiversX."
+description: "Deprecated legacy contract call syntax retained for backward compatibility; prefer the unified transaction API."
 ---
 
 [comment]: # (mx-abstract)

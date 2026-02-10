@@ -1,7 +1,7 @@
 ---
 id: smart-contract-interactions
 title: Smart contract interactions
-description: "Overview of MultiversX SDK and Tools smart contract interactions."
+description: "Using mxpy for smart‑contract interactions: deploy, call, query and manage metadata."
 ---
 
 [comment]: # (mx-abstract)

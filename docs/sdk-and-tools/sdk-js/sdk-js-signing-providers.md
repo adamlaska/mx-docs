@@ -1,7 +1,7 @@
 ---
 id: sdk-js-signing-providers
 title: Signing Providers for dApps
-description: "Overview of MultiversX SDK and Tools signing providers for dapps."
+description: "Signing providers for dApps: integrate Web Wallet, Ledger and xPortal with sdk‑js in non‑sdk‑dapp setups."
 ---
 
 [comment]: # (mx-abstract)

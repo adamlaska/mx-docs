@@ -1,7 +1,7 @@
 ---
 id: erdcpp
 title: C++ SDK
-description: "Overview of MultiversX SDK and Tools c++ sdk."
+description: "C++ SDK: helpers and utilities for interacting with MultiversX; repositories and docs."
 ---
 
 [comment]: # (mx-abstract)

@@ -1,7 +1,7 @@
 ---
 id: es-index-tags
 title: tags
-description: "Overview of MultiversX SDK and Tools tags."
+description: "Elasticsearch tags index: categorization labels used by explorer/API to group and filter entities."
 ---
 
 [comment]: # (mx-abstract)

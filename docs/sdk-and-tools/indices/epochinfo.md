@@ -1,7 +1,7 @@
 ---
 id: es-index-epochinfo
 title: epochinfo
-description: "Overview of MultiversX SDK and Tools epochinfo."
+description: "Elasticsearch epochinfo index: per‑epoch economics and protocol metrics (supply, rewards, parameters)."
 ---
 
 [comment]: # (mx-abstract)

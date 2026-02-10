@@ -1,5 +1,5 @@
 ---
-description: "Learn about MultiversX Sovereign standalone evm."
+description: "Integrating a standalone EVM into MultiversX: interfaces, state handling, gas metering and token wrappers."
 ---
 
 # Standalone EVM

@@ -1,7 +1,7 @@
 ---
 id: rust-version
 title: Rust Version
-description: "Learn about rust version in MultiversX."
+description: "Supported Rust toolchains for the framework: stable vs nightly, version ranges and known issues."
 ---
 
 [comment]: # (mx-abstract)

@@ -1,5 +1,5 @@
 ---
-description: "Learn about MultiversX Sovereign managing sovereign."
+description: "Operational guidance for running and maintaining Sovereign Chains: nodes, upgrades and configuration."
 ---
 
 # Managing Sovereign Chains

@@ -1,7 +1,7 @@
 ---
 id: tools-for-signing
 title: Tools for signing
-description: "Learn about tools for signing in MultiversX."
+description: "Tools for signing transactions: Web Wallet, Ledger, xPortal and CLI options with typical workflows."
 ---
 
 [comment]: # (mx-abstract)

@@ -1,5 +1,5 @@
 ---
-description: "Learn about MultiversX Sovereign solana l2."
+description: "Concept for a Solana‑compatible Sovereign L2 and execution environment within MultiversX."
 ---
 
 # Solana L2

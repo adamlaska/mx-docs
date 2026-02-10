@@ -1,7 +1,7 @@
 ---
 id: sc-allocator
 title: Memory allocation
-description: "Learn about memory allocation in MultiversX."
+description: "Allocator options for MultiversX smart contracts: when to avoid heap usage, alternatives and trade‑offs."
 ---
 
 [comment]: # (mx-abstract)
