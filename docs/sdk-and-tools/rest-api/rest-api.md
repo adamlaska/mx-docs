@@ -1,7 +1,7 @@
 ---
 id: rest-api
 title: REST API overview
-description: "Overview of MultiversX SDK and Tools rest api."
+description: "Overview of MultiversX REST APIs: Gateway and MultiversX API layers, capabilities and when to use each."
 ---
 
 [comment]: # (mx-abstract)

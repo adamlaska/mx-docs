@@ -1,5 +1,5 @@
 ---
-description: "Learn about MultiversX Sovereign sovereign wallet."
+description: "Deploying the Sovereign Lite Wallet: repository, configuration and startup commands."
 ---
 
 # Wallet service

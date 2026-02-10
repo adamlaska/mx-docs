@@ -1,7 +1,7 @@
 ---
 id: testing-overview
 title: Testing Overview
-description: "Learn about testing in MultiversX."
+description: "Testing contracts: unit, black‑box and white‑box approaches, supported backends and when to use each."
 ---
 
 [comment]: # (mx-abstract)

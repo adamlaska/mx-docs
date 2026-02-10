@@ -1,7 +1,7 @@
 ---
 id: es-index-events
 title: events
-description: "Overview of MultiversX SDK and Tools events."
+description: "Elasticsearch events index: emitted events (identifier, topics, data) from transactions and smart‑contract results."
 ---
 
 [comment]: # (mx-abstract)

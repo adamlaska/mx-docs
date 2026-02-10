@@ -1,5 +1,5 @@
 ---
-description: "Learn about MultiversX Sovereign bitcoin l2."
+description: "Concept and architecture for a Bitcoin‑compatible Sovereign L2 and VM integration."
 ---
 
 # Bitcoin L2

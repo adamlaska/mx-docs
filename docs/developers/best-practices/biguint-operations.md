@@ -1,7 +1,7 @@
 ---
 id: biguint-operations
 title: BigUint Operations
-description: "Learn about biguint operations in MultiversX."
+description: "Best practices for BigUint arithmetic: performance, safety, overflow handling and gas considerations."
 ---
 
 [comment]: # (mx-context-auto)

@@ -1,7 +1,7 @@
 ---
 id: custom-types
 title: Custom Types
-description: "Learn about custom types in MultiversX."
+description: "Define serializable custom types (structs/enums) for contracts using TopEncode/Decode and NestedEncode/Decode."
 ---
 
 [comment]: # (mx-abstract)

@@ -1,5 +1,5 @@
 ---
-description: "Learn about MultiversX Sovereign one click deployment."
+description: "One‑click Sovereign local deployment via DigitalOcean: testnet‑connected droplet with proxy, API, wallet and explorer."
 ---
 
 # One-Click Deployment

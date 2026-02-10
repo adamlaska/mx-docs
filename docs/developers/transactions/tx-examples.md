@@ -1,7 +1,7 @@
 ---
 id: tx-examples
 title: Examples (TODO - not currently in sidebar)
-description: "Learn about examples (todo - not currently in sidebar) in MultiversX."
+description: "Transactions examples (work in progress)"
 ---
 
 [comment]: # (mx-abstract)

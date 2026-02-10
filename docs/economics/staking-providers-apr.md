@@ -1,7 +1,7 @@
 ---
 id: staking-providers-apr
 title: Staking Providers APR
-description: "Learn about staking providers apr in MultiversX."
+description: "How Staking Providers APR is computed: base vs top‑up rewards, fees, inflation and formulas."
 ---
 
 [comment]: # (mx-abstract)

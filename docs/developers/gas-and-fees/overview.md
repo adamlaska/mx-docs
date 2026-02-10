@@ -1,7 +1,7 @@
 ---
 id: overview
 title: Overview
-description: "Learn about overview in MultiversX."
+description: "Overview of gas and fees: components, calculation model and links to EGLD transfers and system/user contracts."
 ---
 
 [comment]: # (mx-abstract)

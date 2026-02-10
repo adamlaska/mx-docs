@@ -1,7 +1,7 @@
 ---
 id: contract-api-limits
 title: MultiversX Smart Contracts API limits
-description: "Learn about multiversx smart contracts api limits in MultiversX."
+description: "Protocol limits on smart‑contract blockchain data calls: per‑transaction caps on transfers, trie reads and built‑in calls (Polaris)."
 ---
 
 [comment]: # (mx-abstract)

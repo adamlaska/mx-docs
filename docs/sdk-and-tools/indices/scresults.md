@@ -1,7 +1,7 @@
 ---
 id: es-index-scresults
 title: scresults
-description: "Overview of MultiversX SDK and Tools scresults."
+description: "Elasticsearch scresults index: smart‑contract results (inner calls), data, status, gas and related hashes."
 ---
 
 [comment]: # (mx-abstract)

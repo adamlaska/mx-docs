@@ -1,5 +1,5 @@
 ---
-description: "Learn about MultiversX Sovereign governance."
+description: "Governance options and design considerations for Sovereign Chains."
 ---
 
 # Governance

@@ -1,7 +1,7 @@
 ---
 id: es-index-accountsesdthistory
 title: accountsesdthistory
-description: "Overview of MultiversX SDK and Tools accountsesdthistory."
+description: "Elasticsearch accountsesdthistory index: historical changes for address ESDT/NFT balances with timestamps."
 ---
 
 [comment]: # (mx-abstract)

@@ -1,5 +1,5 @@
 ---
-description: "Learn about MultiversX Sovereign software dependencies."
+description: "Required software and tools to build and run a local Sovereign setup."
 ---
 
 # Software Dependencies

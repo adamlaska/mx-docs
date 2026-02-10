@@ -1,7 +1,7 @@
 ---
 id: creating-wallets
 title: Creating Wallets
-description: "Learn about creating wallets in MultiversX."
+description: "Create MultiversX wallets from CLI or code: generate mnemonics, derive keys and set up keystores or Ledger."
 ---
 
 [comment]: # (mx-abstract)

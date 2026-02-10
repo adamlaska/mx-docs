@@ -1,7 +1,7 @@
 ---
 id: prepare-sc-supernova
 title: Preparing SCs for Supernova
-description: "Learn about preparing scs for supernova in MultiversX."
+description: "Checklist to prepare smart contracts for the Supernova upgrade: timing changes, assumptions and safe migrations."
 ---
 
 The MultiversX Supernova upgrade reduces block time from **6 seconds to 0.6 seconds**, enabling sub-second blocks. While this is a major improvement, it can impact existing smart contracts, especially those relying on assumptions about timestamp behavior.

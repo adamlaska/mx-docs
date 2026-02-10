@@ -1,5 +1,5 @@
 ---
-description: "Learn about MultiversX Sovereign sov esdt safe."
+description: "Sovereign‑side bridge contract for multi‑token deposits and optional cross‑chain smart‑contract execution back to MultiversX."
 ---
 
 # Sov-ESDT-Safe

@@ -1,7 +1,7 @@
 ---
 id: es-index-transactions
 title: transactions
-description: "Overview of MultiversX SDK and Tools transactions."
+description: "Elasticsearch transactions index: fields, sample documents and common query patterns."
 ---
 
 [comment]: # (mx-abstract)

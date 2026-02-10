@@ -1,7 +1,7 @@
 ---
 id: installing-mxpy
 title: Installing mxpy
-description: "Overview of MultiversX SDK and Tools installing mxpy."
+description: "Install mxpy via pipx; verify version and set up environment."
 ---
 
 [comment]: # (mx-abstract)

@@ -1,7 +1,7 @@
 ---
 id: iterate-keys
 title: Iterate keys
-description: "Overview of MultiversX SDK and Tools iterate keys."
+description: "Iterate account storage keys via /address/iterate-keys using batching and iterator state (optional block nonce pinning)."
 ---
 
 [comment]: # (mx-abstract)

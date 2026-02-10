@@ -1,7 +1,7 @@
 ---
 id: tx-env
 title: Environments
-description: "Learn about environments in MultiversX."
+description: "Transaction environments: contract, integration, parametric tests and interactors, with execution context details."
 ---
 
 [comment]: # (mx-abstract)

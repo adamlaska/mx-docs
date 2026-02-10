@@ -1,7 +1,7 @@
 ---
 id: es-index-operations
 title: operations
-description: "Overview of MultiversX SDK and Tools operations."
+description: "Elasticsearch operations index: unified records for transactions and SC results (type, hashes, status, participants)."
 ---
 
 [comment]: # (mx-abstract)

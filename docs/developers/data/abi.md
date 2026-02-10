@@ -1,7 +1,7 @@
 ---
 id: abi
 title: ABI
-description: "Learn about abi in MultiversX."
+description: "ABIs describe smart contract endpoints: JSON format for inputs, outputs, mutability and metadata used by tools."
 ---
 
 [comment]: # (mx-abstract)

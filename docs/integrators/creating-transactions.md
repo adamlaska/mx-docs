@@ -1,7 +1,7 @@
 ---
 id: creating-transactions
 title: Creating Transactions
-description: "Learn about MultiversX Integrators creating transactions."
+description: "How to create, sign and broadcast transactions to the MultiversX network (structure, SDKs, nonce and gas)."
 ---
 
 [comment]: # (mx-abstract)

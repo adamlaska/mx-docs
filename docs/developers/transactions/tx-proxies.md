@@ -1,7 +1,7 @@
 ---
 id: tx-proxies
 title: Proxies
-description: "Learn about proxies in MultiversX."
+description: "Smart‑contract proxies: generated call interfaces, how to generate/configure them and use in projects."
 ---
 
 [comment]: # (mx-abstract)

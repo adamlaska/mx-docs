@@ -1,7 +1,7 @@
 ---
 id: es-index-accountsesdt
 title: accountsesdt
-description: "Overview of MultiversX SDK and Tools accountsesdt."
+description: "Elasticsearch accountsesdt index: per-address ESDT/NFT balances, identifier composition and token metadata."
 ---
 
 [comment]: # (mx-abstract)

@@ -1,7 +1,7 @@
 ---
 id: guardians
 title: Guardians
-description: "Overview of MultiversX SDK and Tools guardians."
+description: "Guardians: 2FA/guardian flows in MultiversX dApps — concepts, processes and integration notes."
 ---
 
 [comment]: # (mx-abstract)

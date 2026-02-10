@@ -1,7 +1,7 @@
 ---
 id: composite-values
 title: Composite Values
-description: "Learn about composite values in MultiversX."
+description: "How composite values are encoded/decoded: managed buffers, vectors, token identifiers and nested structures."
 ---
 
 [comment]: # (mx-abstract)

@@ -1,7 +1,7 @@
 ---
 id: storage-mappers
 title: Storage Mappers
-description: "Learn about storage mappers in MultiversX."
+description: "Storage mappers for on‑chain collections: maps, sets, singletons and their performance characteristics."
 ---
 
 [comment]: # (mx-abstract)

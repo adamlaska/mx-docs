@@ -1,5 +1,5 @@
 ---
-description: "Learn about MultiversX Sovereign services."
+description: "Overview of Sovereign services—Proxy, API, Lite Extras (faucet), Lite Wallet, Explorer—and prerequisites."
 ---
 
 # Introduction

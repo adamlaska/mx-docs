@@ -1,7 +1,7 @@
 ---
 id: terminology
 title: Terminology
-description: "Learn about terminology in MultiversX."
+description: "Glossary of MultiversX terms: Metachain, addresses, nodes, validators, staking and more."
 ---
 
 **Metachain**: the blockchain that runs in a special shard, where the main responsibilities are not processing transactions,

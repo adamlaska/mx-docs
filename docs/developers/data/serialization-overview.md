@@ -1,7 +1,7 @@
 ---
 id: serialization-overview
 title: The MultiversX Serialization Format
-description: "Learn about the multiversx serialization format in MultiversX."
+description: "Serialization in MultiversX: top‑level vs nested encoding, zero values, and per‑type rules with examples."
 ---
 
 [comment]: # (mx-abstract)

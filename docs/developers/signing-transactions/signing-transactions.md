@@ -1,7 +1,7 @@
 ---
 id: signing-transactions
 title: Signing Transactions
-description: "Learn about signing transactions in MultiversX."
+description: "Ways to sign MultiversX transactions: wallets, CLI and programmatic approaches, with pros and cons."
 ---
 
 [comment]: # (mx-abstract)

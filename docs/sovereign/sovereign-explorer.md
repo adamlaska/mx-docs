@@ -1,5 +1,5 @@
 ---
-description: "Learn about MultiversX Sovereign sovereign explorer."
+description: "Deploying the Sovereign Explorer dApp: repository, configuration and start instructions."
 ---
 
 # Explorer service

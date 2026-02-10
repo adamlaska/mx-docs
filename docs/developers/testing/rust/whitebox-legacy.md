@@ -1,7 +1,7 @@
 ---
 id: whitebox-legacy
 title: Whitebox Framework
-description: "Learn about whitebox framework in MultiversX."
+description: "Legacy white‑box testing framework: structure, setup and scenario generation from Rust tests."
 ---
 
 [comment]: # (mx-abstract)

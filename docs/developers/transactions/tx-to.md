@@ -1,7 +1,7 @@
 ---
 id: tx-to
 title: Receiver
-description: "Learn about receiver in MultiversX."
+description: "Transaction receiver field: addressing accounts vs contracts, expected formats and routing rules."
 ---
 
 [comment]: # "mx-abstract"

@@ -1,7 +1,7 @@
 ---
 id: managed-decimal
 title: Managed Decimal
-description: "Learn about managed decimal in MultiversX."
+description: "Working with managed decimal arithmetic: precision, rounding, scaling and gas‑efficient patterns."
 ---
 
 [comment]: # (mx-context-auto)

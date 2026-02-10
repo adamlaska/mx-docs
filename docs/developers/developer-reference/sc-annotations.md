@@ -1,7 +1,7 @@
 ---
 id: sc-annotations
 title: Smart contract annotations
-description: "Learn about smart contract annotations in MultiversX."
+description: "Index of MultiversX smart‑contract annotations (contract, module, proxy, init/upgrade, endpoints) with usage notes."
 ---
 
 [comment]: # (mx-abstract)

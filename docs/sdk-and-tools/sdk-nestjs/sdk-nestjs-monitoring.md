@@ -1,7 +1,7 @@
 ---
 id: sdk-nestjs-monitoring
 title: NestJS SDK Monitoring utilities
-description: "Overview of MultiversX SDK and Tools nestjs sdk monitoring utilities."
+description: "NestJS SDK Monitoring utilities: health checks, metrics and observability for MultiversX services."
 ---
 
 <a href="https://www.npmjs.com/package/@multiversx/sdk-nestjs-monitoring" target="_blank"><img src="https://img.shields.io/npm/v/@multiversx/sdk-nestjs-monitoring.svg" alt="NPM Version" /></a>

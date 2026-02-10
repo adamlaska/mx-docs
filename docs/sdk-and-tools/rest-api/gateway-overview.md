@@ -1,7 +1,7 @@
 ---
 id: gateway-overview
 title: Gateway overview
-description: "Overview of MultiversX SDK and Tools gateway."
+description: "Gateway REST API: endpoints, routing through proxy and interaction patterns for dApps and services."
 ---
 
 [comment]: # (mx-abstract)

@@ -1,7 +1,7 @@
 ---
 id: testing-in-go
 title: Testing in Go
-description: "Learn about testing in go in MultiversX."
+description: "Historical Go‑based scenario testing: embedding steps and generators; kept as a stub for reference."
 ---
 
 [comment]: # (mx-abstract)

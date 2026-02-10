@@ -1,5 +1,5 @@
 ---
-description: "Learn about MultiversX Sovereign testing."
+description: "Testing and validation guidelines for Sovereign Chains: scope and approach."
 ---
 
 # Testing and Validation

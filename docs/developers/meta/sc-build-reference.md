@@ -1,7 +1,7 @@
 ---
 id: sc-build-reference
 title: Build Reference
-description: "Learn about build reference in MultiversX."
+description: "How the smart‑contract build works: meta crate, ABI generation, wasm crate code, multicontract config and CLI commands."
 ---
 
 [comment]: # (mx-abstract)

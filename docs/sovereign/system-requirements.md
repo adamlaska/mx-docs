@@ -1,5 +1,5 @@
 ---
-description: "Learn about MultiversX Sovereign system requirements."
+description: "Recommended system requirements for running a Sovereign Chain node (CPU, RAM, disk and bandwidth)."
 ---
 
 # System Requirements

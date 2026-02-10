@@ -1,7 +1,7 @@
 ---
 id: es-index-tokens
 title: tokens
-description: "Overview of MultiversX SDK and Tools tokens."
+description: "Elasticsearch tokens index: ESDT/NFT collections and tokens—ticker, token ID, issuer, type and status."
 ---
 
 [comment]: # (mx-abstract)

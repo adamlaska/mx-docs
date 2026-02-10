@@ -1,5 +1,5 @@
 ---
-description: "Learn about MultiversX Sovereign custom configurations."
+description: "Configuration options to tailor a Sovereign network: chain ID, economics, ratings and system smart‑contract parameters."
 ---
 
 # Custom Configurations

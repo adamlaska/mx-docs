@@ -1,5 +1,5 @@
 ---
-description: "Learn about MultiversX Sovereign interoperability."
+description: "SpaceVM’s modular, multi‑VM design enabling interoperability with Ethereum, Bitcoin and Solana ecosystems."
 ---
 
 # Interoperability and Modular Design

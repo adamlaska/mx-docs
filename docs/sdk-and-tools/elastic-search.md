@@ -1,7 +1,7 @@
 ---
 id: elastic-search
 title: Elasticsearch
-description: "Overview of MultiversX SDK and Tools elasticsearch."
+description: "Using Elasticsearch with MultiversX: available indices, common queries and integration tips."
 ---
 
 [comment]: # (mx-abstract)

@@ -1,7 +1,7 @@
 ---
 id: setup-local-testnet-advanced
 title: Set up a Localnet (raw)
-description: "Learn about set up a localnet (raw) in MultiversX."
+description: "Manual localnet setup using protocol repositories and scripts: prerequisites, configuration and running nodes."
 ---
 
 [comment]: # (mx-abstract)

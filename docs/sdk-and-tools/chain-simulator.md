@@ -1,7 +1,7 @@
 ---
 id: chain-simulator
 title: Chain simulator
-description: "Overview of MultiversX SDK and Tools chain simulator."
+description: "Chain Simulator: run local blockchain simulations for testing with configurable components."
 ---
 
 [comment]: # (mx-context-auto)

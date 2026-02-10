@@ -1,7 +1,7 @@
 ---
 id: reproducible-contract-builds
 title: Reproducible Builds
-description: "Learn about reproducible builds in MultiversX."
+description: "How to produce reproducible smart contract builds: pin toolchains with Docker, generate deterministic artifacts, and verify codehashes."
 ---
 
 [comment]: # (mx-abstract)

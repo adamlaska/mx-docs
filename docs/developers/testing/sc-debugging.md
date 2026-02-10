@@ -1,7 +1,7 @@
 ---
 id: sc-debugging
 title: Smart Contract Debugging
-description: "Learn about smart contract debugging in MultiversX."
+description: "Debug contracts in VS Code with Rust‑Analyzer and CodeLLDB: breakpoints, stepping, inspecting managed types and sc_print!."
 ---
 
 [comment]: # (mx-abstract)

@@ -1,7 +1,7 @@
 ---
 id: values-simple
 title: Scenario Simple Values
-description: "Learn about scenario simple values in MultiversX."
+description: "How to express simple values in scenarios: hex, numbers, addresses, strings and common prefixes."
 ---
 
 [comment]: # (mx-abstract)

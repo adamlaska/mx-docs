@@ -1,7 +1,7 @@
 ---
 id: mandos-trace
 title: Mandos traces
-description: "Learn about mandos traces in MultiversX."
+description: "Generate Mandos scenario traces from Rust integration tests to validate behavior across Go and Rust VMs."
 ---
 
 [comment]: # "mx-abstract"

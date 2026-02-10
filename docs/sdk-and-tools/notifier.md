@@ -1,7 +1,7 @@
 ---
 id: notifier
 title: Events notifier
-description: "Overview of MultiversX SDK and Tools events notifier."
+description: "Events notifier service: subscribe to real‑time block, transaction and event streams via RabbitMQ or WebSocket."
 ---
 
 [comment]: # (mx-abstract)

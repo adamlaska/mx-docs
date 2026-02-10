@@ -1,7 +1,7 @@
 ---
 id: overview
 title: Developers - Overview
-description: "Learn about developers - in MultiversX."
+description: "Developer landing page: smart contracts, transactions, SDKs, tools, tutorials and where to get help."
 ---
 
 [comment]: # (mx-abstract)

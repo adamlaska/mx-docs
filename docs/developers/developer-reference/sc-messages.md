@@ -1,7 +1,7 @@
 ---
 id: sc-messages
 title: Messages
-description: "Learn about messages in MultiversX."
+description: "Smart contract messaging: emitting events and composing messages for inter‑contract communication."
 ---
 
 [comment]: # (mx-abstract)

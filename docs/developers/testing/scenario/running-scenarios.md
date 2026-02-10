@@ -1,7 +1,7 @@
 ---
 id: running-scenarios
 title: Running scenarios
-description: "Learn about running scenarios in MultiversX."
+description: "Run .scen.json scenarios via the run‑scenarios tool or generated Rust tests against Go and Rust VMs."
 ---
 
 [comment]: # (mx-abstract)

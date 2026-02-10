@@ -1,7 +1,7 @@
 ---
 id: sc-meta
 title: Tooling Overview
-description: "Learn about tooling in MultiversX."
+description: "multiversx‑sc‑meta tooling: generate ABIs, code and interactors; build automation for smart contracts."
 ---
 
 [comment]: # (mx-abstract)

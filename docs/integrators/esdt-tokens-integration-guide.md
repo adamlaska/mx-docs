@@ -1,7 +1,7 @@
 ---
 id: esdt-tokens-integration-guide
 title: ESDT tokens integration guide
-description: "Learn about MultiversX Integrators esdt tokens integration guide."
+description: "Integrating ESDT tokens support can be done alongside native EGLD integration, so one should refer to the egld-integration-guide."
 ---
 
 [comment]: # (mx-abstract)
